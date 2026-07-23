@@ -1,14 +1,18 @@
 stages:
-  catalog:
-    cmd: python stages/catalog.py
+  registry:
+    cmd: python stages/build_registry.py
     deps:
-      - stages/catalog.py
-      - components/registry-rdf/health/build-status.json
-      - components/sparql-rdf/health/build-status.json
-      - components/resolutions-rdf/health/build-status.json
-      - components/statistics-rdf/health/build-status.json
+      - stages/build_registry.py
+      - registry/registry.json
     outs:
-      - brick/graphs.tsv
-      - brick/identifier-populations.tsv
+      - brick
       - health/source-coverage.json
       - health/build-status.json
+  inventory:
+    cmd: python stages/inventory.py
+    deps:
+      - stages/inventory.py
+      - registry/registry.json
+      - registry/confirmed-repositories.json
+    outs:
+      - registry/namespace-repositories.tsv

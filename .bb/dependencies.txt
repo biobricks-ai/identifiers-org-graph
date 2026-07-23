@@ -1,4 +1,0 @@
-identifiers-org-registry-rdf
-identifiers-org-sparql-rdf
-identifiers-org-resolutions-rdf
-identifiers-org-statistics-rdf

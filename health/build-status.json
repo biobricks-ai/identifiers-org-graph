@@ -1,15 +1,12 @@
 {
-  "blocked_components": [
-    "statistics-rdf"
-  ],
-  "component_repositories": 4,
-  "graph_integration": false,
-  "graph_slots": 2584,
+  "graph_integration": true,
+  "license": "CC BY 4.0",
+  "namespace_graphs": 861,
   "ontology_health": {
-    "score": 100,
+    "score": 98,
     "status": "passed"
   },
   "schema_version": 1,
-  "status": "validated-umbrella-with-component-blockers",
+  "status": "validated-local-build",
   "tests": "passed"
 }

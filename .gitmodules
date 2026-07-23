@@ -1,15 +1,96 @@
-[submodule "components/registry-data"]
-	path = components/registry-data
-	url = https://github.com/biobricks-ai/identifiers-org-registry-data.git
-[submodule "components/registry-rdf"]
-	path = components/registry-rdf
-	url = https://github.com/biobricks-ai/identifiers-org-registry-rdf.git
-[submodule "components/sparql-rdf"]
-	path = components/sparql-rdf
-	url = https://github.com/biobricks-ai/identifiers-org-sparql-rdf.git
-[submodule "components/resolutions-rdf"]
-	path = components/resolutions-rdf
-	url = https://github.com/biobricks-ai/identifiers-org-resolutions-rdf.git
-[submodule "components/statistics-rdf"]
-	path = components/statistics-rdf
-	url = https://github.com/biobricks-ai/identifiers-org-statistics-rdf.git
+[submodule "graphs/aop"]
+	path = graphs/aop
+	url = https://github.com/biobricks-ai/aop-wiki-kg.git
+[submodule "graphs/bindingdb"]
+	path = graphs/bindingdb
+	url = https://github.com/biobricks-ai/bindingdb-rdf.git
+[submodule "graphs/biogrid"]
+	path = graphs/biogrid
+	url = https://github.com/biobricks-ai/biogrid.git
+[submodule "graphs/biostudies"]
+	path = graphs/biostudies
+	url = https://github.com/biobricks-ai/biostudies.git
+[submodule "graphs/brenda"]
+	path = graphs/brenda
+	url = https://github.com/biobricks-ai/brenda.git
+[submodule "graphs/cellosaurus"]
+	path = graphs/cellosaurus
+	url = https://github.com/biobricks-ai/cellosaurus.git
+[submodule "graphs/chebi"]
+	path = graphs/chebi
+	url = https://github.com/biobricks-ai/chebi.git
+[submodule "graphs/chembl"]
+	path = graphs/chembl
+	url = https://github.com/biobricks-ai/chembl-rdf.git
+[submodule "graphs/classyfire"]
+	path = graphs/classyfire
+	url = https://github.com/biobricks-ai/classyfire-kg.git
+[submodule "graphs/clinicaltrials"]
+	path = graphs/clinicaltrials
+	url = https://github.com/biobricks-ai/clinicaltrials.git
+[submodule "graphs/clinvar"]
+	path = graphs/clinvar
+	url = https://github.com/biobricks-ai/clinvar.git
+[submodule "graphs/comptox"]
+	path = graphs/comptox
+	url = https://github.com/biobricks-ai/comptox-kg.git
+[submodule "graphs/conoserver"]
+	path = graphs/conoserver
+	url = https://github.com/biobricks-ai/conoserver.git
+[submodule "graphs/dbgap"]
+	path = graphs/dbgap
+	url = https://github.com/biobricks-ai/dbgap.git
+[submodule "graphs/drugcentral"]
+	path = graphs/drugcentral
+	url = https://github.com/biobricks-ai/drugcentral.git
+[submodule "graphs/gdsc"]
+	path = graphs/gdsc
+	url = https://github.com/biobricks-ai/gdsc.git
+[submodule "graphs/go"]
+	path = graphs/go
+	url = https://github.com/biobricks-ai/geneontology.git
+[submodule "graphs/gtex"]
+	path = graphs/gtex
+	url = https://github.com/biobricks-ai/gtex.git
+[submodule "graphs/hgnc"]
+	path = graphs/hgnc
+	url = https://github.com/biobricks-ai/hgnc.git
+[submodule "graphs/hmdb"]
+	path = graphs/hmdb
+	url = https://github.com/biobricks-ai/hmdb.git
+[submodule "graphs/mesh"]
+	path = graphs/mesh
+	url = https://github.com/biobricks-ai/mesh-kg.git
+[submodule "graphs/nmrshiftdb2"]
+	path = graphs/nmrshiftdb2
+	url = https://github.com/biobricks-ai/nmrshiftdb2.git
+[submodule "graphs/orthodb"]
+	path = graphs/orthodb
+	url = https://github.com/biobricks-ai/orthodb.git
+[submodule "graphs/pdb-ccd"]
+	path = graphs/pdb-ccd
+	url = https://github.com/biobricks-ai/pdb-ccd.git
+[submodule "graphs/pmc"]
+	path = graphs/pmc
+	url = https://github.com/biobricks-ai/pmc.git
+[submodule "graphs/pubmed"]
+	path = graphs/pubmed
+	url = https://github.com/biobricks-ai/pubmed.git
+[submodule "graphs/reactome"]
+	path = graphs/reactome
+	url = https://github.com/biobricks-ai/reactome.git
+[submodule "graphs/rhea"]
+	path = graphs/rhea
+	url = https://github.com/biobricks-ai/rhea-kg.git
+[submodule "graphs/t3db"]
+	path = graphs/t3db
+	url = https://github.com/biobricks-ai/t3db.git
+[submodule "graphs/uniprot"]
+	path = graphs/uniprot
+	url = https://github.com/biobricks-ai/uniprot-rdf.git
+[submodule "graphs/wikidata"]
+	path = graphs/wikidata
+	url = https://github.com/biobricks-ai/biobricks-wikidata.git
+[submodule "graphs/wikipathways"]
+	path = graphs/wikipathways
+	url = https://github.com/biobricks-ai/wikipathways.git

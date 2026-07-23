@@ -1,33 +1,32 @@
 # identifiers-org-graph
 
-Umbrella BioBrick for the complete data surface published by Identifiers.org.
-Its Git submodules remain independently buildable and independently loadable:
+This repository is the hub between the Identifiers.org registry and BioBricks
+knowledge graphs.
 
-| Component | Scope |
-|---|---|
-| `registry-data` | Live resolver dataset plus the official versioned Git mirror |
-| `registry-rdf` | One metadata graph per registered namespace |
-| `sparql-rdf` | Verbatim official DCAT/VoID/idot registry projection |
-| `resolutions-rdf` | Every registered sample identifier and every resolver candidate |
-| `statistics-rdf` | Trial namespace usage statistics, when the experimental API responds |
+Identifiers.org-level material lives directly in this repository:
 
-The current live registry has 861 namespaces and 1,033 provider resources.
-Together the components define 2,584 independently addressable graph slots.
+- `registry/registry.json` is the complete live registry response.
+- `brick/registry.nt` and `brick/registry-namespaces/` are its RDF projection.
+- `registry/namespace-repositories.tsv` accounts for every registered namespace.
 
-## Identifier-population boundary
+Dataset graphs are separate, independently buildable repositories. A confirmed
+graph is linked at `graphs/<identifiers.org prefix>` as a Git submodule. A row
+is not promoted to a submodule based only on a similar repository name: the
+mapping must identify the same namespace/database.
 
-Identifiers.org is a registry and meta-resolver. It publishes identifier
-patterns and one sample identifier per namespace, but it does not provide an
-API or dump enumerating every accession assigned by PubMed, UniProt, ChEBI,
-NCBI Taxonomy, GO, and the other upstream databases. Those populations must be
-integrated from their authoritative providers under provider-specific licenses
-and release processes.
+The ledger statuses are:
 
-This brick records that limitation for every namespace. It does not infer
-accessions from regexes, probe random values, scrape provider sites, or claim
-that usage counts are namespace sizes.
+- `existing-submodule`: a confirmed graph repository is linked here.
+- `build-needed`: no confirmed BioBricks graph is known yet.
+- `deprecated`: the registry namespace is deprecated and has no confirmed graph.
+
+Identifiers.org is a registry and resolver, not a dump of every identifier in
+every registered database. Population graphs therefore come from the
+authoritative upstream database and remain subject to its license and release
+process.
 
 ```bash
-python stages/catalog.py
+python stages/inventory.py
 pytest -q
+git submodule update --init --recursive
 ```
