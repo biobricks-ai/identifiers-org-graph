@@ -1,0 +1,15 @@
+[submodule "components/registry-data"]
+	path = components/registry-data
+	url = https://github.com/biobricks-ai/identifiers-org-registry-data.git
+[submodule "components/registry-rdf"]
+	path = components/registry-rdf
+	url = https://github.com/biobricks-ai/identifiers-org-registry-rdf.git
+[submodule "components/sparql-rdf"]
+	path = components/sparql-rdf
+	url = https://github.com/biobricks-ai/identifiers-org-sparql-rdf.git
+[submodule "components/resolutions-rdf"]
+	path = components/resolutions-rdf
+	url = https://github.com/biobricks-ai/identifiers-org-resolutions-rdf.git
+[submodule "components/statistics-rdf"]
+	path = components/statistics-rdf
+	url = https://github.com/biobricks-ai/identifiers-org-statistics-rdf.git

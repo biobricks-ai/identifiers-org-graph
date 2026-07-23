@@ -1,0 +1,15 @@
+{
+  "blocked_components": [
+    "statistics-rdf"
+  ],
+  "component_repositories": 4,
+  "graph_integration": false,
+  "graph_slots": 2584,
+  "ontology_health": {
+    "score": 100,
+    "status": "passed"
+  },
+  "schema_version": 1,
+  "status": "validated-umbrella-with-component-blockers",
+  "tests": "passed"
+}

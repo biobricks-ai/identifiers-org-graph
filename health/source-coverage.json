@@ -1,0 +1,65 @@
+{
+  "components": {
+    "registry-rdf": {
+      "graph_integration": true,
+      "license": "CC BY 4.0",
+      "namespace_graphs": 861,
+      "ontology_health": {
+        "score": 98,
+        "status": "passed"
+      },
+      "schema_version": 1,
+      "status": "validated-local-build",
+      "tests": "passed"
+    },
+    "resolutions-rdf": {
+      "failed_samples": 9,
+      "graph_integration": true,
+      "license": "CC BY 4.0",
+      "ontology_health": {
+        "score": 98,
+        "status": "passed"
+      },
+      "schema_version": 1,
+      "status": "validated-with-resolver-errors",
+      "tests": "passed"
+    },
+    "sparql-rdf": {
+      "graph_integration": true,
+      "license": "CC BY 4.0",
+      "ontology_health": {
+        "score": 100,
+        "status": "passed"
+      },
+      "schema_version": 1,
+      "status": "validated-local-build",
+      "tests": "passed",
+      "triples": 30792
+    },
+    "statistics-rdf": {
+      "experimental_upstream_api": true,
+      "failed_namespaces": 861,
+      "graph_integration": true,
+      "license": "CC BY 4.0",
+      "ontology_health": {
+        "score": 98,
+        "status": "passed"
+      },
+      "schema_version": 1,
+      "status": "blocked-upstream-statistics-timeouts",
+      "tests": "passed"
+    }
+  },
+  "enumerable_complete_populations_from_identifiers_org": 0,
+  "graph_slots": 2584,
+  "identifier_population_status_coverage": 1.0,
+  "identifier_population_status_rows": 861,
+  "license": "CC BY 4.0",
+  "namespace_metadata_graphs": 861,
+  "namespaces": 861,
+  "official_semantic_projection_graphs": 1,
+  "sample_resolution_graphs": 861,
+  "schema_version": 1,
+  "source": "https://registry.api.identifiers.org/resolutionApi/getResolverDataset",
+  "usage_statistics_graphs": 861
+}

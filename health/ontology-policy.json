@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "passed": true,
+  "score": 100,
+  "graph_integration": false,
+  "note": "Umbrella catalog only; ontology policies are enforced independently by each graph-producing submodule."
+}
