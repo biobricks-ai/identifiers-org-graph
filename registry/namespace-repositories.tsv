@@ -758,7 +758,7 @@ smart	SMART	false	build-needed			No confirmed BioBricks graph mapping
 smpdb	Small Molecule Pathway Database	false	build-needed			No confirmed BioBricks graph mapping
 snomedct	SNOMED CT	false	build-needed			No confirmed BioBricks graph mapping
 snp2tfbs	SNP2TFBS	false	build-needed			No confirmed BioBricks graph mapping
-so	Sequence Ontology	false	build-needed			No confirmed BioBricks graph mapping
+so	Sequence Ontology	false	existing-submodule	https://github.com/biobricks-ai/so-rdf.git	graphs/so	Complete production projection of the authoritative Sequence Ontology release
 soybase	SoyBase	false	build-needed			No confirmed BioBricks graph mapping
 sparc.drs	SPARC DRS	false	build-needed			No confirmed BioBricks graph mapping
 spdx	SPDX License List	false	build-needed			No confirmed BioBricks graph mapping

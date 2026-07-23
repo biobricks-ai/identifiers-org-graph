@@ -27,6 +27,7 @@
   "pubmed": {"repository": "https://github.com/biobricks-ai/pubmed.git", "evidence": "Exact registered database and BioBricks source"},
   "reactome": {"repository": "https://github.com/biobricks-ai/reactome.git", "evidence": "Exact registered database and BioBricks source"},
   "rhea": {"repository": "https://github.com/biobricks-ai/rhea-kg.git", "evidence": "Repository implements the registered Rhea database"},
+  "so": {"repository": "https://github.com/biobricks-ai/so-rdf.git", "evidence": "Complete production projection of the authoritative Sequence Ontology release"},
   "t3db": {"repository": "https://github.com/biobricks-ai/t3db.git", "evidence": "Exact registered database and BioBricks source"},
   "uniprot": {"repository": "https://github.com/biobricks-ai/uniprot-rdf.git", "evidence": "Repository implements the registered UniProt Knowledgebase"},
   "wikidata": {"repository": "https://github.com/biobricks-ai/biobricks-wikidata.git", "evidence": "Repository implements the registered Wikidata database"},

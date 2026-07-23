@@ -94,3 +94,6 @@
 [submodule "graphs/wikipathways"]
 	path = graphs/wikipathways
 	url = https://github.com/biobricks-ai/wikipathways.git
+[submodule "graphs/so"]
+	path = graphs/so
+	url = https://github.com/biobricks-ai/so-rdf.git

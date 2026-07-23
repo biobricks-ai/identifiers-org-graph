@@ -19,6 +19,7 @@ def main() -> None:
         writer = csv.DictWriter(
             stream,
             delimiter="\t",
+            lineterminator="\n",
             fieldnames=[
                 "prefix",
                 "name",
