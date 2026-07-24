@@ -14,7 +14,8 @@ LEDGER = ROOT / "registry" / "namespace-repositories.tsv"
 
 def main() -> None:
     namespaces = json.loads(REGISTRY.read_text())["payload"]["namespaces"]
-    mappings = json.loads(MAPPINGS.read_text())
+    document = json.loads(MAPPINGS.read_text())
+    mappings = document.get("namespaces", document)
     with LEDGER.open("w", newline="") as stream:
         writer = csv.DictWriter(
             stream,
@@ -26,34 +27,39 @@ def main() -> None:
                 "deprecated",
                 "status",
                 "repository",
+                "repository_name",
                 "submodule_path",
                 "evidence",
+                "evidence_source",
             ],
         )
         writer.writeheader()
         for namespace in sorted(namespaces, key=lambda item: item["prefix"]):
             prefix = namespace["prefix"]
-            mapping = mappings.get(prefix)
-            if mapping:
-                status = "existing-submodule"
-                repository = mapping["repository"]
-                path = f"graphs/{prefix}"
-                evidence = mapping["evidence"]
-            else:
-                status = "deprecated" if namespace["deprecated"] else "build-needed"
-                repository = path = ""
-                evidence = "No confirmed BioBricks graph mapping"
-            writer.writerow(
-                {
-                    "prefix": prefix,
-                    "name": namespace["name"],
-                    "deprecated": str(namespace["deprecated"]).lower(),
-                    "status": status,
-                    "repository": repository,
-                    "submodule_path": path,
-                    "evidence": evidence,
-                }
-            )
+            entries = mappings.get(prefix, [])
+            if isinstance(entries, dict):
+                entries = [entries]
+            if not entries:
+                entries = [{
+                    "status": "deprecated" if namespace["deprecated"] else "build-needed",
+                    "repository": "", "repository_name": "", "submodule_path": "",
+                    "evidence": "No confirmed BioBricks graph mapping",
+                    "evidence_source": "",
+                }]
+            for mapping in sorted(entries, key=lambda item: item.get("submodule_path", "")):
+                writer.writerow(
+                    {
+                        "prefix": prefix,
+                        "name": namespace["name"],
+                        "deprecated": str(namespace["deprecated"]).lower(),
+                        "status": mapping.get("status", "existing-submodule"),
+                        "repository": mapping.get("repository", ""),
+                        "repository_name": mapping.get("repository_name", ""),
+                        "submodule_path": mapping.get("submodule_path", ""),
+                        "evidence": mapping.get("evidence", ""),
+                        "evidence_source": mapping.get("evidence_source", ""),
+                    }
+                )
 
 
 if __name__ == "__main__":

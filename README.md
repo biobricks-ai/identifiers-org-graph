@@ -9,14 +9,21 @@ Identifiers.org-level material lives directly in this repository:
 - `brick/registry.nt` and `brick/registry-namespaces/` are its RDF projection.
 - `registry/namespace-repositories.tsv` accounts for every registered namespace.
 
-Dataset graphs are separate, independently buildable repositories. A confirmed
-graph is linked at `graphs/<identifiers.org prefix>` as a Git submodule. A row
-is not promoted to a submodule based only on a similar repository name: the
-mapping must identify the same namespace/database.
+Dataset graphs are separate, independently buildable repositories. A namespace
+may have more than one confirmed graph repository. Single legacy mappings may
+remain at `graphs/<prefix>`; multiple mappings always use the deterministic
+path `graphs/<prefix>/<repository-name>`.
+
+A repository is promoted only when its primary source records are the resource
+registered for that namespace. Merely minting or consuming an
+`identifiers.org/<prefix>` IRI is not sufficient. Those joins are recorded
+separately in `registry/audit/identifier-consumer-coverage.tsv`. Lexical
+candidates are retained in `registry/audit/heuristic-review.tsv` and are never
+submodules.
 
 The ledger statuses are:
 
-- `existing-submodule`: a confirmed graph repository is linked here.
+- `existing-submodule`: a primary-source-equivalent graph repository is linked.
 - `build-needed`: no confirmed BioBricks graph is known yet.
 - `deprecated`: the registry namespace is deprecated and has no confirmed graph.
 

@@ -1,0 +1,19 @@
+{
+  "ledger_namespaces": 861,
+  "github_repositories": 2254,
+  "repositories_with_local_metadata": 2126,
+  "confirmed_mapping_rows": 293,
+  "confirmed_namespaces": 81,
+  "confirmed_repositories": 207,
+  "heuristic_review_rows": 300,
+  "unmapped_namespaces": 780,
+  "inputs": {
+    "ledger": "/tmp/identifiers-ledger.json",
+    "repositories": "/tmp/biobricks-repos.tsv"
+  },
+  "outputs": {
+    "confirmed": "/tmp/identifiers-org-biobricks-audit/confirmed-mappings.tsv",
+    "heuristic_review": "/tmp/identifiers-org-biobricks-audit/heuristic-review.tsv",
+    "unmapped": "/tmp/identifiers-org-biobricks-audit/unmapped-namespaces.tsv"
+  }
+}

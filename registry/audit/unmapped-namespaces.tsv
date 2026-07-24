@@ -1,0 +1,781 @@
+namespace_prefix	namespace_name
+3dmet	3DMET
+4503	BioData Catalyst
+4dn	4D Nucleome
+6vts	JCOIN Portal
+abs	ABS
+aceview.worm	Aceview Worm
+addgene	Addgene Plasmid Repository
+adw	Animal Diversity Web
+affy.probeset	Affymetrix Probeset
+aftol.taxonomy	AFTOL
+agricola	AGRICOLA
+allergome	Allergome
+amoebadb	AmoebaDB
+antibodyregistry	Antibody Registry
+antweb	AntWeb
+aop.events	AOPWiki (Key Event)
+aop.relationships	AOPWiki (Key Event Relationship)
+aop.stressor	AOPWiki (Stressor)
+apd	APD
+aphidbase.transcript	AphidBase Transcript
+apid.interactions	APID Interactomes
+arachnoserver	ArachnoServer
+ardb	Antibiotic Resistance Genes Database
+ark	Archival Resource Key (ARK)
+arrayexpress	ArrayExpress
+arrayexpress.platform	ArrayExpress Platform
+arraymap	ArrayMap
+asap	ASAP
+ascl	Astrophysics Source Code Library
+asin	Amazon Standard Identification Number (ASIN)
+aspgd.locus	AspGD Locus
+aspgd.protein	AspGD Protein
+assembly	Assembly
+atc	Anatomical Therapeutic Chemical
+atcc	ATCC
+atcvet	Anatomical Therapeutic Chemical Vetinary
+atfdb.family	Animal TFDB Family
+autdb	AutDB
+bacdive	Bacterial Diversity Metadatabase
+bacmap.biog	BacMap Biography
+bacmap.map	BacMap Map
+bao	BioAssay Ontology
+bbkg	Blue Brain Project Knowledge Graph
+bbtp	Blue Brain Project Topological sampling Knowledge Graph
+bdgp.est	BDGP EST
+bdgp.insertion	BDGP insertion DB
+bdsc	Bloomington Drosophila Stock Center
+beetlebase	BeetleBase
+begdb	Benchmark Energy & Geometry Database
+bgee.family	Bgee family
+bgee.organ	Bgee organ
+bgee.stage	Bgee stage
+bigg.compartment	BiGG Compartment
+bigg.metabolite	BiGG Metabolite
+bigg.model	BiGG Model
+bigg.reaction	BiGG Reaction
+biocarta.pathway	BioCarta Pathway
+biocatalogue.service	BioCatalogue
+biocyc	BioCyc
+biodeep	BioDeep Database
+biofactoid	Biofactoid
+biokc	BioKC
+biolink	BioLink Model
+biominder	Bio-MINDER Tissue Database
+biomodels.db	BioModels Database
+biomodels.kisao	KiSAO
+biomodels.teddy	TEDDY
+biomodels.vocabulary	SBML RDF Vocabulary
+bionumbers	BioNumbers
+bioportal	BioPortal
+bioproject	BioProject
+biosample	BioSample
+biosimulations	biosimulations
+biosimulators	BioSimulators
+biosystems	BioSystems
+biotools	BioTools
+bitbucket	Bitbucket
+bold.taxonomy	BOLD Taxonomy
+bto	Brenda Tissue Ontology
+bugbase.expt	BugBase Expt
+bugbase.protocol	BugBase Protocol
+bykdb	BYKdb
+cabri	CABRI
+cadsr	Cancer Data Standards Registry and Repository
+cameo	CAMEO
+caps	CAPS-DB
+cath	CATH Protein Structural Domain Superfamily
+cath.domain	CATH domain
+cath.superfamily	CATH superfamily
+cattleqtldb	Animal Genome Cattle QTL
+cazy	CAZy
+cbioportal	The cBioPortal for Cancer Genomics
+ccdc	CCDC Number
+ccds	Consensus CDS
+cco	Cell Cycle Ontology
+cdd	Conserved Domain Database
+cdpd	Canadian Drug Product Database
+cellimage	Cell Image Library
+cellrepo	Cell Version Control Repository
+cgd	Candida Genome Database
+cgsc	CGSC Strain
+charprot	CharProt
+chemdb	ChemDB
+chemidplus	ChemIDplus
+cheminf	Chemical Information Ontology
+chemspider	ChemSpider
+chickenqtldb	Animal Genome Chicken QTL
+civic.aid	CIViC Assertion
+civic.did	CIViC Disease
+civic.eid	CIViC Evidence
+civic.gid	CIViC Gene
+civic.mpid	CIViC Molecular Profile
+civic.sid	CIViC Source
+civic.tid	CIViC Therapy
+civic.vgid	CIViC Variant Group
+civic.vid	CIViC Variant
+cl	Cell Type Ontology
+classyfire	ClassyFire
+clb	ChecklistBank
+cldb	CLDB
+clinvar	ClinVar Variant
+clinvar.record	ClinVar Record
+clinvar.submission	ClinVar Submission
+clinvar.submitter	ClinVar Submitter
+clo	Cell Line Ontology
+cog	COG
+col	Catalogue of Life
+combine.specifications	COMBINE specifications
+complexportal	Complex Portal
+compulyeast	Compulyeast
+coriell	Coriell Cell Repositories
+corrdb	CorrDB
+corum	CORUM
+cosmic	COSMIC Gene
+covid19	SARS-CoV-2
+cpc	Cooperative Patent Classification
+crisprdb	CRISPRdb
+crop2ml	CropMRepository
+cryptodb	CryptoDB
+csa	CSA
+csd	Cambridge Structural Database
+cst	Cell Signaling Technology Pathways
+cst.ab	Cell Signaling Technology Antibody
+cstr	CSTR
+cubedb	Cube db
+d1id	DataONE
+dailymed	DailyMed
+dandi	DANDI: Distributed Archives for Neurophysiology Data Integration
+darc	DARC
+dashr	DASHR
+dashr.expression	DASHR expression
+datanator.gene	Datanator Gene
+datanator.metabolite	Datanator Metabolite
+datanator.reaction	Datanator Reaction
+datf	DATF
+dbd	DBD
+dbest	dbEST
+dbg2introns	DBG2 Introns
+dbgap	dbGaP
+dbprobe	dbProbe
+degradome	Degradome Database
+depod	DEPOD
+dev.ga4ghdos	Development Data Object Service
+dg.373f	The AnVIL
+dg.4503	BioData Catalyst
+dg.4825	ACCOuNT Data Commons
+dg.4dfc	NCI Data Commons Framework Services
+dg.5b0d	BloodPAC
+dg.63d5	Chicago Pandemic Response Commons
+dg.6vts	JCOIN
+dg.712c	NHLBI BioData Catalyst
+dg.7c5b	Environmental Data Commons
+dg.80b6	GenoMEL Data Commons
+dg.anv0	Anvil
+dg.c78ne	Canine Data Commons
+dg.ea80	NIDDK IBD Genetics Consortium Portal
+dg.f738	Veterans Precision Oncology Data Commons
+dg.f82a1a	Kids First
+dg.h34l	The HEAL platform
+dg.h35l	HEAL Data Platform
+dg.md1r	MIDRC Data Commons
+dg.nacd	https://accessclinicaldata.niaid.nih.gov/
+dg.nci35	NCI Data Commons Framework Services
+dg.um33r90	UMCCR AGHA Data Commons
+dg.va03	VA Data Commons
+dg.vp07	Veterans Precision Oncology Data Commons
+dictybase.est	Dictybase EST
+dictybase.gene	Dictybase Gene
+did	Decentralized Identifiers (DIDs)
+dip	Database of Interacting Proteins
+disprot.region	DisProt region
+dlxb	Linear double stranded DNA sequences
+dlxc	Circular double stranded DNA sequences composed
+doi	DOI
+doid	Human Disease Ontology
+dome	DOME Registry
+dommino	DOMMINO
+door	DOOR
+doqcs.model	Database of Quantitative Cellular Signaling: Model
+doqcs.pathway	Database of Quantitative Cellular Signaling: Pathway
+dpv	DPV
+dragondb.allele	DragonDB Allele
+dragondb.dna	DragonDB DNA
+dragondb.locus	DragonDB Locus
+dragondb.protein	DragonDB Protein
+drs.anv0	AnVIL DRS
+drsc	DRSC
+drugbankv4.target	DrugBank Target v4
+echobase	EchoBASE
+eco	Evidence Code Ontology
+ecogene	EcoGene
+ecoliwiki	EcoliWiki
+ecyano.entity	E-cyanobacterium entity
+ecyano.experiment	E-cyanobacterium Experimental Data
+ecyano.model	E-cyanobacterium model
+ecyano.rule	E-cyanobacterium rule
+edam	EDAM Ontology
+efo	Experimental Factor Ontology
+ega	European Genome-phenome Archive
+ega.dataset	European Genome-phenome Archive Dataset
+ega.study	European Genome-phenome Archive Study
+eggnog	eggNOG
+elm	ELM
+emdb	Electron Microscopy Data Bank
+empiar	EMPIAR
+ena.embl	ENA
+encode	ENCODE: Encyclopedia of DNA Elements
+ensembl	Ensembl
+ensembl.bacteria	Ensembl Bacteria
+ensembl.fungi	Ensembl Fungi
+ensembl.metazoa	Ensembl Metazoa
+ensembl.plant	Ensembl Plants
+ensembl.protist	Ensembl Protists
+envipath	enviPath
+envo	Environment Ontology
+eo	Plant Environment Ontology
+epd	EPD
+erm	European Registry of Materials
+erv	Human Endogenous Retrovirus Database
+euclinicaltrials	EU Clinical Trials
+exac.gene	ExAC Gene
+exac.transcript	ExAC Transcript
+exac.variant	ExAC Variant
+f82a1a	Kids First Data Catalog
+facebase	FaceBase Data Repository
+fairmd.lipids	FAIRMD Lipids
+fairsharing	FAIRsharing
+fb	FlyBase
+fbol	Fungal Barcode
+fcb	the FAIR Cookbook
+flowrepository	FlowRepository
+fma	FMA
+foodon	FoodOn Food Ontology
+fplx	FamPlex
+fsnp	F-SNP
+funcbase.fly	FuncBase Fly
+funcbase.human	FuncBase Human
+funcbase.mouse	FuncBase Mouse
+funcbase.yeast	FuncBase Yeast
+funderregistry	FunderRegistry
+fungidb	FungiDB
+ga4ghdos	Data Object Service
+gabi	GABI
+gateway	gateway
+gcst	GWAS Catalog
+gdc	Genomic Data Commons Data Portal
+genatlas	Genatlas
+genecards	GeneCards
+genedb	GeneDB
+genefarm	GeneFarm
+genetree	GeneTree
+genewiki	Gene Wiki
+genpept	GenPept
+genprop	Genome Properties
+geo	GEO
+giardiadb	GiardiaDB
+github	github
+gitlab	GitLab
+glida.gpcr	GLIDA GPCR
+glida.ligand	GLIDA Ligand
+glycoepitope	GlycoEpitope
+glycomedb	GlycomeDB
+glyconavi	GlycoNAVI
+glycopost	GlycoPOST
+glytoucan	GlyTouCan
+gmd	Golm Metabolome Database
+gmd.analyte	Golm Metabolome Database Analyte
+gmd.gcms	Golm Metabolome Database GC-MS spectra
+gmd.profile	Golm Metabolome Database Profile
+gmd.ref	Golm Metabolome Database Reference Substance
+gnd	Gemeinsame Normdatei
+gnpis	GnpIS
+go	Gene Ontology
+goa	GOA
+gold	Genomes OnLine Database (GOLD)
+gold.genome	GOLD genome
+gold.meta	GOLD metadata
+google.patent	Google Patents
+gpcrdb	GPCRDB
+gpmdb	GPMDB
+gramene.gene	Gramene genes
+gramene.protein	Gramene protein
+gramene.qtl	Gramene QTL
+gramene.taxonomy	Gramene Taxonomy
+greengenes	GreenGenes
+grid	GRID
+grin.taxonomy	GRIN Plant Taxonomy
+gro	Gramene Growth Stage Ontology
+grsdb	GRSDB
+gtr	Genetic Testing Registry Tests
+gtrl	Genetic Testing Registry Labs
+gudmap	GUDMAP
+gwascentral.marker	GWAS Central Marker
+gwascentral.phenotype	GWAS Central Phenotype
+gwascentral.study	GWAS Central Study
+gxa.expt	GXA Expt
+gxa.gene	GXA Gene
+hamap	HAMAP
+hco	Human Chromosome Ontology
+hcvdb	HCVDB
+hdr	Homeodomain Research
+hgmd	HGMD
+hgnc	HGNC
+hgnc.family	HGNC Family
+hgnc.genefamily	HGNC gene family
+hgnc.genegroup	HGNC Gene Group
+hgnc.symbol	HGNC Symbol
+hinv.locus	H-InvDb Locus
+hinv.protein	H-InvDb Protein
+hinv.transcript	H-InvDb Transcript
+hogenom	HOGENOM
+homd.seq	HOMD Sequence Metainformation
+homd.taxon	HOMD Taxonomy
+homologene	HomoloGene
+hovergen	HOVERGEN
+hp	Human Phenotype Ontology
+hpa	HPA
+hpm.peptide	Human Proteome Map Peptide
+hpm.protein	Human Proteome Map Protein
+hprd	HPRD
+hpscreg	Human Pluripotent Stem Cell Registry
+hssp	HSSP
+huge	HUGE
+icd	ICD
+icdc	Integrated Canine Data Commons
+iceberg.element	ICEberg element
+iceberg.family	ICEberg family
+ideal	IDEAL
+identifiers.namespace	Identifiers.org namespace
+ido	Infectious Disease Ontology
+idoo	Identifiers.org Ontology
+idot	Identifiers.org Terms
+idr	Image Data Resource
+ifloprop	InfoFlora Objects and properties
+igsn	International Generic Sample Number
+ilx	InterLex
+imex	IMEx
+img.gene	Integrated Microbial Genomes Gene
+img.taxon	Integrated Microbial Genomes Taxon
+imgt.hla	IMGT HLA
+imgt.ligm	IMGT LIGM
+immport	Immunology Database and Analysis Portal (ImmPort)
+insdc	Nucleotide Sequence Database
+insdc.cds	INSDC CDS
+insdc.gca	Genome assembly database - INSDC accessions
+insdc.sra	Sequence Read Archive
+intact	IntAct
+intact.molecule	IntAct Molecule
+interpro	InterPro
+ird.segment	IRD Segment Sequence
+irefweb	iRefWeb
+isbn	ISBN
+isfinder	ISFinder
+isni	International Standard Name Identifier
+issn	ISSN
+ito	Intelligence Task Ontology
+iuphar.family	IUPHAR family
+iuphar.ligand	IUPHAR ligand
+iuphar.receptor	IUPHAR receptor
+jaxmice	JAX Mice
+jcggdb	JCGGDB
+jcm	Japan Collection of Microorganisms
+jcsd	Japan Chemical Substance Dictionary
+jstor	JSTOR
+jws	JWS Online
+kegg	Kyoto Encyclopedia of Genes and Genomes
+kegg.compound	KEGG Compound
+kegg.disease	KEGG Disease
+kegg.drug	KEGG Drug
+kegg.environ	KEGG Environ
+kegg.genes	KEGG Genes
+kegg.genome	KEGG Genome
+kegg.glycan	KEGG Glycan
+kegg.metagenome	KEGG Metagenome
+kegg.module	KEGG Module
+kegg.orthology	KEGG Orthology
+kegg.pathway	KEGG Pathway
+kegg.reaction	KEGG Reaction
+knapsack	KNApSAcK
+lei	Global LEI Index
+lgai.cede	LG Chemical Entity Detection Dataset (LGCEDe)
+lgic	Ligand-Gated Ion Channel database
+licebase	LiceBase
+ligandbook	LigandBook
+ligandbox	LigandBox
+ligandexpo	Ligand Expo
+lincs.cell	LINCS Cell
+lincs.data	LINCS Data
+lincs.protein	LINCS Protein
+lincs.smallmolecule	LINCS Small Molecule
+linguist	Linguist
+lipidbank	LipidBank
+lipidmaps	LIPID MAPS
+lncbook	LncBook
+lrg	Locus Reference Genomic
+lw	LifeWatch Metadata Catalogue
+m4i	Metadata4Ing
+ma	Mouse Adult Gross Anatomy
+macie	MACiE
+maggot	Maggot
+maizegdb.locus	MaizeGDB Locus
+mamo	Mathematical Modelling Ontology
+massbank	MassBank
+massive	MassIVE
+matrixdb.association	MatrixDB
+maxo	Medical Action Ontology
+mcro	Model Card Ontology
+mdm	MDM
+meddra	MedDRA
+medgen	MedGen
+mediadive.medium	MediaDive mediums
+medlineplus	MedlinePlus
+merops	MEROPS
+merops.family	MEROPS Family
+merops.inhibitor	MEROPS Inhibitor
+metabolights	MetaboLights
+metacyc.compound	MetaCyc Compound
+metacyc.reaction	MetaCyc Reaction
+metanetx.chemical	MetaNetX chemical
+metanetx.compartment	MetaNetX compartment
+metanetx.reaction	MetaNetX reaction
+metatlas	Metabolic Atlas
+metlin	METLIN
+mex	Metabolome Express
+mge	Aclame
+mgi	Mouse Genome Database
+mgnify.analysis	MGnify Analysis
+mgnify.genome	MGnify Genome
+mgnify.proj	MGnify Project
+mgnify.protein	MGnify Protein
+mgnify.samp	MGnify Sample
+mgnify.study	MGnify Study
+mi	Molecular Interactions Ontology
+microscope	MicroScope
+microsporidia	MicrosporidiaDB
+mim	OMIM
+mimodb	MimoDB
+minid	Minimal Viable Identifier
+minid.test	MINID Test
+mint	MINT
+mipmod	MIPModDB
+mir	Identifiers.org Registry
+mirbase	miRBase Sequence
+mirbase.mature	miRBase mature sequence
+mirex	mirEX
+miriam.collection	MIRIAM Registry collection
+miriam.resource	MIRIAM Registry resource
+mirnest	miRNEST
+mirtarbase	miRTarBase
+mlc	MLCommons Association
+mmdb	Molecular Modeling Database
+mmmp.biomaps	Melanoma Molecular Map Project Biomaps
+mmp.cat	MarCat
+mmp.db	MarDB
+mmp.fun	MarFun
+mmp.ref	MarRef
+mmrrc	MMRRC
+mo	MGED Ontology
+mobidb	MobiDB
+mod	Protein Modification Ontology
+modeldb	ModelDB
+modeldb.concept	ModelDB concept
+moid	Metadata Management and distribution system for Multiple GNSS Networks
+molbase	Molbase
+molmedb	MolMeDB
+morpheus	Morpheus model repository
+mp	Mammalian Phenotype Ontology
+mpid	Microbial Protein Interaction Database
+ms	Mass Spectrometry Controlled Vocabulary
+multicellds.cell_line	MultiCellDS Digital Cell Line
+multicellds.collection	MultiCellDS collection
+multicellds.snapshot	MultiCellDS Digital snapshot
+myco.lepra	MycoBrowser leprae
+myco.marinum	MycoBrowser marinum
+myco.smeg	MycoBrowser smegmatis
+myco.tuber	MycoBrowser tuberculosis
+mycobank	MycoBank
+mzspec	Universal Spectrum Identifier
+nando	Nanbyo Disease Ontology
+nanostar	NanostarDB
+napdi	Natural Product-Drug Interaction Research Data Repository
+napp	NAPP
+narcis	NARCIS
+nasc	NASC code
+nbn	National Bibliography Number
+nbrc	NITE Biological Research Center Catalogue
+ncbidrs	NCBI Data Repository Service
+ncbiprotein	NCBI Protein
+ncim	NCIm
+ncit	NCIt
+ndc	National Drug Code
+nemo	Neuroscience Multi-Omic BRAIN Initiative Data
+neurolex	NeuroLex
+neuromorpho	NeuroMorpho
+neurondb	NeuronDB
+neurovault.collection	NeuroVault Collection
+neurovault.image	NeuroVault Image
+nextdb	NEXTDB
+nextprot	nextProt
+ngl	NASA GeneLab
+niaest	NIAEST
+nlfff	NLFFF Database
+nmdc	National Microbiome Data Collaborative
+nmr	Nuclear Magnetic Resonance Controlled Vocabulary
+noncodev3	NONCODE v3
+noncodev4.gene	NONCODE v4 Gene
+noncodev4.rna	NONCODE v4 Transcript
+norine	NORINE
+nuclearbd	NucleaRDB
+nucleotide	Nucleotide
+obcs	 Ontology of Biological and Clinical Statistics
+obv	Austrian Library Network
+occ	OpenCitations Corpus
+oci	OCI
+ocid	Ontology Concept Identifiers
+oclc	Online Computer Library Center (OCLC) WorldCat
+odam	Open Data for Access and Mining
+odam.explorer	ODAM Data explorer
+odc.sci	Open Data Commons for Spinal Cord Injury
+odc.tbi	Open Data Commons for Traumatic Brain Injury
+odor	Odor Molecules DataBase
+oid	OID Repository
+oma.grp	OMA Group
+oma.hog	OMA HOGs
+oma.protein	OMA Protein
+omia	OMIA
+omid	OpenCitations Meta Identifier
+omit	OMIT
+opb	Ontology of Physics for Biology
+opl	Ontology for Parasite Lifecycle
+opm	OPM
+orcid	ORCID
+ordb	Olfactory Receptor Database
+oridb.sacch	OriDB Saccharomyces
+oridb.schizo	OriDB Schizosaccharomyces
+orphanet	Orphanet
+orphanet.ordo	Orphanet Rare Disease Ontology
+orthodb	OrthoDB
+oryzabase.gene	Oryzabase Gene
+oryzabase.mutant	Oryzabase Mutant
+oryzabase.reference	Oryzabase
+oryzabase.stage	Oryzabase Stage
+oryzabase.strain	Oryzabase Strain
+otl	Oryza Tag Line
+p3db.protein	P3DB Protein
+p3db.site	P3DB Site
+paleodb	PaleoDB
+panther.family	PANTHER Family
+panther.node	PANTHER Node
+panther.pathway	PANTHER Pathway
+panther.pthcmp	PANTHER Pathway Component
+pass2	PASS2
+pathwaycommons	Pathway Commons
+pato	PATO
+pazar	Pazar Transcription Factor
+pdb-ccd	Chemical Component Dictionary
+ped	Protein Ensemble Database
+ped.ensemble	Protein Ensemble Database ensemble
+peptideatlas	PeptideAtlas
+peptideatlas.dataset	PeptideAtlas Dataset
+peroxibase	Peroxibase
+pfam	Pfam
+pgs	Polygenic Score Catalog
+pgx	Progenetix
+phosphopoint.kinase	PhosphoPoint Kinase
+phosphopoint.protein	PhosphoPoint Phosphoprotein
+phosphosite.protein	PhosphoSite Protein
+phosphosite.residue	PhosphoSite Residue
+phylomedb	PhylomeDB
+phytozome.locus	Phytozome Locus
+pid.pathway	NCI Pathway Interaction Database: Pathway
+pigqtldb	Animal Genome Pig QTL
+pina	PINA
+piroplasma	PiroplasmaDB
+pirsf	PIRSF
+plant_reactome	Plant Reactome
+planttfdb	Plant Transcription Factor Database
+plasmodb	PlasmoDB
+pmap.cutdb	CutDB
+pmap.substratedb	SubstrateDB
+pmc	PMC International
+pmdb	Protein Model Database
+pmp	PMP
+pmr	Physiome Model Repository
+pmr.workspace	Physiome Model Repository workspace
+po	Plant Ontology
+pocketome	Pocketome
+polbase	PolBase
+pombase	PomBase
+pr	Protein Ontology
+pride	PRIDE
+pride.project	PRIDE Project
+prints	PRINTS
+probonto	ProbOnto
+prodom	ProDom
+proglyc	ProGlycProt
+prosite	PROSITE
+protclustdb	ProtClustDB
+proteomicsdb.peptide	ProteomicsDB Peptide
+proteomicsdb.protein	ProteomicsDB Protein
+protonet.cluster	ProtoNet Cluster
+protonet.proteincard	ProtoNet ProteinCard
+ps	Pennsieve
+pscdb	PSCDB
+pseudomonas	Pseudomonas Genome Database
+psipar	Protein Affinity Reagents
+pw	Pathway Ontology
+px	ProteomeXchange
+pypi	PyPI
+qtldb	Animal Genome QTL
+raid	Research Activity Identifier
+rapdb.locus	RAP-DB Locus
+rapdb.transcript	RAP-DB Transcript
+rbk	Rebuilding a Kidney
+re3data	re3data
+rebase	REBASE
+refseq	RefSeq
+refseq.gcf	Genome assembly database - RefSeq accessions
+repeatsdb.protein	RepeatsDB Protein
+repeatsdb.structure	RepeatsDB Structure
+resid	RESID
+rfam	RFAM
+rgd	Rat Genome Database
+rgd.qtl	Rat Genome Database qTL
+rgd.strain	Rat Genome Database strain
+ricegap	Rice Genome Annotation Project
+ricenetdb.compound	RiceNetDB Compound
+ricenetdb.gene	RiceNetDB Gene
+ricenetdb.mirna	RiceNetDB miRNA
+ricenetdb.protein	RiceNetDB Protein
+ricenetdb.reaction	RiceNetDB Reaction
+rism	RISM Online
+rnacentral	RNAcentral
+rnamods	RNA Modification Database
+ror	ROR
+rouge	Rouge
+rrid	RRID
+runbiosimulations	runBioSimulations
+sabiork.compound	SABIO-RK Compound
+sabiork.ec	SABIO-RK EC Record
+sabiork.kineticrecord	SABIO-RK Kinetic Record
+sabiork.reaction	SABIO-RK Reaction
+sasbdb	SASBDB
+sbo	Systems Biology Ontology
+sciflection	Sciflection
+scop	SCOP
+scretf	ScerTF
+sdbs	Spectral Database for Organic Compounds
+sdy	Immunology Database and Analysis Portal (ImmPort)
+sedml.format	SED-ML data format
+sedml.language	SED-ML model format
+seed	SEED Subsystem
+seed.compound	SEED Compound
+seed.reaction	SEED Reactions
+sgd	SGD
+sgd.pathways	Saccharomyces genome database pathways
+sgn	Sol Genomics Network
+sheepqtldb	Animal Genome Sheep QTL
+signaling-gateway	Signaling Gateway
+sio	Semanticscience Integrated Ontology
+sisu	SISu
+sitex	SitEx
+skm	Stress Knowledge Map
+slm	SwissLipids
+smart	SMART
+snomedct	SNOMED CT
+snp2tfbs	SNP2TFBS
+so	Sequence Ontology
+soybase	SoyBase
+sparc.drs	SPARC DRS
+spdx	SPDX License List
+spike.map	SPIKE Map
+splash	SPLASH
+spp	Signaling Pathways Project
+stap	STAP
+stato	Statistical Ontology
+storedb	STOREDB
+string	STRING
+subtilist	SubtiList
+subtiwiki	SubtiWiki
+sugarbind	SugarBind
+supfam	SUPFAM
+swh	Software Heritage
+swiss-model	SWISS-MODEL Repository
+swissregulon	SwissRegulon
+synapse	Synapse Data Repository
+t3db	T3DB
+tair.gene	TAIR Gene
+tair.locus	TAIR Locus
+tair.name	TAIR gene name
+tair.protein	TAIR Protein
+tarbase	TarBase
+tcdb	Transport Classification Database
+tgd	Tetrahymena Genome Database
+tigrfam	TIGRFAMS
+tissuelist	Tissue List
+togovar	TogoVar
+tol	Tree of Life
+topdb	TOPDB
+topfind	TopFind
+toxoplasma	ToxoDB
+transyt	TranSyT
+treebase	TreeBASE
+treefam	TreeFam
+tricdb	tricdb
+trichdb	TrichDB
+tritrypdb	TriTrypDB
+ttd.drug	TTD Drug
+uberon	UBERON
+ubio.namebank	uBio NameBank
+umbbd.compound	UM-BBD Compound
+umbbd.enzyme	UM-BBD Enzyme
+umbbd.pathway	UM-BBD Pathway
+umbbd.reaction	UM-BBD Reaction
+umbbd.rule	UM-BBD Biotransformation Rule
+umls	UMLS
+unigene	UniGene
+unimod	Unimod
+uniparc	UniParc
+unipathway.compound	UniPathway Compound
+unipathway.reaction	UniPathway Reaction
+uniref	UniRef
+unists	UniSTS
+unite	Unite
+uo	Unit Ontology
+uspto	USPTO
+utrdb	UTRdb
+validatordb	ValidatorDB
+vario	VariO
+vbase2	Vbase2
+vbrc	VBRC
+vcell	VCell Published Models
+vectorbase	VectorBase
+vegbank	VegBank
+vfb	Virtual Fly Brain
+vfdb.gene	VFDB Gene
+vfdb.genus	VFDB Genus
+vgnc	VGNC
+viaf	Virtual International Authority File
+vipr	ViPR Strain
+viralzone	ViralZone
+virsirna	VIRsiRNA
+vmhgene	VMH Gene
+vmhmetabolite	VMH metabolite
+vmhreaction	VMH reaction
+wb	WormBase
+wb.rnai	WormBase RNAi
+wikigenes	WikiGenes
+wikipedia.en	Wikipedia (En)
+worfdb	Worfdb
+wormpep	Wormpep
+worms	World Register of Marine Species
+xenbase	Xenbase
+ydpm	YDPM
+yeastintron	Yeast Intron Database v4.3
+yetfasco	YeTFasCo
+yid	Yeast Intron Database v3
+yrcpdr	YRC PDR
+zfin	ZFIN Bioentity
+zinc	ZINC

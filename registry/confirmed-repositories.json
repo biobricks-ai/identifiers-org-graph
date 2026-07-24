@@ -1,35 +1,1792 @@
 {
-  "aop": {"repository": "https://github.com/biobricks-ai/aop-wiki-kg.git", "evidence": "Repository implements the AOP-Wiki database registered by this namespace"},
-  "bindingdb": {"repository": "https://github.com/biobricks-ai/bindingdb-rdf.git", "evidence": "Exact registered database and BioBricks source"},
-  "biogrid": {"repository": "https://github.com/biobricks-ai/biogrid.git", "evidence": "Exact registered database and BioBricks source"},
-  "biostudies": {"repository": "https://github.com/biobricks-ai/biostudies.git", "evidence": "Exact registered database and BioBricks source"},
-  "brenda": {"repository": "https://github.com/biobricks-ai/brenda.git", "evidence": "Exact registered database and BioBricks source"},
-  "cellosaurus": {"repository": "https://github.com/biobricks-ai/cellosaurus.git", "evidence": "Exact registered database and BioBricks source"},
-  "chebi": {"repository": "https://github.com/biobricks-ai/chebi.git", "evidence": "Exact registered database and BioBricks source"},
-  "chembl": {"repository": "https://github.com/biobricks-ai/chembl-rdf.git", "evidence": "Exact registered database and BioBricks source"},
-  "classyfire": {"repository": "https://github.com/biobricks-ai/classyfire-kg.git", "evidence": "Exact registered database and BioBricks source"},
-  "clinicaltrials": {"repository": "https://github.com/biobricks-ai/clinicaltrials.git", "evidence": "Exact registered database and BioBricks source"},
-  "clinvar": {"repository": "https://github.com/biobricks-ai/clinvar.git", "evidence": "Exact registered database and BioBricks source"},
-  "comptox": {"repository": "https://github.com/biobricks-ai/comptox-kg.git", "evidence": "Repository implements the registered CompTox Chemistry Dashboard"},
-  "conoserver": {"repository": "https://github.com/biobricks-ai/conoserver.git", "evidence": "Exact registered database and BioBricks source"},
-  "dbgap": {"repository": "https://github.com/biobricks-ai/dbgap.git", "evidence": "Exact registered database and BioBricks source"},
-  "drugcentral": {"repository": "https://github.com/biobricks-ai/drugcentral.git", "evidence": "Exact registered database and BioBricks source"},
-  "gdsc": {"repository": "https://github.com/biobricks-ai/gdsc.git", "evidence": "Exact registered database and BioBricks source"},
-  "go": {"repository": "https://github.com/biobricks-ai/geneontology.git", "evidence": "Repository implements the registered Gene Ontology"},
-  "gtex": {"repository": "https://github.com/biobricks-ai/gtex.git", "evidence": "Exact registered database and BioBricks source"},
-  "hgnc": {"repository": "https://github.com/biobricks-ai/hgnc.git", "evidence": "Exact registered database and BioBricks source"},
-  "hmdb": {"repository": "https://github.com/biobricks-ai/hmdb.git", "evidence": "Exact registered database and BioBricks source"},
-  "mesh": {"repository": "https://github.com/biobricks-ai/mesh-kg.git", "evidence": "Repository implements the registered MeSH database"},
-  "nmrshiftdb2": {"repository": "https://github.com/biobricks-ai/nmrshiftdb2.git", "evidence": "Exact registered database and BioBricks source"},
-  "orthodb": {"repository": "https://github.com/biobricks-ai/orthodb.git", "evidence": "Exact registered database and BioBricks source"},
-  "pdb-ccd": {"repository": "https://github.com/biobricks-ai/pdb-ccd.git", "evidence": "Exact registered database and BioBricks source"},
-  "pmc": {"repository": "https://github.com/biobricks-ai/pmc.git", "evidence": "Exact registered database and BioBricks source"},
-  "pubmed": {"repository": "https://github.com/biobricks-ai/pubmed.git", "evidence": "Exact registered database and BioBricks source"},
-  "reactome": {"repository": "https://github.com/biobricks-ai/reactome.git", "evidence": "Exact registered database and BioBricks source"},
-  "rhea": {"repository": "https://github.com/biobricks-ai/rhea-kg.git", "evidence": "Repository implements the registered Rhea database"},
-  "so": {"repository": "https://github.com/biobricks-ai/so-rdf.git", "evidence": "Complete production projection of the authoritative Sequence Ontology release"},
-  "t3db": {"repository": "https://github.com/biobricks-ai/t3db.git", "evidence": "Exact registered database and BioBricks source"},
-  "uniprot": {"repository": "https://github.com/biobricks-ai/uniprot-rdf.git", "evidence": "Repository implements the registered UniProt Knowledgebase"},
-  "wikidata": {"repository": "https://github.com/biobricks-ai/biobricks-wikidata.git", "evidence": "Repository implements the registered Wikidata database"},
-  "wikipathways": {"repository": "https://github.com/biobricks-ai/wikipathways.git", "evidence": "Exact registered database and BioBricks source"}
+  "schema_version": 2,
+  "mapping_semantics": "Primary source records are the resource registered by Identifiers.org; identifier consumers are excluded.",
+  "namespaces": {
+    "aop": [
+      {
+        "repository": "https://github.com/biobricks-ai/aop-wiki-kg.git",
+        "repository_name": "aop-wiki-kg",
+        "evidence": "Existing reviewed hub mapping",
+        "evidence_source": "pre-existing hub mapping",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/aop"
+      }
+    ],
+    "bgee.gene": [
+      {
+        "repository": "https://github.com/biobricks-ai/bgee-rdf.git",
+        "repository_name": "bgee-rdf",
+        "evidence": "registry provider domain plus namespace-specific metadata token: www.bgee.org; bgee",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/bgee.gene"
+      }
+    ],
+    "bindingdb": [
+      {
+        "repository": "https://github.com/biobricks-ai/bindingdb.git",
+        "repository_name": "bindingdb",
+        "evidence": "registry provider domain plus namespace-specific metadata token: www.bindingdb.org; bindingdb",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/bindingdb/bindingdb"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/bindingdb-affinities.git",
+        "repository_name": "bindingdb-affinities",
+        "evidence": "registry provider domain plus namespace-specific metadata token: www.bindingdb.org; bindingdb",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/bindingdb/bindingdb-affinities"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/bindingdb-bdb-download.git",
+        "repository_name": "bindingdb-bdb-download",
+        "evidence": "registry provider domain plus namespace-specific metadata token: www.bindingdb.org; bindingdb",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/bindingdb/bindingdb-bdb-download"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/bindingdb-bindingdb-primarysearch-ki.git",
+        "repository_name": "bindingdb-bindingdb-primarysearch-ki",
+        "evidence": "registry provider domain plus namespace-specific metadata token: www.bindingdb.org; bindingdb",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/bindingdb/bindingdb-bindingdb-primarysearch-ki"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/bindingdb-fda-approved-drugs-in-bindingd.git",
+        "repository_name": "bindingdb-fda-approved-drugs-in-bindingd",
+        "evidence": "registry provider domain plus namespace-specific metadata token: www.bindingdb.org; bindingdb",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/bindingdb/bindingdb-fda-approved-drugs-in-bindingd"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/bindingdb-rdf.git",
+        "repository_name": "bindingdb-rdf",
+        "evidence": "Existing reviewed hub mapping",
+        "evidence_source": "pre-existing hub mapping",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/bindingdb/bindingdb-rdf"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/bindingdb-smiles-for-cytochrome-p450-2c1.git",
+        "repository_name": "bindingdb-smiles-for-cytochrome-p450-2c1",
+        "evidence": "registry provider domain plus namespace-specific metadata token: www.bindingdb.org; bindingdb",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/bindingdb/bindingdb-smiles-for-cytochrome-p450-2c1"
+      }
+    ],
+    "biogrid": [
+      {
+        "repository": "https://github.com/biobricks-ai/biogrid.git",
+        "repository_name": "biogrid",
+        "evidence": "registry provider domain plus namespace-specific metadata token: thebiogrid.org; biogrid",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/biogrid"
+      }
+    ],
+    "biostudies": [
+      {
+        "repository": "https://github.com/biobricks-ai/biostudies.git",
+        "repository_name": "biostudies",
+        "evidence": "exact registry resource URL plus namespace-specific repository metadata: https://www.ebi.ac.uk/biostudies|exact registry resource URL plus namespace-specific repository metadata: https://www.ebi.ac.uk/biostudies/studies",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/biostudies"
+      }
+    ],
+    "bitterdb.cpd": [
+      {
+        "repository": "https://github.com/biobricks-ai/bitterdb.git",
+        "repository_name": "bitterdb",
+        "evidence": "registry provider domain plus namespace-specific metadata token: bitterdb.agri.huji.ac.il; bitterdb",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/bitterdb.cpd"
+      }
+    ],
+    "bitterdb.rec": [
+      {
+        "repository": "https://github.com/biobricks-ai/bitterdb.git",
+        "repository_name": "bitterdb",
+        "evidence": "registry provider domain plus namespace-specific metadata token: bitterdb.agri.huji.ac.il; bitterdb",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/bitterdb.rec"
+      }
+    ],
+    "bmrb": [
+      {
+        "repository": "https://github.com/biobricks-ai/bmrb-nmr-csv-tables.git",
+        "repository_name": "bmrb-nmr-csv-tables",
+        "evidence": "registry provider domain plus namespace-specific metadata token: bmrb.io; bmrb",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/bmrb"
+      }
+    ],
+    "brenda": [
+      {
+        "repository": "https://github.com/biobricks-ai/brenda.git",
+        "repository_name": "brenda",
+        "evidence": "registry provider domain plus namespace-specific metadata token: www.brenda-enzymes.org; brenda",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/brenda"
+      }
+    ],
+    "cellosaurus": [
+      {
+        "repository": "https://github.com/biobricks-ai/cellosaurus.git",
+        "repository_name": "cellosaurus",
+        "evidence": "registry provider domain plus namespace-specific metadata token: www.cellosaurus.org; cellosaurus",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/cellosaurus"
+      }
+    ],
+    "chebi": [
+      {
+        "repository": "https://github.com/biobricks-ai/chebi.git",
+        "repository_name": "chebi",
+        "evidence": "exact registry resource URL plus namespace-specific repository metadata: https://www.ebi.ac.uk/chebi",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/chebi/chebi"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/ebi-chebi.git",
+        "repository_name": "ebi-chebi",
+        "evidence": "exact registry resource URL plus namespace-specific repository metadata: https://www.ebi.ac.uk/chebi",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/chebi/ebi-chebi"
+      }
+    ],
+    "chembl": [
+      {
+        "repository": "https://github.com/biobricks-ai/chembl-assays.git",
+        "repository_name": "chembl-assays",
+        "evidence": "exact registry resource URL plus namespace-specific repository metadata: https://www.ebi.ac.uk/chembl",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/chembl/chembl-assays"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/chembl-drugind.git",
+        "repository_name": "chembl-drugind",
+        "evidence": "exact registry resource URL plus namespace-specific repository metadata: https://www.ebi.ac.uk/chembl",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/chembl/chembl-drugind"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/chembl-mechanisms.git",
+        "repository_name": "chembl-mechanisms",
+        "evidence": "exact registry resource URL plus namespace-specific repository metadata: https://www.ebi.ac.uk/chembl",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/chembl/chembl-mechanisms"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/chembl-metabolism.git",
+        "repository_name": "chembl-metabolism",
+        "evidence": "exact registry resource URL plus namespace-specific repository metadata: https://www.ebi.ac.uk/chembl",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/chembl/chembl-metabolism"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/chembl-rdf.git",
+        "repository_name": "chembl-rdf",
+        "evidence": "Existing reviewed hub mapping",
+        "evidence_source": "pre-existing hub mapping",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/chembl/chembl-rdf"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/chembl-smiles.git",
+        "repository_name": "chembl-smiles",
+        "evidence": "exact registry resource URL plus namespace-specific repository metadata: https://www.ebi.ac.uk/chembl",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/chembl/chembl-smiles"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/chembl-target-panels.git",
+        "repository_name": "chembl-target-panels",
+        "evidence": "exact registry resource URL plus namespace-specific repository metadata: https://www.ebi.ac.uk/chembl",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/chembl/chembl-target-panels"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/ebi-chembl.git",
+        "repository_name": "ebi-chembl",
+        "evidence": "exact registry resource URL plus namespace-specific repository metadata: https://www.ebi.ac.uk/chembl",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/chembl/ebi-chembl"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/hf-skfp-chembl262-ki-rdf.git",
+        "repository_name": "hf-skfp-chembl262-ki-rdf",
+        "evidence": "exact registry resource URL plus namespace-specific repository metadata: https://www.ebi.ac.uk/chembl",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/chembl/hf-skfp-chembl262-ki-rdf"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/hf-skfp-chembl264-ki-rdf.git",
+        "repository_name": "hf-skfp-chembl264-ki-rdf",
+        "evidence": "exact registry resource URL plus namespace-specific repository metadata: https://www.ebi.ac.uk/chembl",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/chembl/hf-skfp-chembl264-ki-rdf"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/hf-skfp-chembl2835-ki-rdf.git",
+        "repository_name": "hf-skfp-chembl2835-ki-rdf",
+        "evidence": "exact registry resource URL plus namespace-specific repository metadata: https://www.ebi.ac.uk/chembl",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/chembl/hf-skfp-chembl2835-ki-rdf"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/hf-skfp-chembl287-ki-rdf.git",
+        "repository_name": "hf-skfp-chembl287-ki-rdf",
+        "evidence": "exact registry resource URL plus namespace-specific repository metadata: https://www.ebi.ac.uk/chembl",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/chembl/hf-skfp-chembl287-ki-rdf"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/hf-skfp-chembl2971-ki-rdf.git",
+        "repository_name": "hf-skfp-chembl2971-ki-rdf",
+        "evidence": "exact registry resource URL plus namespace-specific repository metadata: https://www.ebi.ac.uk/chembl",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/chembl/hf-skfp-chembl2971-ki-rdf"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/hf-skfp-chembl3979-ec50-rdf.git",
+        "repository_name": "hf-skfp-chembl3979-ec50-rdf",
+        "evidence": "exact registry resource URL plus namespace-specific repository metadata: https://www.ebi.ac.uk/chembl",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/chembl/hf-skfp-chembl3979-ec50-rdf"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/hf-skfp-chembl4005-ki-rdf.git",
+        "repository_name": "hf-skfp-chembl4005-ki-rdf",
+        "evidence": "exact registry resource URL plus namespace-specific repository metadata: https://www.ebi.ac.uk/chembl",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/chembl/hf-skfp-chembl4005-ki-rdf"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/hf-skfp-chembl4203-ki-rdf.git",
+        "repository_name": "hf-skfp-chembl4203-ki-rdf",
+        "evidence": "exact registry resource URL plus namespace-specific repository metadata: https://www.ebi.ac.uk/chembl",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/chembl/hf-skfp-chembl4203-ki-rdf"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/hf-skfp-chembl4616-ec50-rdf.git",
+        "repository_name": "hf-skfp-chembl4616-ec50-rdf",
+        "evidence": "exact registry resource URL plus namespace-specific repository metadata: https://www.ebi.ac.uk/chembl",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/chembl/hf-skfp-chembl4616-ec50-rdf"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/hf-skfp-chembl4792-ki-rdf.git",
+        "repository_name": "hf-skfp-chembl4792-ki-rdf",
+        "evidence": "exact registry resource URL plus namespace-specific repository metadata: https://www.ebi.ac.uk/chembl",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/chembl/hf-skfp-chembl4792-ki-rdf"
+      }
+    ],
+    "chembl.compound": [
+      {
+        "repository": "https://github.com/biobricks-ai/chembl-rdf.git",
+        "repository_name": "chembl-rdf",
+        "evidence": "registry provider domain plus namespace-specific metadata token: rdf.ebi.ac.uk; chembl",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/chembl.compound/chembl-rdf"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/chemblrdf.git",
+        "repository_name": "chemblrdf",
+        "evidence": "exact registry resource URL plus namespace-specific repository metadata: https://www.ebi.ac.uk/rdf/services/chembl",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/chembl.compound/chemblrdf"
+      }
+    ],
+    "chembl.target": [
+      {
+        "repository": "https://github.com/biobricks-ai/chembl-rdf.git",
+        "repository_name": "chembl-rdf",
+        "evidence": "registry provider domain plus namespace-specific metadata token: rdf.ebi.ac.uk; chembl",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/chembl.target"
+      }
+    ],
+    "classyfire": [
+      {
+        "repository": "https://github.com/biobricks-ai/classyfire-kg.git",
+        "repository_name": "classyfire-kg",
+        "evidence": "Existing reviewed hub mapping",
+        "evidence_source": "pre-existing hub mapping",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/classyfire"
+      }
+    ],
+    "clinicaltrials": [
+      {
+        "repository": "https://github.com/biobricks-ai/clinicaltrials.git",
+        "repository_name": "clinicaltrials",
+        "evidence": "registry provider domain plus namespace-specific metadata token: clinicaltrials.gov; clinicaltrials",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/clinicaltrials"
+      }
+    ],
+    "clinvar": [
+      {
+        "repository": "https://github.com/biobricks-ai/clinvar.git",
+        "repository_name": "clinvar",
+        "evidence": "Existing reviewed hub mapping",
+        "evidence_source": "pre-existing hub mapping",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/clinvar"
+      }
+    ],
+    "comptox": [
+      {
+        "repository": "https://github.com/biobricks-ai/comptox.git",
+        "repository_name": "comptox",
+        "evidence": "exact registry resource URL plus namespace-specific repository metadata: https://comptox.epa.gov/dashboard|registry provider domain plus namespace-specific metadata token: comptox.epa.gov; comptox",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/comptox/comptox"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/comptox-kg.git",
+        "repository_name": "comptox-kg",
+        "evidence": "Existing reviewed hub mapping",
+        "evidence_source": "pre-existing hub mapping",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/comptox/comptox-kg"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/comptox-rdf.git",
+        "repository_name": "comptox-rdf",
+        "evidence": "exact registry resource URL plus namespace-specific repository metadata: https://comptox.epa.gov/dashboard|registry provider domain plus namespace-specific metadata token: comptox.epa.gov; comptox",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/comptox/comptox-rdf"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/comptox-zebrafish-rdf.git",
+        "repository_name": "comptox-zebrafish-rdf",
+        "evidence": "exact registry resource URL plus namespace-specific repository metadata: https://comptox.epa.gov/dashboard|registry provider domain plus namespace-specific metadata token: comptox.epa.gov; comptox",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/comptox/comptox-zebrafish-rdf"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/epa-comptox-chemicals-dashboard-resourc.git",
+        "repository_name": "epa-comptox-chemicals-dashboard-resourc",
+        "evidence": "exact registry resource URL plus namespace-specific repository metadata: https://comptox.epa.gov/dashboard|registry provider domain plus namespace-specific metadata token: comptox.epa.gov; comptox",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/comptox/epa-comptox-chemicals-dashboard-resourc"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/epa-comptox-lists.git",
+        "repository_name": "epa-comptox-lists",
+        "evidence": "exact registry resource URL plus namespace-specific repository metadata: https://comptox.epa.gov/dashboard|registry provider domain plus namespace-specific metadata token: comptox.epa.gov; comptox",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/comptox/epa-comptox-lists"
+      }
+    ],
+    "conoserver": [
+      {
+        "repository": "https://github.com/biobricks-ai/conoserver.git",
+        "repository_name": "conoserver",
+        "evidence": "registry provider domain plus namespace-specific metadata token: www.conoserver.org; conoserver",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/conoserver"
+      }
+    ],
+    "ctd.chemical": [
+      {
+        "repository": "https://github.com/biobricks-ai/ctd-chemical-disease-associations.git",
+        "repository_name": "ctd-chemical-disease-associations",
+        "evidence": "registry provider domain plus namespace-specific metadata token: ctdbase.org; ctd",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/ctd.chemical/ctd-chemical-disease-associations"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/ctd-chemical-gene-interactions.git",
+        "repository_name": "ctd-chemical-gene-interactions",
+        "evidence": "registry provider domain plus namespace-specific metadata token: ctdbase.org; ctd",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/ctd.chemical/ctd-chemical-gene-interactions"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/ctd-database.git",
+        "repository_name": "ctd-database",
+        "evidence": "registry provider domain plus namespace-specific metadata token: ctdbase.org; ctd",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/ctd.chemical/ctd-database"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/ctd-toxicogenomics.git",
+        "repository_name": "ctd-toxicogenomics",
+        "evidence": "registry provider domain plus namespace-specific metadata token: ctdbase.org; ctd",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/ctd.chemical/ctd-toxicogenomics"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/ctdbase.git",
+        "repository_name": "ctdbase",
+        "evidence": "registry provider domain plus namespace-specific metadata token: ctdbase.org; ctd",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/ctd.chemical/ctdbase"
+      }
+    ],
+    "ctd.disease": [
+      {
+        "repository": "https://github.com/biobricks-ai/ctd-chemical-disease-associations.git",
+        "repository_name": "ctd-chemical-disease-associations",
+        "evidence": "registry provider domain plus namespace-specific metadata token: ctdbase.org; ctd",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/ctd.disease/ctd-chemical-disease-associations"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/ctd-chemical-gene-interactions.git",
+        "repository_name": "ctd-chemical-gene-interactions",
+        "evidence": "registry provider domain plus namespace-specific metadata token: ctdbase.org; ctd",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/ctd.disease/ctd-chemical-gene-interactions"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/ctd-database.git",
+        "repository_name": "ctd-database",
+        "evidence": "registry provider domain plus namespace-specific metadata token: ctdbase.org; ctd",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/ctd.disease/ctd-database"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/ctd-toxicogenomics.git",
+        "repository_name": "ctd-toxicogenomics",
+        "evidence": "registry provider domain plus namespace-specific metadata token: ctdbase.org; ctd",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/ctd.disease/ctd-toxicogenomics"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/ctdbase.git",
+        "repository_name": "ctdbase",
+        "evidence": "registry provider domain plus namespace-specific metadata token: ctdbase.org; ctd",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/ctd.disease/ctdbase"
+      }
+    ],
+    "ctd.gene": [
+      {
+        "repository": "https://github.com/biobricks-ai/ctd-chemical-disease-associations.git",
+        "repository_name": "ctd-chemical-disease-associations",
+        "evidence": "registry provider domain plus namespace-specific metadata token: ctdbase.org; ctd",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/ctd.gene/ctd-chemical-disease-associations"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/ctd-chemical-gene-interactions.git",
+        "repository_name": "ctd-chemical-gene-interactions",
+        "evidence": "registry provider domain plus namespace-specific metadata token: ctdbase.org; ctd",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/ctd.gene/ctd-chemical-gene-interactions"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/ctd-database.git",
+        "repository_name": "ctd-database",
+        "evidence": "registry provider domain plus namespace-specific metadata token: ctdbase.org; ctd",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/ctd.gene/ctd-database"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/ctd-toxicogenomics.git",
+        "repository_name": "ctd-toxicogenomics",
+        "evidence": "registry provider domain plus namespace-specific metadata token: ctdbase.org; ctd",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/ctd.gene/ctd-toxicogenomics"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/ctdbase.git",
+        "repository_name": "ctdbase",
+        "evidence": "registry provider domain plus namespace-specific metadata token: ctdbase.org; ctd",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/ctd.gene/ctdbase"
+      }
+    ],
+    "dbgap": [
+      {
+        "repository": "https://github.com/biobricks-ai/dbgap.git",
+        "repository_name": "dbgap",
+        "evidence": "Existing reviewed hub mapping",
+        "evidence_source": "pre-existing hub mapping",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/dbgap"
+      }
+    ],
+    "disprot": [
+      {
+        "repository": "https://github.com/biobricks-ai/disprot-idp.git",
+        "repository_name": "disprot-idp",
+        "evidence": "registry provider domain plus namespace-specific metadata token: disprot.org; disprot",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/disprot"
+      }
+    ],
+    "doid": [
+      {
+        "repository": "https://github.com/biobricks-ai/doid-rdf.git",
+        "repository_name": "doid-rdf",
+        "evidence": "Existing reviewed hub mapping",
+        "evidence_source": "pre-existing hub mapping",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/doid"
+      }
+    ],
+    "drugbank": [
+      {
+        "repository": "https://github.com/biobricks-ai/drugbank-open.git",
+        "repository_name": "drugbank-open",
+        "evidence": "registry provider domain plus namespace-specific metadata token: go.drugbank.com; drugbank",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/drugbank/drugbank-open"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/drugbank-open-data.git",
+        "repository_name": "drugbank-open-data",
+        "evidence": "registry provider domain plus namespace-specific metadata token: go.drugbank.com; drugbank",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/drugbank/drugbank-open-data"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/drugbank-products.git",
+        "repository_name": "drugbank-products",
+        "evidence": "registry provider domain plus namespace-specific metadata token: go.drugbank.com; drugbank",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/drugbank/drugbank-products"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/drugbank-targets.git",
+        "repository_name": "drugbank-targets",
+        "evidence": "registry provider domain plus namespace-specific metadata token: go.drugbank.com; drugbank",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/drugbank/drugbank-targets"
+      }
+    ],
+    "drugcentral": [
+      {
+        "repository": "https://github.com/biobricks-ai/drugcentral.git",
+        "repository_name": "drugcentral",
+        "evidence": "registry provider domain plus namespace-specific metadata token: drugcentral.org; drugcentral",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/drugcentral/drugcentral"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/drugcentral-drugs.git",
+        "repository_name": "drugcentral-drugs",
+        "evidence": "registry provider domain plus namespace-specific metadata token: drugcentral.org; drugcentral",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/drugcentral/drugcentral-drugs"
+      }
+    ],
+    "eu89h": [
+      {
+        "repository": "https://github.com/biobricks-ai/europa-jrc-qsar-model-database-jrc-da.git",
+        "repository_name": "europa-jrc-qsar-model-database-jrc-da",
+        "evidence": "exact registry resource URL plus namespace-specific repository metadata: http://data.europa.eu/89h|registry provider domain plus namespace-specific metadata token: data.europa.eu; jrc",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/eu89h/europa-jrc-qsar-model-database-jrc-da"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/jrc-a-systematic-review-of-physiologically-based-kinet.git",
+        "repository_name": "jrc-a-systematic-review-of-physiologically-based-kinet",
+        "evidence": "registry provider domain plus namespace-specific metadata token: data.jrc.ec.europa.eu; jrc",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/eu89h/jrc-a-systematic-review-of-physiologically-based-kinet"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/jrc-bimmoh-biomedical-models-hub.git",
+        "repository_name": "jrc-bimmoh-biomedical-models-hub",
+        "evidence": "registry provider domain plus namespace-specific metadata token: data.jrc.ec.europa.eu; jrc",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/eu89h/jrc-bimmoh-biomedical-models-hub"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/jrc-car-moa-database.git",
+        "repository_name": "jrc-car-moa-database",
+        "evidence": "exact registry resource URL plus namespace-specific repository metadata: http://data.europa.eu/89h|registry provider domain plus namespace-specific metadata token: data.jrc.ec.europa.eu; jrc|registry provider domain plus namespace-specific metadata token: data.europa.eu; jrc",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/eu89h/jrc-car-moa-database"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/jrc-car-moa-dossier-analysis-database.git",
+        "repository_name": "jrc-car-moa-dossier-analysis-database",
+        "evidence": "registry provider domain plus namespace-specific metadata token: data.jrc.ec.europa.eu; jrc",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/eu89h/jrc-car-moa-dossier-analysis-database"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/jrc-computational-models-for-the-safety-assessment-of.git",
+        "repository_name": "jrc-computational-models-for-the-safety-assessment-of",
+        "evidence": "registry provider domain plus namespace-specific metadata token: data.jrc.ec.europa.eu; catalogue",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/eu89h/jrc-computational-models-for-the-safety-assessment-of"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/jrc-ecvam-genotox.git",
+        "repository_name": "jrc-ecvam-genotox",
+        "evidence": "registry provider domain plus namespace-specific metadata token: data.jrc.ec.europa.eu; jrc",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/eu89h/jrc-ecvam-genotox"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/jrc-ecvam-genotox-carcinogenicity.git",
+        "repository_name": "jrc-ecvam-genotox-carcinogenicity",
+        "evidence": "exact registry resource URL plus namespace-specific repository metadata: http://data.europa.eu/89h|registry provider domain plus namespace-specific metadata token: data.jrc.ec.europa.eu; jrc|registry provider domain plus namespace-specific metadata token: data.europa.eu; jrc",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/eu89h/jrc-ecvam-genotox-carcinogenicity"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/jrc-ecvam-reference-chemicals.git",
+        "repository_name": "jrc-ecvam-reference-chemicals",
+        "evidence": "registry provider domain plus namespace-specific metadata token: data.jrc.ec.europa.eu; jrc",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/eu89h/jrc-ecvam-reference-chemicals"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/jrc-ecvam-repeatdose.git",
+        "repository_name": "jrc-ecvam-repeatdose",
+        "evidence": "registry provider domain plus namespace-specific metadata token: data.jrc.ec.europa.eu; jrc",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/eu89h/jrc-ecvam-repeatdose"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/jrc-ecvam-repeated-dose-toxicity.git",
+        "repository_name": "jrc-ecvam-repeated-dose-toxicity",
+        "evidence": "registry provider domain plus namespace-specific metadata token: data.jrc.ec.europa.eu; jrc",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/eu89h/jrc-ecvam-repeated-dose-toxicity"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/jrc-eurl-ecvam-fish-in-vitro-intrinsic-clearance-datab.git",
+        "repository_name": "jrc-eurl-ecvam-fish-in-vitro-intrinsic-clearance-datab",
+        "evidence": "registry provider domain plus namespace-specific metadata token: data.jrc.ec.europa.eu; jrc",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/eu89h/jrc-eurl-ecvam-fish-in-vitro-intrinsic-clearance-datab"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/jrc-eurl-ecvam-in-vitro-hepatocyte-clearance-and-blood.git",
+        "repository_name": "jrc-eurl-ecvam-in-vitro-hepatocyte-clearance-and-blood",
+        "evidence": "registry provider domain plus namespace-specific metadata token: data.jrc.ec.europa.eu; jrc",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/eu89h/jrc-eurl-ecvam-in-vitro-hepatocyte-clearance-and-blood"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/jrc-eurl-ecvam-kinetic-parameters-dataset.git",
+        "repository_name": "jrc-eurl-ecvam-kinetic-parameters-dataset",
+        "evidence": "registry provider domain plus namespace-specific metadata token: data.jrc.ec.europa.eu; jrc",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/eu89h/jrc-eurl-ecvam-kinetic-parameters-dataset"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/jrc-eurl-ecvam-library-of-reference-chemicals.git",
+        "repository_name": "jrc-eurl-ecvam-library-of-reference-chemicals",
+        "evidence": "registry provider domain plus namespace-specific metadata token: data.jrc.ec.europa.eu; jrc",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/eu89h/jrc-eurl-ecvam-library-of-reference-chemicals"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/jrc-eurl-ecvam-rodent-in-vivo-biotransformation-databa.git",
+        "repository_name": "jrc-eurl-ecvam-rodent-in-vivo-biotransformation-databa",
+        "evidence": "registry provider domain plus namespace-specific metadata token: data.jrc.ec.europa.eu; jrc",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/eu89h/jrc-eurl-ecvam-rodent-in-vivo-biotransformation-databa"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/jrc-expofacts.git",
+        "repository_name": "jrc-expofacts",
+        "evidence": "registry provider domain plus namespace-specific metadata token: data.jrc.ec.europa.eu; jrc",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/eu89h/jrc-expofacts"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/jrc-expofacts-database.git",
+        "repository_name": "jrc-expofacts-database",
+        "evidence": "registry provider domain plus namespace-specific metadata token: data.jrc.ec.europa.eu; jrc",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/eu89h/jrc-expofacts-database"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/jrc-heavy-metals-in-topsoils.git",
+        "repository_name": "jrc-heavy-metals-in-topsoils",
+        "evidence": "registry provider domain plus namespace-specific metadata token: data.jrc.ec.europa.eu; jrc",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/eu89h/jrc-heavy-metals-in-topsoils"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/jrc-high-content-imaging-analysis-of-heparg-cell-line.git",
+        "repository_name": "jrc-high-content-imaging-analysis-of-heparg-cell-line",
+        "evidence": "registry provider domain plus namespace-specific metadata token: data.jrc.ec.europa.eu; jrc",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/eu89h/jrc-high-content-imaging-analysis-of-heparg-cell-line"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/jrc-hts-db-of-nanomaterials-on-hepargs.git",
+        "repository_name": "jrc-hts-db-of-nanomaterials-on-hepargs",
+        "evidence": "registry provider domain plus namespace-specific metadata token: data.jrc.ec.europa.eu; jrc",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/eu89h/jrc-hts-db-of-nanomaterials-on-hepargs"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/jrc-impact-of-chemical-exposures-on-human-infectious-d.git",
+        "repository_name": "jrc-impact-of-chemical-exposures-on-human-infectious-d",
+        "evidence": "registry provider domain plus namespace-specific metadata token: data.jrc.ec.europa.eu; jrc",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/eu89h/jrc-impact-of-chemical-exposures-on-human-infectious-d"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/jrc-jrc-qsar-model-database.git",
+        "repository_name": "jrc-jrc-qsar-model-database",
+        "evidence": "registry provider domain plus namespace-specific metadata token: data.jrc.ec.europa.eu; jrc",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/eu89h/jrc-jrc-qsar-model-database"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/jrc-maps-of-heavy-metals-in-the-soils-of-the-eu-lucas.git",
+        "repository_name": "jrc-maps-of-heavy-metals-in-the-soils-of-the-eu-lucas",
+        "evidence": "registry provider domain plus namespace-specific metadata token: data.jrc.ec.europa.eu; jrc",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/eu89h/jrc-maps-of-heavy-metals-in-the-soils-of-the-eu-lucas"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/jrc-mercury-content-in-the-european-union-topsoil.git",
+        "repository_name": "jrc-mercury-content-in-the-european-union-topsoil",
+        "evidence": "registry provider domain plus namespace-specific metadata token: data.jrc.ec.europa.eu; catalogue",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/eu89h/jrc-mercury-content-in-the-european-union-topsoil"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/jrc-pesticides-residues-in-european-agricultural-soils.git",
+        "repository_name": "jrc-pesticides-residues-in-european-agricultural-soils",
+        "evidence": "registry provider domain plus namespace-specific metadata token: data.jrc.ec.europa.eu; jrc|registry provider domain plus namespace-specific metadata token: data.europa.eu; jrc",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/eu89h/jrc-pesticides-residues-in-european-agricultural-soils"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/jrc-resources-for-organ-on-chip-validation-euroocs-rab.git",
+        "repository_name": "jrc-resources-for-organ-on-chip-validation-euroocs-rab",
+        "evidence": "registry provider domain plus namespace-specific metadata token: data.jrc.ec.europa.eu; jrc",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/eu89h/jrc-resources-for-organ-on-chip-validation-euroocs-rab"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/jrc-time-and-concentration-responses-of-heparg.git",
+        "repository_name": "jrc-time-and-concentration-responses-of-heparg",
+        "evidence": "registry provider domain plus namespace-specific metadata token: data.jrc.ec.europa.eu; jrc",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/eu89h/jrc-time-and-concentration-responses-of-heparg"
+      }
+    ],
+    "foodb.compound": [
+      {
+        "repository": "https://github.com/biobricks-ai/foodb.git",
+        "repository_name": "foodb",
+        "evidence": "registry provider domain plus namespace-specific metadata token: foodb.ca; foodb",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/foodb.compound/foodb"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/foodb-compounds-collection-csv.git",
+        "repository_name": "foodb-compounds-collection-csv",
+        "evidence": "registry provider domain plus namespace-specific metadata token: foodb.ca; foodb",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/foodb.compound/foodb-compounds-collection-csv"
+      }
+    ],
+    "gdsc": [
+      {
+        "repository": "https://github.com/biobricks-ai/gdsc.git",
+        "repository_name": "gdsc",
+        "evidence": "registry provider domain plus namespace-specific metadata token: www.cancerrxgene.org; gdsc",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/gdsc"
+      }
+    ],
+    "go": [
+      {
+        "repository": "https://github.com/biobricks-ai/geneontology.git",
+        "repository_name": "geneontology",
+        "evidence": "Existing reviewed hub mapping",
+        "evidence_source": "pre-existing hub mapping",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/go"
+      }
+    ],
+    "gtex": [
+      {
+        "repository": "https://github.com/biobricks-ai/gtex.git",
+        "repository_name": "gtex",
+        "evidence": "registry provider domain plus namespace-specific metadata token: www.gtexportal.org; gtex",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/gtex"
+      }
+    ],
+    "hgnc": [
+      {
+        "repository": "https://github.com/biobricks-ai/hgnc.git",
+        "repository_name": "hgnc",
+        "evidence": "Existing reviewed hub mapping",
+        "evidence_source": "pre-existing hub mapping",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/hgnc"
+      }
+    ],
+    "hmdb": [
+      {
+        "repository": "https://github.com/biobricks-ai/hmdb.git",
+        "repository_name": "hmdb",
+        "evidence": "registry provider domain plus namespace-specific metadata token: www.hmdb.ca; hmdb",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/hmdb"
+      }
+    ],
+    "ice.chem": [
+      {
+        "repository": "https://github.com/biobricks-ai/ice-ntp-toxicology-data.git",
+        "repository_name": "ice-ntp-toxicology-data",
+        "evidence": "registry provider domain plus namespace-specific metadata token: ice.ntp.niehs.nih.gov; ice",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/ice.chem/ice-ntp-toxicology-data"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/ice-skin-sensitization.git",
+        "repository_name": "ice-skin-sensitization",
+        "evidence": "registry provider domain plus namespace-specific metadata token: ice.ntp.niehs.nih.gov; ice",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/ice.chem/ice-skin-sensitization"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/ntp-ice.git",
+        "repository_name": "ntp-ice",
+        "evidence": "registry provider domain plus namespace-specific metadata token: ice.ntp.niehs.nih.gov; ice",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/ice.chem/ntp-ice"
+      }
+    ],
+    "iedb": [
+      {
+        "repository": "https://github.com/biobricks-ai/iedb-mhc-binding.git",
+        "repository_name": "iedb-mhc-binding",
+        "evidence": "registry provider domain plus namespace-specific metadata token: www.iedb.org; iedb",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/iedb"
+      }
+    ],
+    "kaggle": [
+      {
+        "repository": "https://github.com/biobricks-ai/bace-smiles-kaggle-bench.git",
+        "repository_name": "bace-smiles-kaggle-bench",
+        "evidence": "registry provider domain plus namespace-specific metadata token: www.kaggle.com; kaggle",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/kaggle/bace-smiles-kaggle-bench"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/kaggle-bigquery-ebi-chembl.git",
+        "repository_name": "kaggle-bigquery-ebi-chembl",
+        "evidence": "registry provider domain plus namespace-specific metadata token: www.kaggle.com; kaggle",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/kaggle/kaggle-bigquery-ebi-chembl"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/kaggle-chikonzeroselemani-smile-data.git",
+        "repository_name": "kaggle-chikonzeroselemani-smile-data",
+        "evidence": "registry provider domain plus namespace-specific metadata token: www.kaggle.com; kaggle",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/kaggle/kaggle-chikonzeroselemani-smile-data"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/kaggle-data-driven-insights-into-chem.git",
+        "repository_name": "kaggle-data-driven-insights-into-chem",
+        "evidence": "registry provider domain plus namespace-specific metadata token: www.kaggle.com; kaggle",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/kaggle/kaggle-data-driven-insights-into-chem"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/kaggle-divyansh22-drug-discovery-data.git",
+        "repository_name": "kaggle-divyansh22-drug-discovery-data",
+        "evidence": "registry provider domain plus namespace-specific metadata token: www.kaggle.com; kaggle",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/kaggle/kaggle-divyansh22-drug-discovery-data"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/kaggle-epicskills-tox21-dataset.git",
+        "repository_name": "kaggle-epicskills-tox21-dataset",
+        "evidence": "registry provider domain plus namespace-specific metadata token: www.kaggle.com; kaggle",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/kaggle/kaggle-epicskills-tox21-dataset"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/kaggle-fanconic-smiles-toxicity.git",
+        "repository_name": "kaggle-fanconic-smiles-toxicity",
+        "evidence": "registry provider domain plus namespace-specific metadata token: www.kaggle.com; kaggle",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/kaggle/kaggle-fanconic-smiles-toxicity"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/kaggle-seddiktrk-melting-point-smiles.git",
+        "repository_name": "kaggle-seddiktrk-melting-point-smiles",
+        "evidence": "registry provider domain plus namespace-specific metadata token: www.kaggle.com; kaggle",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/kaggle/kaggle-seddiktrk-melting-point-smiles"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/kaggle-the-toxicity-prediction-challe.git",
+        "repository_name": "kaggle-the-toxicity-prediction-challe",
+        "evidence": "registry provider domain plus namespace-specific metadata token: www.kaggle.com; kaggle",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/kaggle/kaggle-the-toxicity-prediction-challe"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/kaggle-toxicity-threshold-check-task.git",
+        "repository_name": "kaggle-toxicity-threshold-check-task",
+        "evidence": "registry provider domain plus namespace-specific metadata token: www.kaggle.com; kaggle",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/kaggle/kaggle-toxicity-threshold-check-task"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/kaggle-vivek153-data-root.git",
+        "repository_name": "kaggle-vivek153-data-root",
+        "evidence": "registry provider domain plus namespace-specific metadata token: www.kaggle.com; kaggle",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/kaggle/kaggle-vivek153-data-root"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/sider-smiles-kaggle-bench.git",
+        "repository_name": "sider-smiles-kaggle-bench",
+        "evidence": "registry provider domain plus namespace-specific metadata token: www.kaggle.com; kaggle",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/kaggle/sider-smiles-kaggle-bench"
+      }
+    ],
+    "mesh": [
+      {
+        "repository": "https://github.com/biobricks-ai/mesh-kg.git",
+        "repository_name": "mesh-kg",
+        "evidence": "registry provider domain plus namespace-specific metadata token: www.nlm.nih.gov; mesh",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/mesh"
+      }
+    ],
+    "mesh.2012": [
+      {
+        "repository": "https://github.com/biobricks-ai/mesh-kg.git",
+        "repository_name": "mesh-kg",
+        "evidence": "registry provider domain plus namespace-specific metadata token: www.nlm.nih.gov; mesh",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/mesh.2012"
+      }
+    ],
+    "mesh.2013": [
+      {
+        "repository": "https://github.com/biobricks-ai/mesh-kg.git",
+        "repository_name": "mesh-kg",
+        "evidence": "registry provider domain plus namespace-specific metadata token: www.nlm.nih.gov; mesh",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/mesh.2013"
+      }
+    ],
+    "mw.project": [
+      {
+        "repository": "https://github.com/biobricks-ai/metabolomics-workbench-data.git",
+        "repository_name": "metabolomics-workbench-data",
+        "evidence": "registry provider domain plus namespace-specific metadata token: www.metabolomicsworkbench.org; metabolomics",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/mw.project"
+      }
+    ],
+    "mw.study": [
+      {
+        "repository": "https://github.com/biobricks-ai/metabolomics-workbench-data.git",
+        "repository_name": "metabolomics-workbench-data",
+        "evidence": "registry provider domain plus namespace-specific metadata token: www.metabolomicsworkbench.org; metabolomics",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/mw.study"
+      }
+    ],
+    "nmrshiftdb2": [
+      {
+        "repository": "https://github.com/biobricks-ai/nmrshiftdb2.git",
+        "repository_name": "nmrshiftdb2",
+        "evidence": "registry provider domain plus namespace-specific metadata token: nmrshiftdb.nmr.uni-koeln.de; nmrshiftdb2",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/nmrshiftdb2"
+      }
+    ],
+    "orthodb": [
+      {
+        "repository": "https://github.com/biobricks-ai/orthodb.git",
+        "repository_name": "orthodb",
+        "evidence": "Existing reviewed hub mapping",
+        "evidence_source": "pre-existing hub mapping",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/orthodb"
+      }
+    ],
+    "paxdb.organism": [
+      {
+        "repository": "https://github.com/biobricks-ai/paxdb-protein-abundance.git",
+        "repository_name": "paxdb-protein-abundance",
+        "evidence": "registry provider domain plus namespace-specific metadata token: pax-db.org; paxdb",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/paxdb.organism"
+      }
+    ],
+    "paxdb.protein": [
+      {
+        "repository": "https://github.com/biobricks-ai/paxdb-protein-abundance.git",
+        "repository_name": "paxdb-protein-abundance",
+        "evidence": "registry provider domain plus namespace-specific metadata token: pax-db.org; paxdb",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/paxdb.protein"
+      }
+    ],
+    "pdb": [
+      {
+        "repository": "https://github.com/biobricks-ai/human-protein-pdb.git",
+        "repository_name": "human-protein-pdb",
+        "evidence": "registry provider domain plus namespace-specific metadata token: www.rcsb.org; pdb",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/pdb"
+      }
+    ],
+    "pdb-ccd": [
+      {
+        "repository": "https://github.com/biobricks-ai/pdb-ccd.git",
+        "repository_name": "pdb-ccd",
+        "evidence": "Existing reviewed hub mapping",
+        "evidence_source": "pre-existing hub mapping",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/pdb-ccd"
+      }
+    ],
+    "pdb.ligand": [
+      {
+        "repository": "https://github.com/biobricks-ai/human-protein-pdb.git",
+        "repository_name": "human-protein-pdb",
+        "evidence": "registry provider domain plus namespace-specific metadata token: www.rcsb.org; pdb",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/pdb.ligand"
+      }
+    ],
+    "pharmgkb.disease": [
+      {
+        "repository": "https://github.com/biobricks-ai/pharmgkb.git",
+        "repository_name": "pharmgkb",
+        "evidence": "registry provider domain plus namespace-specific metadata token: www.pharmgkb.org; pharmgkb",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/pharmgkb.disease/pharmgkb"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/pharmgkb-pharmacogenomics-database-tsv.git",
+        "repository_name": "pharmgkb-pharmacogenomics-database-tsv",
+        "evidence": "registry provider domain plus namespace-specific metadata token: www.pharmgkb.org; pharmgkb",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/pharmgkb.disease/pharmgkb-pharmacogenomics-database-tsv"
+      }
+    ],
+    "pharmgkb.drug": [
+      {
+        "repository": "https://github.com/biobricks-ai/pharmgkb.git",
+        "repository_name": "pharmgkb",
+        "evidence": "registry provider domain plus namespace-specific metadata token: www.pharmgkb.org; pharmgkb",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/pharmgkb.drug/pharmgkb"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/pharmgkb-pharmacogenomics-database-tsv.git",
+        "repository_name": "pharmgkb-pharmacogenomics-database-tsv",
+        "evidence": "registry provider domain plus namespace-specific metadata token: www.pharmgkb.org; pharmgkb",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/pharmgkb.drug/pharmgkb-pharmacogenomics-database-tsv"
+      }
+    ],
+    "pharmgkb.gene": [
+      {
+        "repository": "https://github.com/biobricks-ai/pharmgkb.git",
+        "repository_name": "pharmgkb",
+        "evidence": "registry provider domain plus namespace-specific metadata token: www.pharmgkb.org; pharmgkb",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/pharmgkb.gene/pharmgkb"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/pharmgkb-pharmacogenomics-database-tsv.git",
+        "repository_name": "pharmgkb-pharmacogenomics-database-tsv",
+        "evidence": "registry provider domain plus namespace-specific metadata token: www.pharmgkb.org; pharmgkb",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/pharmgkb.gene/pharmgkb-pharmacogenomics-database-tsv"
+      }
+    ],
+    "pharmgkb.pathways": [
+      {
+        "repository": "https://github.com/biobricks-ai/pharmgkb.git",
+        "repository_name": "pharmgkb",
+        "evidence": "registry provider domain plus namespace-specific metadata token: www.pharmgkb.org; pharmgkb",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/pharmgkb.pathways/pharmgkb"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/pharmgkb-pharmacogenomics-database-tsv.git",
+        "repository_name": "pharmgkb-pharmacogenomics-database-tsv",
+        "evidence": "registry provider domain plus namespace-specific metadata token: www.pharmgkb.org; pharmgkb",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/pharmgkb.pathways/pharmgkb-pharmacogenomics-database-tsv"
+      }
+    ],
+    "phenolexplorer": [
+      {
+        "repository": "https://github.com/biobricks-ai/phenol-explorer-db.git",
+        "repository_name": "phenol-explorer-db",
+        "evidence": "registry provider domain plus namespace-specific metadata token: phenol-explorer.eu; explorer",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/phenolexplorer"
+      }
+    ],
+    "pkdb": [
+      {
+        "repository": "https://github.com/biobricks-ai/pkdb-clinical-pharmacokinetics.git",
+        "repository_name": "pkdb-clinical-pharmacokinetics",
+        "evidence": "registry provider domain plus namespace-specific metadata token: pk-db.com; pkdb",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/pkdb"
+      }
+    ],
+    "pmc": [
+      {
+        "repository": "https://github.com/biobricks-ai/pmc.git",
+        "repository_name": "pmc",
+        "evidence": "Existing reviewed hub mapping",
+        "evidence_source": "pre-existing hub mapping",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/pmc"
+      }
+    ],
+    "pubchem.bioassay": [
+      {
+        "repository": "https://github.com/biobricks-ai/nih-downloads-v2-pubchem-nih.git",
+        "repository_name": "nih-downloads-v2-pubchem-nih",
+        "evidence": "registry provider domain plus namespace-specific metadata token: pubchem.ncbi.nlm.nih.gov; pubchem",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/pubchem.bioassay/nih-downloads-v2-pubchem-nih"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/nih-pubchem-bioassays.git",
+        "repository_name": "nih-pubchem-bioassays",
+        "evidence": "registry provider domain plus namespace-specific metadata token: pubchem.ncbi.nlm.nih.gov; pubchem",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/pubchem.bioassay/nih-pubchem-bioassays"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/pubchem.git",
+        "repository_name": "pubchem",
+        "evidence": "registry provider domain plus namespace-specific metadata token: pubchem.ncbi.nlm.nih.gov; pubchem",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/pubchem.bioassay/pubchem"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/pubchem-annotations.git",
+        "repository_name": "pubchem-annotations",
+        "evidence": "registry provider domain plus namespace-specific metadata token: pubchem.ncbi.nlm.nih.gov; pubchem",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/pubchem.bioassay/pubchem-annotations"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/pubchem-bioassay-summary.git",
+        "repository_name": "pubchem-bioassay-summary",
+        "evidence": "registry provider domain plus namespace-specific metadata token: pubchem.ncbi.nlm.nih.gov; bioassay",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/pubchem.bioassay/pubchem-bioassay-summary"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/pubchem-bioassays-rdf.git",
+        "repository_name": "pubchem-bioassays-rdf",
+        "evidence": "exact registry resource URL plus namespace-specific repository metadata: https://pubchem.ncbi.nlm.nih.gov/bioassay|registry provider domain plus namespace-specific metadata token: pubchem.ncbi.nlm.nih.gov; pubchem",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/pubchem.bioassay/pubchem-bioassays-rdf"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/pubchemrdf-kg.git",
+        "repository_name": "pubchemrdf-kg",
+        "evidence": "registry provider domain plus namespace-specific metadata token: pubchem.ncbi.nlm.nih.gov; bioassay",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/pubchem.bioassay/pubchemrdf-kg"
+      }
+    ],
+    "pubchem.compound": [
+      {
+        "repository": "https://github.com/biobricks-ai/nih-downloads-v2-pubchem-nih.git",
+        "repository_name": "nih-downloads-v2-pubchem-nih",
+        "evidence": "registry provider domain plus namespace-specific metadata token: pubchem.ncbi.nlm.nih.gov; compound",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/pubchem.compound/nih-downloads-v2-pubchem-nih"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/nih-pubchem-bioassays.git",
+        "repository_name": "nih-pubchem-bioassays",
+        "evidence": "registry provider domain plus namespace-specific metadata token: pubchem.ncbi.nlm.nih.gov; pubchem",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/pubchem.compound/nih-pubchem-bioassays"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/pubchem.git",
+        "repository_name": "pubchem",
+        "evidence": "registry provider domain plus namespace-specific metadata token: pubchem.ncbi.nlm.nih.gov; pubchem",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/pubchem.compound/pubchem"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/pubchem-annotations.git",
+        "repository_name": "pubchem-annotations",
+        "evidence": "registry provider domain plus namespace-specific metadata token: pubchem.ncbi.nlm.nih.gov; pubchem",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/pubchem.compound/pubchem-annotations"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/pubchem-bioassay-summary.git",
+        "repository_name": "pubchem-bioassay-summary",
+        "evidence": "registry provider domain plus namespace-specific metadata token: pubchem.ncbi.nlm.nih.gov; pubchem",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/pubchem.compound/pubchem-bioassay-summary"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/pubchem-bioassays-rdf.git",
+        "repository_name": "pubchem-bioassays-rdf",
+        "evidence": "exact registry resource URL plus namespace-specific repository metadata: https://pubchem.ncbi.nlm.nih.gov/compound|registry provider domain plus namespace-specific metadata token: pubchem.ncbi.nlm.nih.gov; pubchem",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/pubchem.compound/pubchem-bioassays-rdf"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/pubchemrdf-kg.git",
+        "repository_name": "pubchemrdf-kg",
+        "evidence": "registry provider domain plus namespace-specific metadata token: pubchem.ncbi.nlm.nih.gov; compound",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/pubchem.compound/pubchemrdf-kg"
+      }
+    ],
+    "pubchem.substance": [
+      {
+        "repository": "https://github.com/biobricks-ai/nih-downloads-v2-pubchem-nih.git",
+        "repository_name": "nih-downloads-v2-pubchem-nih",
+        "evidence": "registry provider domain plus namespace-specific metadata token: pubchem.ncbi.nlm.nih.gov; pubchem",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/pubchem.substance/nih-downloads-v2-pubchem-nih"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/nih-pubchem-bioassays.git",
+        "repository_name": "nih-pubchem-bioassays",
+        "evidence": "registry provider domain plus namespace-specific metadata token: pubchem.ncbi.nlm.nih.gov; pubchem",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/pubchem.substance/nih-pubchem-bioassays"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/pubchem.git",
+        "repository_name": "pubchem",
+        "evidence": "registry provider domain plus namespace-specific metadata token: pubchem.ncbi.nlm.nih.gov; pubchem",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/pubchem.substance/pubchem"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/pubchem-annotations.git",
+        "repository_name": "pubchem-annotations",
+        "evidence": "registry provider domain plus namespace-specific metadata token: pubchem.ncbi.nlm.nih.gov; pubchem",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/pubchem.substance/pubchem-annotations"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/pubchem-bioassay-summary.git",
+        "repository_name": "pubchem-bioassay-summary",
+        "evidence": "registry provider domain plus namespace-specific metadata token: pubchem.ncbi.nlm.nih.gov; pubchem",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/pubchem.substance/pubchem-bioassay-summary"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/pubchem-bioassays-rdf.git",
+        "repository_name": "pubchem-bioassays-rdf",
+        "evidence": "exact registry resource URL plus namespace-specific repository metadata: https://pubchem.ncbi.nlm.nih.gov/substance|registry provider domain plus namespace-specific metadata token: pubchem.ncbi.nlm.nih.gov; pubchem",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/pubchem.substance/pubchem-bioassays-rdf"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/pubchemrdf-kg.git",
+        "repository_name": "pubchemrdf-kg",
+        "evidence": "registry provider domain plus namespace-specific metadata token: pubchem.ncbi.nlm.nih.gov; pubchem",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/pubchem.substance/pubchemrdf-kg"
+      }
+    ],
+    "pubmed": [
+      {
+        "repository": "https://github.com/biobricks-ai/pubmed.git",
+        "repository_name": "pubmed",
+        "evidence": "registry provider domain plus namespace-specific metadata token: pubmed.ncbi.nlm.nih.gov; pubmed",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/pubmed"
+      }
+    ],
+    "reactome": [
+      {
+        "repository": "https://github.com/biobricks-ai/reactome.git",
+        "repository_name": "reactome",
+        "evidence": "registry provider domain plus namespace-specific metadata token: reactome.org; reactome",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/reactome/reactome"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/reactome-pathway-db.git",
+        "repository_name": "reactome-pathway-db",
+        "evidence": "registry provider domain plus namespace-specific metadata token: reactome.org; reactome",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/reactome/reactome-pathway-db"
+      }
+    ],
+    "rhea": [
+      {
+        "repository": "https://github.com/biobricks-ai/ebi-rhea-reactions.git",
+        "repository_name": "ebi-rhea-reactions",
+        "evidence": "registry provider domain plus namespace-specific metadata token: www.rhea-db.org; rhea",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/rhea/ebi-rhea-reactions"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/rhea-kg.git",
+        "repository_name": "rhea-kg",
+        "evidence": "Existing reviewed hub mapping",
+        "evidence_source": "pre-existing hub mapping",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/rhea/rhea-kg"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/rhea-reactions.git",
+        "repository_name": "rhea-reactions",
+        "evidence": "registry provider domain plus namespace-specific metadata token: www.rhea-db.org; rhea",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/rhea/rhea-reactions"
+      }
+    ],
+    "sider.drug": [
+      {
+        "repository": "https://github.com/biobricks-ai/moleculenet-sider.git",
+        "repository_name": "moleculenet-sider",
+        "evidence": "registry provider domain plus namespace-specific metadata token: sideeffects.embl.de; sider",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/sider.drug/moleculenet-sider"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/sider.git",
+        "repository_name": "sider",
+        "evidence": "registry provider domain plus namespace-specific metadata token: sideeffects.embl.de; drug",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/sider.drug/sider"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/sider-drug-side-effects.git",
+        "repository_name": "sider-drug-side-effects",
+        "evidence": "registry provider domain plus namespace-specific metadata token: sideeffects.embl.de; drug",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/sider.drug/sider-drug-side-effects"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/sider-drug-side-effects-moleculenet.git",
+        "repository_name": "sider-drug-side-effects-moleculenet",
+        "evidence": "registry provider domain plus namespace-specific metadata token: sideeffects.embl.de; drug",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/sider.drug/sider-drug-side-effects-moleculenet"
+      }
+    ],
+    "sider.effect": [
+      {
+        "repository": "https://github.com/biobricks-ai/moleculenet-sider.git",
+        "repository_name": "moleculenet-sider",
+        "evidence": "registry provider domain plus namespace-specific metadata token: sideeffects.embl.de; sider",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/sider.effect/moleculenet-sider"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/sider.git",
+        "repository_name": "sider",
+        "evidence": "registry provider domain plus namespace-specific metadata token: sideeffects.embl.de; sider",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/sider.effect/sider"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/sider-drug-side-effects.git",
+        "repository_name": "sider-drug-side-effects",
+        "evidence": "registry provider domain plus namespace-specific metadata token: sideeffects.embl.de; side",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/sider.effect/sider-drug-side-effects"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/sider-drug-side-effects-moleculenet.git",
+        "repository_name": "sider-drug-side-effects-moleculenet",
+        "evidence": "registry provider domain plus namespace-specific metadata token: sideeffects.embl.de; side",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/sider.effect/sider-drug-side-effects-moleculenet"
+      }
+    ],
+    "signor": [
+      {
+        "repository": "https://github.com/biobricks-ai/signor.git",
+        "repository_name": "signor",
+        "evidence": "registry provider domain plus namespace-specific metadata token: signor.uniroma2.it; signor",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/signor"
+      }
+    ],
+    "smpdb": [
+      {
+        "repository": "https://github.com/biobricks-ai/smpdb-smpdb.git",
+        "repository_name": "smpdb-smpdb",
+        "evidence": "registry provider domain plus namespace-specific metadata token: smpdb.ca; smpdb",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/smpdb"
+      }
+    ],
+    "so": [
+      {
+        "repository": "https://github.com/biobricks-ai/so-rdf.git",
+        "repository_name": "so-rdf",
+        "evidence": "Existing reviewed hub mapping",
+        "evidence_source": "pre-existing hub mapping",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/so"
+      }
+    ],
+    "stitch": [
+      {
+        "repository": "https://github.com/biobricks-ai/stitch-chemical-links.git",
+        "repository_name": "stitch-chemical-links",
+        "evidence": "registry provider domain plus namespace-specific metadata token: stitch.embl.de; stitch",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/stitch/stitch-chemical-links"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/stitch-chemical-protein-links.git",
+        "repository_name": "stitch-chemical-protein-links",
+        "evidence": "registry provider domain plus namespace-specific metadata token: stitch.embl.de; stitch",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/stitch/stitch-chemical-protein-links"
+      }
+    ],
+    "t3db": [
+      {
+        "repository": "https://github.com/biobricks-ai/t3db.git",
+        "repository_name": "t3db",
+        "evidence": "Existing reviewed hub mapping",
+        "evidence_source": "pre-existing hub mapping",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/t3db"
+      }
+    ],
+    "taxonomy": [
+      {
+        "repository": "https://github.com/biobricks-ai/taxonomy-rdf.git",
+        "repository_name": "taxonomy-rdf",
+        "evidence": "Existing reviewed hub mapping",
+        "evidence_source": "pre-existing hub mapping",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/taxonomy"
+      }
+    ],
+    "ttd.target": [
+      {
+        "repository": "https://github.com/biobricks-ai/therapeutic-target-database.git",
+        "repository_name": "therapeutic-target-database",
+        "evidence": "exact registry resource URL plus namespace-specific repository metadata: https://db.idrblab.net/ttd|registry provider domain plus namespace-specific metadata token: db.idrblab.net; target",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/ttd.target"
+      }
+    ],
+    "unii": [
+      {
+        "repository": "https://github.com/biobricks-ai/fda-unii-rdf.git",
+        "repository_name": "fda-unii-rdf",
+        "evidence": "exact registry resource URL plus namespace-specific repository metadata: https://precision.fda.gov/uniisearch|exact registry resource URL plus namespace-specific repository metadata: https://precision.fda.gov/uniisearch/srs/unii|registry provider domain plus namespace-specific metadata token: precision.fda.gov; unii",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/unii/fda-unii-rdf"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/unii-fda.git",
+        "repository_name": "unii-fda",
+        "evidence": "exact registry resource URL plus namespace-specific repository metadata: https://precision.fda.gov/uniisearch|registry provider domain plus namespace-specific metadata token: precision.fda.gov; unii",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/unii/unii-fda"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/unii-fda-rdf.git",
+        "repository_name": "unii-fda-rdf",
+        "evidence": "exact registry resource URL plus namespace-specific repository metadata: https://precision.fda.gov/uniisearch|registry provider domain plus namespace-specific metadata token: precision.fda.gov; unii",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/unii/unii-fda-rdf"
+      }
+    ],
+    "uniprot": [
+      {
+        "repository": "https://github.com/biobricks-ai/uniprot.git",
+        "repository_name": "uniprot",
+        "evidence": "registry provider domain plus namespace-specific metadata token: www.uniprot.org; uniprot",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/uniprot/uniprot"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/uniprot-kg.git",
+        "repository_name": "uniprot-kg",
+        "evidence": "registry provider domain plus namespace-specific metadata token: www.uniprot.org; uniprot",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/uniprot/uniprot-kg"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/uniprot-rdf.git",
+        "repository_name": "uniprot-rdf",
+        "evidence": "registry provider domain plus namespace-specific metadata token: purl.uniprot.org; uniprot",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/uniprot/uniprot-rdf"
+      }
+    ],
+    "uniprot.chain": [
+      {
+        "repository": "https://github.com/biobricks-ai/uniprot.git",
+        "repository_name": "uniprot",
+        "evidence": "registry provider domain plus namespace-specific metadata token: www.uniprot.org; uniprot",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/uniprot.chain/uniprot"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/uniprot-kg.git",
+        "repository_name": "uniprot-kg",
+        "evidence": "registry provider domain plus namespace-specific metadata token: www.uniprot.org; uniprot",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/uniprot.chain/uniprot-kg"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/uniprot-rdf.git",
+        "repository_name": "uniprot-rdf",
+        "evidence": "registry provider domain plus namespace-specific metadata token: purl.uniprot.org; uniprot",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/uniprot.chain/uniprot-rdf"
+      }
+    ],
+    "uniprot.isoform": [
+      {
+        "repository": "https://github.com/biobricks-ai/uniprot.git",
+        "repository_name": "uniprot",
+        "evidence": "registry provider domain plus namespace-specific metadata token: www.uniprot.org; uniprot",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/uniprot.isoform/uniprot"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/uniprot-kg.git",
+        "repository_name": "uniprot-kg",
+        "evidence": "registry provider domain plus namespace-specific metadata token: www.uniprot.org; uniprot",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/uniprot.isoform/uniprot-kg"
+      },
+      {
+        "repository": "https://github.com/biobricks-ai/uniprot-rdf.git",
+        "repository_name": "uniprot-rdf",
+        "evidence": "registry provider domain plus namespace-specific metadata token: purl.uniprot.org; uniprot",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/uniprot.isoform/uniprot-rdf"
+      }
+    ],
+    "wikidata": [
+      {
+        "repository": "https://github.com/biobricks-ai/biobricks-wikidata.git",
+        "repository_name": "biobricks-wikidata",
+        "evidence": "exact registry resource URL plus namespace-specific repository metadata: http://www.wikidata.org/entity|registry provider domain plus namespace-specific metadata token: www.wikidata.org; wikidata",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/wikidata"
+      }
+    ],
+    "wikipathways": [
+      {
+        "repository": "https://github.com/biobricks-ai/wikipathways.git",
+        "repository_name": "wikipathways",
+        "evidence": "registry provider domain plus namespace-specific metadata token: www.wikipathways.org; wikipathways",
+        "evidence_source": "registry/audit/primary-source-mappings.tsv",
+        "status": "existing-submodule",
+        "submodule_path": "graphs/wikipathways"
+      }
+    ]
+  }
 }

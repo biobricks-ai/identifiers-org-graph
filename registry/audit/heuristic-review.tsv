@@ -1,0 +1,301 @@
+namespace_prefix	namespace_name	repository	repository_url	similarity	token_overlap	review_reason
+ardb	Antibiotic Resistance Genes Database	card-antibiotic-resistance-database-amr	https://github.com/biobricks-ai/card-antibiotic-resistance-database-amr	0.850	antibiotic,resistance	no exact source/metadata evidence
+kegg	Kyoto Encyclopedia of Genes and Genomes	gencode	https://github.com/biobricks-ai/gencode	0.739	encyclopedia,genes	no exact source/metadata evidence
+massbank	MassBank	massbank-data	https://github.com/biobricks-ai/massbank-data	0.733	massbank	no exact source/metadata evidence
+aop	AOPWiki	aop-wiki-kg	https://github.com/biobricks-ai/aop-wiki-kg	0.727	aop	no exact source/metadata evidence
+ccds	Consensus CDS	lincs-consensus	https://github.com/biobricks-ai/lincs-consensus	0.727	consensus	no exact source/metadata evidence
+drugcentral	DrugCentral	drugcentral-target-interactions	https://github.com/biobricks-ai/drugcentral-target-interactions	0.704	drugcentral	no exact source/metadata evidence
+gdc	Genomic Data Commons Data Portal	gdc	https://github.com/biobricks-ai/gdc	0.703	commons,gdc,genomic	no exact source/metadata evidence
+sider.effect	SIDER Side Effect	moleculenet-sider-side-effects	https://github.com/biobricks-ai/moleculenet-sider-side-effects	0.700	side,sider	no exact source/metadata evidence
+sider.effect	SIDER Side Effect	sider4-side-effects	https://github.com/biobricks-ai/sider4-side-effects	0.694	side	no exact source/metadata evidence
+uniprot	UniProt Knowledgebase	ecotox-knowledgebase	https://github.com/biobricks-ai/ecotox-knowledgebase	0.694	knowledgebase	no exact source/metadata evidence
+mpid	Microbial Protein Interaction Database	stitch	https://github.com/biobricks-ai/stitch	0.690	interaction	no exact source/metadata evidence
+chembl.target	ChEMBL target	chembl-target-panels	https://github.com/biobricks-ai/chembl-target-panels	0.681	chembl,target	no exact source/metadata evidence
+uniprot	UniProt Knowledgebase	epa-ecotox-knowledgebase	https://github.com/biobricks-ai/epa-ecotox-knowledgebase	0.679	knowledgebase	no exact source/metadata evidence
+ardb	Antibiotic Resistance Genes Database	antibiotic-resistance	https://github.com/biobricks-ai/antibiotic-resistance	0.677	antibiotic,resistance	no exact source/metadata evidence
+bigg.reaction	BiGG Reaction	skin-reaction-rdf	https://github.com/biobricks-ai/skin-reaction-rdf	0.677	reaction	no exact source/metadata evidence
+kegg.reaction	KEGG Reaction	skin-reaction-rdf	https://github.com/biobricks-ai/skin-reaction-rdf	0.677	reaction	no exact source/metadata evidence
+drugcentral	DrugCentral	drugcentral-structures-identifiers	https://github.com/biobricks-ai/drugcentral-structures-identifiers	0.667	drugcentral	no exact source/metadata evidence
+gpcrdb	GPCRDB	gpcrdb-ligands	https://github.com/biobricks-ai/gpcrdb-ligands	0.667	gpcrdb	no exact source/metadata evidence
+pubchem.compound	PubChem-compound	pubchem-compounds-sdf	https://github.com/biobricks-ai/pubchem-compounds-sdf	0.667	pubchem	no exact source/metadata evidence
+ricenetdb.reaction	RiceNetDB Reaction	skin-reaction-rdf	https://github.com/biobricks-ai/skin-reaction-rdf	0.667	reaction	no exact source/metadata evidence
+sabiork.reaction	SABIO-RK Reaction	skin-reaction-rdf	https://github.com/biobricks-ai/skin-reaction-rdf	0.667	reaction	no exact source/metadata evidence
+seed.reaction	SEED Reactions	skin-reaction-rdf	https://github.com/biobricks-ai/skin-reaction-rdf	0.667	reaction	no exact source/metadata evidence
+smpdb	Small Molecule Pathway Database	SMRT	https://github.com/biobricks-ai/SMRT	0.658	molecule,small	no exact source/metadata evidence
+odor	Odor Molecules DataBase	open-targets-molecules-dataset	https://github.com/biobricks-ai/open-targets-molecules-dataset	0.655	molecules	no exact source/metadata evidence
+pharmgkb.gene	PharmGKB Gene	pharmgkb-pharmacogenomics	https://github.com/biobricks-ai/pharmgkb-pharmacogenomics	0.654	pharmgkb	no exact source/metadata evidence
+genprop	Genome Properties	ecnet-fuel-properties	https://github.com/biobricks-ai/ecnet-fuel-properties	0.652	properties	no exact source/metadata evidence
+obcs	 Ontology of Biological and Clinical Statistics	catalog-biological-and-chemical-data-f	https://github.com/biobricks-ai/catalog-biological-and-chemical-data-f	0.652	biological	no exact source/metadata evidence
+jcsd	Japan Chemical Substance Dictionary	chemradar-u-s-tsca-chemical-substance-in	https://github.com/biobricks-ai/chemradar-u-s-tsca-chemical-substance-in	0.650	substance	no exact source/metadata evidence
+gcst	GWAS Catalog	datagov-cata-catalog	https://github.com/biobricks-ai/datagov-cata-catalog	0.649	catalog	no exact source/metadata evidence
+classyfire	ClassyFire	classyfire-kg	https://github.com/biobricks-ai/classyfire-kg	0.647	classyfire	no exact source/metadata evidence
+encode	ENCODE: Encyclopedia of DNA Elements	gencode	https://github.com/biobricks-ai/gencode	0.644	encyclopedia	no exact source/metadata evidence
+lrg	Locus Reference Genomic	jrc-ecvam-reference-chemicals	https://github.com/biobricks-ai/jrc-ecvam-reference-chemicals	0.643	reference	no exact source/metadata evidence
+dg.md1r	MIDRC Data Commons	therapeutic-data-commons	https://github.com/biobricks-ai/therapeutic-data-commons	0.640	commons	no exact source/metadata evidence
+dg.7c5b	Environmental Data Commons	catalog-u-s-environmental-93-dataset-c	https://github.com/biobricks-ai/catalog-u-s-environmental-93-dataset-c	0.639	environmental	no exact source/metadata evidence
+chembl.compound	ChEMBL compound	chembl-compounds	https://github.com/biobricks-ai/chembl-compounds	0.638	chembl	no exact source/metadata evidence
+pw	Pathway Ontology	ecohealth-pathway-toxicology	https://github.com/biobricks-ai/ecohealth-pathway-toxicology	0.638	pathway	no exact source/metadata evidence
+sider.drug	SIDER Drug	offsides-drug-side-effects	https://github.com/biobricks-ai/offsides-drug-side-effects	0.638	drug	no exact source/metadata evidence
+dg.80b6	GenoMEL Data Commons	gdc	https://github.com/biobricks-ai/gdc	0.636	commons	no exact source/metadata evidence
+identifiers.namespace	Identifiers.org namespace	identifiers-org-graph	https://github.com/biobricks-ai/identifiers-org-graph	0.636	org	no exact source/metadata evidence
+metabolights	MetaboLights	ebi-metabolights-compounds	https://github.com/biobricks-ai/ebi-metabolights-compounds	0.627	metabolights	no exact source/metadata evidence
+identifiers.namespace	Identifiers.org namespace	identifiers-org-sparql-rdf	https://github.com/biobricks-ai/identifiers-org-sparql-rdf	0.626	org	no exact source/metadata evidence
+rhea	Rhea	rhea-kg	https://github.com/biobricks-ai/rhea-kg	0.625	rhea	no exact source/metadata evidence
+clinicaltrials	ClinicalTrials.gov	clinicaltrials-interventions	https://github.com/biobricks-ai/clinicaltrials-interventions	0.623	clinicaltrials	no exact source/metadata evidence
+chembl	ChEMBL	chembl-compounds	https://github.com/biobricks-ai/chembl-compounds	0.621	chembl	no exact source/metadata evidence
+drugbank	DrugBank	drugbank-tsv	https://github.com/biobricks-ai/drugbank-tsv	0.621	drugbank	no exact source/metadata evidence
+seed.reaction	SEED Reactions	rhea-reactions	https://github.com/biobricks-ai/rhea-reactions	0.619	reactions	no exact source/metadata evidence
+uniprot	UniProt Knowledgebase	nih-epa-ecotoxicology-knowledgebase-eco	https://github.com/biobricks-ai/nih-epa-ecotoxicology-knowledgebase-eco	0.618	knowledgebase	no exact source/metadata evidence
+chembl	ChEMBL	chembl-latest	https://github.com/biobricks-ai/chembl-latest	0.615	chembl	no exact source/metadata evidence
+umbbd.reaction	UM-BBD Reaction	skin-reaction-rdf	https://github.com/biobricks-ai/skin-reaction-rdf	0.615	reaction	no exact source/metadata evidence
+chembl.compound	ChEMBL compound	chembl-32-compound-target-pairs	https://github.com/biobricks-ai/chembl-32-compound-target-pairs	0.613	chembl,compound	no exact source/metadata evidence
+pubchem.bioassay	PubChem-bioassay	archive-pubchem-bioassay-data	https://github.com/biobricks-ai/archive-pubchem-bioassay-data	0.613	bioassay,pubchem	no exact source/metadata evidence
+tcdb	Transport Classification Database	acute-toxicity-classification-10-bins	https://github.com/biobricks-ai/acute-toxicity-classification-10-bins	0.613	classification	no exact source/metadata evidence
+datanator.reaction	Datanator Reaction	skin-reaction-rdf	https://github.com/biobricks-ai/skin-reaction-rdf	0.611	reaction	no exact source/metadata evidence
+raid	Research Activity Identifier	idac-activity-coefficients	https://github.com/biobricks-ai/idac-activity-coefficients	0.610	activity	no exact source/metadata evidence
+vmhreaction	VMH reaction	skin-reaction-rdf	https://github.com/biobricks-ai/skin-reaction-rdf	0.610	reaction	no exact source/metadata evidence
+biogrid	BioGRID	biogrid-biological-interactions	https://github.com/biobricks-ai/biogrid-biological-interactions	0.609	biogrid	no exact source/metadata evidence
+comptox	CompTox Chemistry Dashboard	epa-chemistry-dashboard-data-abstr	https://github.com/biobricks-ai/epa-chemistry-dashboard-data-abstr	0.609	chemistry,dashboard	no exact source/metadata evidence
+pathwaycommons	Pathway Commons	tdcommons-therapeutics-data-commons-tdc	https://github.com/biobricks-ai/tdcommons-therapeutics-data-commons-tdc	0.609	commons	no exact source/metadata evidence
+lgic	Ligand-Gated Ion Channel database	klifs-kinase-ligand-interactions-database	https://github.com/biobricks-ai/klifs-kinase-ligand-interactions-database	0.608	ligand	no exact source/metadata evidence
+sider.effect	SIDER Side Effect	offsides-drug-side-effects	https://github.com/biobricks-ai/offsides-drug-side-effects	0.607	side	no exact source/metadata evidence
+dg.c78ne	Canine Data Commons	gdc	https://github.com/biobricks-ai/gdc	0.606	commons	no exact source/metadata evidence
+pmr	Physiome Model Repository	qsardb-qsar-and-qspr-model-repository	https://github.com/biobricks-ai/qsardb-qsar-and-qspr-model-repository	0.606	model	no exact source/metadata evidence
+identifiers.namespace	Identifiers.org namespace	identifiers-org-statistics-rdf	https://github.com/biobricks-ai/identifiers-org-statistics-rdf	0.605	org	no exact source/metadata evidence
+vmhreaction	VMH reaction	reaction-properties	https://github.com/biobricks-ai/reaction-properties	0.605	reaction	no exact source/metadata evidence
+dg.md1r	MIDRC Data Commons	emergentmind-therapeutic-data-commons	https://github.com/biobricks-ai/emergentmind-therapeutic-data-commons	0.603	commons	no exact source/metadata evidence
+metanetx.reaction	MetaNetX reaction	skin-reaction-rdf	https://github.com/biobricks-ai/skin-reaction-rdf	0.600	reaction	no exact source/metadata evidence
+ordb	Olfactory Receptor Database	nura-nuclear-receptor-activity-dataset	https://github.com/biobricks-ai/nura-nuclear-receptor-activity-dataset	0.600	receptor	no exact source/metadata evidence
+t3db	T3DB	t3db-toxins	https://github.com/biobricks-ai/t3db-toxins	0.600	t3db	no exact source/metadata evidence
+identifiers.namespace	Identifiers.org namespace	identifiers-org-registry-rdf	https://github.com/biobricks-ai/identifiers-org-registry-rdf	0.598	org	no exact source/metadata evidence
+tcdb	Transport Classification Database	uci-toxicity-2-classification	https://github.com/biobricks-ai/uci-toxicity-2-classification	0.597	classification	no exact source/metadata evidence
+dg.va03	VA Data Commons	therapeutic-data-commons	https://github.com/biobricks-ai/therapeutic-data-commons	0.596	commons	no exact source/metadata evidence
+phenolexplorer	Phenol-Explorer	exposome-explorer	https://github.com/biobricks-ai/exposome-explorer	0.596	explorer	no exact source/metadata evidence
+seed.reaction	SEED Reactions	reaction-properties	https://github.com/biobricks-ai/reaction-properties	0.596	reaction	no exact source/metadata evidence
+vmhreaction	VMH reaction	skin-reaction	https://github.com/biobricks-ai/skin-reaction	0.595	reaction	no exact source/metadata evidence
+chembl.target	ChEMBL target	chembl-downloads-chembl-interface-doc	https://github.com/biobricks-ai/chembl-downloads-chembl-interface-doc	0.594	chembl	no exact source/metadata evidence
+metabolights	MetaboLights	zenodo-metabolights-compounds	https://github.com/biobricks-ai/zenodo-metabolights-compounds	0.593	metabolights	no exact source/metadata evidence
+ordb	Olfactory Receptor Database	pyrfume-olfactory-data	https://github.com/biobricks-ai/pyrfume-olfactory-data	0.593	olfactory	no exact source/metadata evidence
+genprop	Genome Properties	reaction-properties	https://github.com/biobricks-ai/reaction-properties	0.591	properties	no exact source/metadata evidence
+tissuelist	Tissue List	nist-pfas-suspect-list	https://github.com/biobricks-ai/nist-pfas-suspect-list	0.591	list	no exact source/metadata evidence
+efo	Experimental Factor Ontology	matbench-experimental-bandgap	https://github.com/biobricks-ai/matbench-experimental-bandgap	0.590	experimental	no exact source/metadata evidence
+mirbase	miRBase Sequence	mirbase	https://github.com/biobricks-ai/mirbase	0.590	mirbase	no exact source/metadata evidence
+chembl.compound	ChEMBL compound	chembl-downloads-chembl-interface-doc	https://github.com/biobricks-ai/chembl-downloads-chembl-interface-doc	0.588	chembl	no exact source/metadata evidence
+col	Catalogue of Life	tdc-half-life	https://github.com/biobricks-ai/tdc-half-life	0.588	life	no exact source/metadata evidence
+pharmgkb.disease	PharmGKB Disease	pharmgkb-pharmacogenomics	https://github.com/biobricks-ai/pharmgkb-pharmacogenomics	0.586	pharmgkb	no exact source/metadata evidence
+genprop	Genome Properties	rdkit-properties	https://github.com/biobricks-ai/rdkit-properties	0.585	properties	no exact source/metadata evidence
+mi	Molecular Interactions Ontology	biogrid-biological-interactions	https://github.com/biobricks-ai/biogrid-biological-interactions	0.585	interactions	no exact source/metadata evidence
+identifiers.namespace	Identifiers.org namespace	identifiers-org-resolutions-rdf	https://github.com/biobricks-ai/identifiers-org-resolutions-rdf	0.583	org	no exact source/metadata evidence
+raid	Research Activity Identifier	nih-predicting-the-activity-of-unidenti	https://github.com/biobricks-ai/nih-predicting-the-activity-of-unidenti	0.583	activity	no exact source/metadata evidence
+smpdb	Small Molecule Pathway Database	pubs-moltoxpred-small-molecule-toxi	https://github.com/biobricks-ai/pubs-moltoxpred-small-molecule-toxi	0.583	molecule,small	no exact source/metadata evidence
+peptideatlas.dataset	PeptideAtlas Dataset	catalog-pesticides-dataset-catalog-dat	https://github.com/biobricks-ai/catalog-pesticides-dataset-catalog-dat	0.582	dataset	no exact source/metadata evidence
+gold.meta	GOLD metadata	susdat-metadata	https://github.com/biobricks-ai/susdat-metadata	0.579	metadata	no exact source/metadata evidence
+ice.chem	Integrated Chemical Environment - Chemical data	chemharmony	https://github.com/biobricks-ai/chemharmony	0.578	integrated	no exact source/metadata evidence
+insdc	Nucleotide Sequence Database	dbsnp	https://github.com/biobricks-ai/dbsnp	0.578	nucleotide	no exact source/metadata evidence
+dg.4825	ACCOuNT Data Commons	therapeutic-data-commons	https://github.com/biobricks-ai/therapeutic-data-commons	0.577	commons	no exact source/metadata evidence
+dg.7c5b	Environmental Data Commons	iogp-environmental	https://github.com/biobricks-ai/iogp-environmental	0.577	environmental	no exact source/metadata evidence
+dg.80b6	GenoMEL Data Commons	therapeutic-data-commons	https://github.com/biobricks-ai/therapeutic-data-commons	0.577	commons	no exact source/metadata evidence
+drugbankv4.target	DrugBank Target v4	drugbank-targets	https://github.com/biobricks-ai/drugbank-targets	0.577	drugbank	no exact source/metadata evidence
+pharmgkb.drug	PharmGKB Drug	pharmgkb-pharmacogenomics	https://github.com/biobricks-ai/pharmgkb-pharmacogenomics	0.577	pharmgkb	no exact source/metadata evidence
+ec-code	Enzyme Nomenclature	tomer-enzyme-optimal-temperature	https://github.com/biobricks-ai/tomer-enzyme-optimal-temperature	0.576	enzyme	no exact source/metadata evidence
+cdpd	Canadian Drug Product Database	fda	https://github.com/biobricks-ai/fda	0.575	drug	no exact source/metadata evidence
+datanator.reaction	Datanator Reaction	open-reaction-database-ord	https://github.com/biobricks-ai/open-reaction-database-ord	0.571	reaction	no exact source/metadata evidence
+genprop	Genome Properties	qmugs-quantum-properties	https://github.com/biobricks-ai/qmugs-quantum-properties	0.571	properties	no exact source/metadata evidence
+jcsd	Japan Chemical Substance Dictionary	kreach-pec-substance-list-inventory-d	https://github.com/biobricks-ai/kreach-pec-substance-list-inventory-d	0.571	substance	no exact source/metadata evidence
+nbrc	NITE Biological Research Center Catalogue	biogrid-biological-interactions	https://github.com/biobricks-ai/biogrid-biological-interactions	0.571	biological	no exact source/metadata evidence
+nmrshiftdb2	NMR Shift Database	bmrb-nmr-csv-tables	https://github.com/biobricks-ai/bmrb-nmr-csv-tables	0.571	nmr	no exact source/metadata evidence
+odor	Odor Molecules DataBase	molecules-dataset-collection	https://github.com/biobricks-ai/molecules-dataset-collection	0.571	molecules	no exact source/metadata evidence
+t3db	T3DB	t3db-targets	https://github.com/biobricks-ai/t3db-targets	0.571	t3db	no exact source/metadata evidence
+napdi	Natural Product-Drug Interaction Research Data Repository	nih-natural-product-libraries-nccih-nih	https://github.com/biobricks-ai/nih-natural-product-libraries-nccih-nih	0.569	natural,product	no exact source/metadata evidence
+cpc	Cooperative Patent Classification	acute-toxicity-classification-10-bins	https://github.com/biobricks-ai/acute-toxicity-classification-10-bins	0.568	classification	no exact source/metadata evidence
+lgai.cede	LG Chemical Entity Detection Dataset (LGCEDe)	large-scale-bioactivity-prediction-dataset	https://github.com/biobricks-ai/large-scale-bioactivity-prediction-dataset	0.568	dataset	no exact source/metadata evidence
+unipathway.reaction	UniPathway Reaction	skin-reaction-rdf	https://github.com/biobricks-ai/skin-reaction-rdf	0.568	reaction	no exact source/metadata evidence
+euclinicaltrials	EU Clinical Trials	clintox-clinical-toxicity	https://github.com/biobricks-ai/clintox-clinical-toxicity	0.567	clinical	no exact source/metadata evidence
+f82a1a	Kids First Data Catalog	catalog-food-additive-dataset-catalog	https://github.com/biobricks-ai/catalog-food-additive-dataset-catalog	0.567	catalog	no exact source/metadata evidence
+apid.interactions	APID Interactomes	dgidb-interactions	https://github.com/biobricks-ai/dgidb-interactions	0.566	interactions	no exact source/metadata evidence
+dg.c78ne	Canine Data Commons	cebs-database-commons-rdf	https://github.com/biobricks-ai/cebs-database-commons-rdf	0.566	commons	no exact source/metadata evidence
+mi	Molecular Interactions Ontology	stitch-interactions	https://github.com/biobricks-ai/stitch-interactions	0.566	interactions	no exact source/metadata evidence
+bigg.reaction	BiGG Reaction	reaction-properties	https://github.com/biobricks-ai/reaction-properties	0.565	reaction	no exact source/metadata evidence
+identifiers.namespace	Identifiers.org namespace	identifiers-org-registry-data	https://github.com/biobricks-ai/identifiers-org-registry-data	0.565	org	no exact source/metadata evidence
+kegg.reaction	KEGG Reaction	reaction-properties	https://github.com/biobricks-ai/reaction-properties	0.565	reaction	no exact source/metadata evidence
+bindingdb	BindingDB	gh-dhimmel-bindingdb	https://github.com/biobricks-ai/gh-dhimmel-bindingdb	0.564	bindingdb	no exact source/metadata evidence
+dev.ga4ghdos	Development Data Object Service	epa-development-of-a-csrml-version	https://github.com/biobricks-ai/epa-development-of-a-csrml-version	0.564	development	no exact source/metadata evidence
+spdx	SPDX License List	ospar-plonor-list	https://github.com/biobricks-ai/ospar-plonor-list	0.564	list	no exact source/metadata evidence
+vmhreaction	VMH reaction	reaction-smiles	https://github.com/biobricks-ai/reaction-smiles	0.564	reaction	no exact source/metadata evidence
+begdb	Benchmark Energy & Geometry Database	tox-benchmark-tu-berlin-dataset	https://github.com/biobricks-ai/tox-benchmark-tu-berlin-dataset	0.563	benchmark	no exact source/metadata evidence
+morpheus	Morpheus model repository	qsardb-qsar-and-qspr-model-repository	https://github.com/biobricks-ai/qsardb-qsar-and-qspr-model-repository	0.563	model	no exact source/metadata evidence
+raid	Research Activity Identifier	nura-nuclear-receptor-activity-dataset	https://github.com/biobricks-ai/nura-nuclear-receptor-activity-dataset	0.563	activity	no exact source/metadata evidence
+swiss-model	SWISS-MODEL Repository	qsardb-qsar-and-qspr-model-repository	https://github.com/biobricks-ai/qsardb-qsar-and-qspr-model-repository	0.563	model	no exact source/metadata evidence
+dg.md1r	MIDRC Data Commons	gdc	https://github.com/biobricks-ai/gdc	0.562	commons	no exact source/metadata evidence
+stitch	STITCH	stitch-interactions	https://github.com/biobricks-ai/stitch-interactions	0.562	stitch	no exact source/metadata evidence
+dg.nci35	NCI Data Commons Framework Services	gdc	https://github.com/biobricks-ai/gdc	0.561	commons,nci	no exact source/metadata evidence
+pubchem.bioassay	PubChem-bioassay	pubchem-herg-bioactivity	https://github.com/biobricks-ai/pubchem-herg-bioactivity	0.561	pubchem	no exact source/metadata evidence
+f82a1a	Kids First Data Catalog	datagov-cata-catalog	https://github.com/biobricks-ai/datagov-cata-catalog	0.560	catalog	no exact source/metadata evidence
+gdc	Genomic Data Commons Data Portal	tdcommons-therapeutics-data-commons-tdc	https://github.com/biobricks-ai/tdcommons-therapeutics-data-commons-tdc	0.560	commons	no exact source/metadata evidence
+kaggle	Kaggle	tox21-kaggle	https://github.com/biobricks-ai/tox21-kaggle	0.560	kaggle	no exact source/metadata evidence
+lincs.smallmolecule	LINCS Small Molecule	pubs-moltoxpred-small-molecule-toxi	https://github.com/biobricks-ai/pubs-moltoxpred-small-molecule-toxi	0.560	molecule,small	no exact source/metadata evidence
+lrg	Locus Reference Genomic	jrc-ecvam-reference-rdf	https://github.com/biobricks-ai/jrc-ecvam-reference-rdf	0.560	reference	no exact source/metadata evidence
+mirbase.mature	miRBase mature sequence	mirbase	https://github.com/biobricks-ai/mirbase	0.560	mirbase	no exact source/metadata evidence
+bbkg	Blue Brain Project Knowledge Graph	biobricks-okg	https://github.com/biobricks-ai/biobricks-okg	0.559	graph,knowledge	no exact source/metadata evidence
+euclinicaltrials	EU Clinical Trials	clintox-clinical-toxicity-dataset	https://github.com/biobricks-ai/clintox-clinical-toxicity-dataset	0.559	clinical	no exact source/metadata evidence
+f82a1a	Kids First Data Catalog	catalog-pesticides-dataset-catalog-dat	https://github.com/biobricks-ai/catalog-pesticides-dataset-catalog-dat	0.559	catalog	no exact source/metadata evidence
+f82a1a	Kids First Data Catalog	epa-values-enterprise-data-catalog-epa	https://github.com/biobricks-ai/epa-values-enterprise-data-catalog-epa	0.559	catalog	no exact source/metadata evidence
+metacyc.reaction	MetaCyc Reaction	skin-reaction-rdf	https://github.com/biobricks-ai/skin-reaction-rdf	0.559	reaction	no exact source/metadata evidence
+seed.reaction	SEED Reactions	reaction-smiles	https://github.com/biobricks-ai/reaction-smiles	0.558	reaction	no exact source/metadata evidence
+sgn	Sol Genomics Network	biosnap-dti-network	https://github.com/biobricks-ai/biosnap-dti-network	0.558	network	no exact source/metadata evidence
+gdc	Genomic Data Commons Data Portal	cebs-database-commons-rdf	https://github.com/biobricks-ai/cebs-database-commons-rdf	0.557	commons	no exact source/metadata evidence
+genprop	Genome Properties	chemdiv-good-adme-properties-library	https://github.com/biobricks-ai/chemdiv-good-adme-properties-library	0.557	properties	no exact source/metadata evidence
+metanetx.reaction	MetaNetX reaction	open-reaction-database-ord	https://github.com/biobricks-ai/open-reaction-database-ord	0.557	reaction	no exact source/metadata evidence
+napdi	Natural Product-Drug Interaction Research Data Repository	np-mrd-natural-products-structures	https://github.com/biobricks-ai/np-mrd-natural-products-structures	0.557	natural	no exact source/metadata evidence
+peptideatlas.dataset	PeptideAtlas Dataset	catalog-toxcast-dataset-catalog-data-g	https://github.com/biobricks-ai/catalog-toxcast-dataset-catalog-data-g	0.557	dataset	no exact source/metadata evidence
+dg.f738	Veterans Precision Oncology Data Commons	therapeutic-data-commons	https://github.com/biobricks-ai/therapeutic-data-commons	0.556	commons	no exact source/metadata evidence
+dg.vp07	Veterans Precision Oncology Data Commons	therapeutic-data-commons	https://github.com/biobricks-ai/therapeutic-data-commons	0.556	commons	no exact source/metadata evidence
+lincs.cell	LINCS Cell	lincs-consensus	https://github.com/biobricks-ai/lincs-consensus	0.556	lincs	no exact source/metadata evidence
+pubchem.bioassay	PubChem-bioassay	hf-skfp-pcba-rdf	https://github.com/biobricks-ai/hf-skfp-pcba-rdf	0.556	bioassay,pubchem	no exact source/metadata evidence
+raid	Research Activity Identifier	nura-activity-dataset	https://github.com/biobricks-ai/nura-activity-dataset	0.556	activity	no exact source/metadata evidence
+dg.80b6	GenoMEL Data Commons	emergentmind-therapeutic-data-commons	https://github.com/biobricks-ai/emergentmind-therapeutic-data-commons	0.554	commons	no exact source/metadata evidence
+dg.c78ne	Canine Data Commons	emergentmind-therapeutic-data-commons	https://github.com/biobricks-ai/emergentmind-therapeutic-data-commons	0.554	commons	no exact source/metadata evidence
+dg.md1r	MIDRC Data Commons	tdcommons-therapeutics-data-commons-tdc	https://github.com/biobricks-ai/tdcommons-therapeutics-data-commons-tdc	0.554	commons	no exact source/metadata evidence
+pharmgkb.pathways	PharmGKB Pathways	pharmgkb-relationships-dataset	https://github.com/biobricks-ai/pharmgkb-relationships-dataset	0.554	pharmgkb	no exact source/metadata evidence
+ccds	Consensus CDS	consensus-bioactivity-dataset	https://github.com/biobricks-ai/consensus-bioactivity-dataset	0.553	consensus	no exact source/metadata evidence
+gdc	Genomic Data Commons Data Portal	dataverse-therapeutics-data-commons-http	https://github.com/biobricks-ai/dataverse-therapeutics-data-commons-http	0.553	commons	no exact source/metadata evidence
+chembl.target	ChEMBL target	chembl-32-compound-target-pairs	https://github.com/biobricks-ai/chembl-32-compound-target-pairs	0.552	chembl,target	no exact source/metadata evidence
+f82a1a	Kids First Data Catalog	catalog-pfas-dataset-catalog	https://github.com/biobricks-ai/catalog-pfas-dataset-catalog	0.552	catalog	no exact source/metadata evidence
+t3db	T3DB	t3db-toxins-database	https://github.com/biobricks-ai/t3db-toxins-database	0.552	t3db	no exact source/metadata evidence
+tol	Tree of Life	tdc-half-life	https://github.com/biobricks-ai/tdc-half-life	0.552	life	no exact source/metadata evidence
+uspto	USPTO	USPTO_ChemReaction	https://github.com/biobricks-ai/USPTO_ChemReaction	0.552	uspto	no exact source/metadata evidence
+apid.interactions	APID Interactomes	advancing-drug-target-interactions-prediction	https://github.com/biobricks-ai/advancing-drug-target-interactions-prediction	0.550	interactions	no exact source/metadata evidence
+disprot.region	DisProt region	disprot-idp	https://github.com/biobricks-ai/disprot-idp	0.550	disprot	no exact source/metadata evidence
+dg.md1r	MIDRC Data Commons	cebs-database-commons-rdf	https://github.com/biobricks-ai/cebs-database-commons-rdf	0.549	commons	no exact source/metadata evidence
+ordb	Olfactory Receptor Database	nura-nuclear-receptor-activity	https://github.com/biobricks-ai/nura-nuclear-receptor-activity	0.548	receptor	no exact source/metadata evidence
+peptideatlas.dataset	PeptideAtlas Dataset	catalog-dataset-catalog-data-gov	https://github.com/biobricks-ai/catalog-dataset-catalog-data-gov	0.548	dataset	no exact source/metadata evidence
+cpc	Cooperative Patent Classification	uci-toxicity-2-classification	https://github.com/biobricks-ai/uci-toxicity-2-classification	0.545	classification	no exact source/metadata evidence
+dg.md1r	MIDRC Data Commons	dataverse-therapeutics-data-commons-http	https://github.com/biobricks-ai/dataverse-therapeutics-data-commons-http	0.545	commons	no exact source/metadata evidence
+gcst	GWAS Catalog	catalog-toxcast-dataset-catalog-data-g	https://github.com/biobricks-ai/catalog-toxcast-dataset-catalog-data-g	0.545	catalog	no exact source/metadata evidence
+ngl	NASA GeneLab	spoke-genelab-rdf	https://github.com/biobricks-ai/spoke-genelab-rdf	0.545	genelab	no exact source/metadata evidence
+apid.interactions	APID Interactomes	cyp450-interactions-dataset-curated	https://github.com/biobricks-ai/cyp450-interactions-dataset-curated	0.543	interactions	no exact source/metadata evidence
+cpc	Cooperative Patent Classification	echa-harmonised-classification-kg	https://github.com/biobricks-ai/echa-harmonised-classification-kg	0.543	classification	no exact source/metadata evidence
+dg.7c5b	Environmental Data Commons	environmental-persistence	https://github.com/biobricks-ai/environmental-persistence	0.542	environmental	no exact source/metadata evidence
+dg.va03	VA Data Commons	cebs-database-commons-rdf	https://github.com/biobricks-ai/cebs-database-commons-rdf	0.542	commons	no exact source/metadata evidence
+metatlas	Metabolic Atlas	npatlas-natural-products-atlas-home	https://github.com/biobricks-ai/npatlas-natural-products-atlas-home	0.542	atlas	no exact source/metadata evidence
+plant_reactome	Plant Reactome	reactome-pathway-db	https://github.com/biobricks-ai/reactome-pathway-db	0.542	reactome	no exact source/metadata evidence
+oryzabase.reference	Oryzabase	docs-csv-format-reference-drugbank	https://github.com/biobricks-ai/docs-csv-format-reference-drugbank	0.540	reference	no exact source/metadata evidence
+idot	Identifiers.org Terms	identifiers-org-graph	https://github.com/biobricks-ai/identifiers-org-graph	0.539	org	no exact source/metadata evidence
+sedml.format	SED-ML data format	rotconml-rdf	https://github.com/biobricks-ai/rotconml-rdf	0.539	format	no exact source/metadata evidence
+chembl.target	ChEMBL target	chembl-torchdrug-filtered	https://github.com/biobricks-ai/chembl-torchdrug-filtered	0.538	chembl	no exact source/metadata evidence
+dg.c78ne	Canine Data Commons	therapeutic-data-commons	https://github.com/biobricks-ai/therapeutic-data-commons	0.538	commons	no exact source/metadata evidence
+mi	Molecular Interactions Ontology	dgidb-interactions	https://github.com/biobricks-ai/dgidb-interactions	0.538	interactions	no exact source/metadata evidence
+oryzabase.reference	Oryzabase	jrc-ecvam-reference-rdf	https://github.com/biobricks-ai/jrc-ecvam-reference-rdf	0.538	reference	no exact source/metadata evidence
+peptideatlas.dataset	PeptideAtlas Dataset	catalog-qsar-dataset-catalog-data-gov	https://github.com/biobricks-ai/catalog-qsar-dataset-catalog-data-gov	0.538	dataset	no exact source/metadata evidence
+bmrb	Biological Magnetic Resonance Data Bank	catalog-biological-and-chemical-data-f	https://github.com/biobricks-ai/catalog-biological-and-chemical-data-f	0.537	biological	no exact source/metadata evidence
+dg.4825	ACCOuNT Data Commons	tdcommons-therapeutics-data-commons-tdc	https://github.com/biobricks-ai/tdcommons-therapeutics-data-commons-tdc	0.537	commons	no exact source/metadata evidence
+f82a1a	Kids First Data Catalog	catalog-qsar-dataset-catalog-data-gov	https://github.com/biobricks-ai/catalog-qsar-dataset-catalog-data-gov	0.537	catalog	no exact source/metadata evidence
+tissuelist	Tissue List	pfasstruct-epa-list	https://github.com/biobricks-ai/pfasstruct-epa-list	0.537	list	no exact source/metadata evidence
+icdc	Integrated Canine Data Commons	huggingface-tdc-therapeutics-commons	https://github.com/biobricks-ai/huggingface-tdc-therapeutics-commons	0.535	commons	no exact source/metadata evidence
+odc.sci	Open Data Commons for Spinal Cord Injury	gdc	https://github.com/biobricks-ai/gdc	0.535	commons	no exact source/metadata evidence
+pubchem.bioassay	PubChem-bioassay	pcba-rdf	https://github.com/biobricks-ai/pcba-rdf	0.535	bioassay,pubchem	no exact source/metadata evidence
+sdbs	Spectral Database for Organic Compounds	surechembl-patent-compounds	https://github.com/biobricks-ai/surechembl-patent-compounds	0.535	compounds	no exact source/metadata evidence
+bao	BioAssay Ontology	pubchem-bioassay-summary	https://github.com/biobricks-ai/pubchem-bioassay-summary	0.533	bioassay	no exact source/metadata evidence
+cdpd	Canadian Drug Product Database	twosides-drug-drug-interactions-database	https://github.com/biobricks-ai/twosides-drug-drug-interactions-database	0.533	drug	no exact source/metadata evidence
+dg.va03	VA Data Commons	emergentmind-therapeutic-data-commons	https://github.com/biobricks-ai/emergentmind-therapeutic-data-commons	0.533	commons	no exact source/metadata evidence
+doid	Human Disease Ontology	ctd-chemical-disease-associations	https://github.com/biobricks-ai/ctd-chemical-disease-associations	0.533	disease	no exact source/metadata evidence
+gcst	GWAS Catalog	catalog-pfas-dataset-catalog	https://github.com/biobricks-ai/catalog-pfas-dataset-catalog	0.533	catalog	no exact source/metadata evidence
+gdc	Genomic Data Commons Data Portal	therapeutic-data-commons	https://github.com/biobricks-ai/therapeutic-data-commons	0.533	commons	no exact source/metadata evidence
+ifloprop	InfoFlora Objects and properties	reaction-properties	https://github.com/biobricks-ai/reaction-properties	0.533	properties	no exact source/metadata evidence
+opm	OPM	opm-data	https://github.com/biobricks-ai/opm-data	0.533	opm	no exact source/metadata evidence
+pharmgkb.pathways	PharmGKB Pathways	pharmgkb-pharmacogenomics	https://github.com/biobricks-ai/pharmgkb-pharmacogenomics	0.533	pharmgkb	no exact source/metadata evidence
+vmhreaction	VMH reaction	hf-skfp-skin-reaction	https://github.com/biobricks-ai/hf-skfp-skin-reaction	0.533	reaction	no exact source/metadata evidence
+jcsd	Japan Chemical Substance Dictionary	epa-chemicals-under-the-toxic-substance	https://github.com/biobricks-ai/epa-chemicals-under-the-toxic-substance	0.532	substance	no exact source/metadata evidence
+mi	Molecular Interactions Ontology	advancing-drug-target-interactions-prediction	https://github.com/biobricks-ai/advancing-drug-target-interactions-prediction	0.532	interactions	no exact source/metadata evidence
+cellimage	Cell Image Library	chemdiv-good-adme-properties-library	https://github.com/biobricks-ai/chemdiv-good-adme-properties-library	0.531	library	no exact source/metadata evidence
+datanator.reaction	Datanator Reaction	transition1x-reaction-paths	https://github.com/biobricks-ai/transition1x-reaction-paths	0.531	reaction	no exact source/metadata evidence
+genprop	Genome Properties	vqm24-quantum-properties	https://github.com/biobricks-ai/vqm24-quantum-properties	0.531	properties	no exact source/metadata evidence
+go_ref	Gene Ontology Reference	cmr-epa-s-toxicity-reference-datab	https://github.com/biobricks-ai/cmr-epa-s-toxicity-reference-datab	0.531	reference	no exact source/metadata evidence
+intact.molecule	IntAct Molecule	tox21-molecule-net	https://github.com/biobricks-ai/tox21-molecule-net	0.531	molecule	no exact source/metadata evidence
+mi	Molecular Interactions Ontology	ctd-chemical-gene-interactions	https://github.com/biobricks-ai/ctd-chemical-gene-interactions	0.531	interactions	no exact source/metadata evidence
+obv	Austrian Library Network	gnps-spectral-library	https://github.com/biobricks-ai/gnps-spectral-library	0.531	library	no exact source/metadata evidence
+pathwaycommons	Pathway Commons	reactome-pathway-db	https://github.com/biobricks-ai/reactome-pathway-db	0.531	pathway	no exact source/metadata evidence
+pmdb	Protein Model Database	europa-jrc-qsar-model-database-jrc-da	https://github.com/biobricks-ai/europa-jrc-qsar-model-database-jrc-da	0.531	model	no exact source/metadata evidence
+psipar	Protein Affinity Reagents	drug-target-affinity-predictions	https://github.com/biobricks-ai/drug-target-affinity-predictions	0.531	affinity	no exact source/metadata evidence
+umbbd.reaction	UM-BBD Reaction	reaction-properties	https://github.com/biobricks-ai/reaction-properties	0.531	reaction	no exact source/metadata evidence
+sabiork.reaction	SABIO-RK Reaction	reaction-smiles-rdf	https://github.com/biobricks-ai/reaction-smiles-rdf	0.530	reaction	no exact source/metadata evidence
+complexportal	Complex Portal	oecd-echemportal-global-portal-to-inform	https://github.com/biobricks-ai/oecd-echemportal-global-portal-to-inform	0.529	portal	no exact source/metadata evidence
+comptox	CompTox Chemistry Dashboard	chemixhub-rdf	https://github.com/biobricks-ai/chemixhub-rdf	0.529	chemistry	no exact source/metadata evidence
+f82a1a	Kids First Data Catalog	catalog-toxcast-dataset-catalog-data-g	https://github.com/biobricks-ai/catalog-toxcast-dataset-catalog-data-g	0.529	catalog	no exact source/metadata evidence
+kaggle	Kaggle	davis-kiba-dti-kaggle	https://github.com/biobricks-ai/davis-kiba-dti-kaggle	0.529	kaggle	no exact source/metadata evidence
+ricenetdb.compound	RiceNetDB Compound	chembl-32-compound-target-pairs	https://github.com/biobricks-ai/chembl-32-compound-target-pairs	0.529	compound	no exact source/metadata evidence
+dg.4825	ACCOuNT Data Commons	cebs-database-commons-rdf	https://github.com/biobricks-ai/cebs-database-commons-rdf	0.528	commons	no exact source/metadata evidence
+dg.80b6	GenoMEL Data Commons	cebs-database-commons-rdf	https://github.com/biobricks-ai/cebs-database-commons-rdf	0.528	commons	no exact source/metadata evidence
+kegg.reaction	KEGG Reaction	open-reaction-database-ord	https://github.com/biobricks-ai/open-reaction-database-ord	0.528	reaction	no exact source/metadata evidence
+mir	Identifiers.org Registry	identifiers-org-graph	https://github.com/biobricks-ai/identifiers-org-graph	0.527	org	no exact source/metadata evidence
+apid.interactions	APID Interactomes	klifs-kinase-ligand-interactions-database	https://github.com/biobricks-ai/klifs-kinase-ligand-interactions-database	0.526	interactions	no exact source/metadata evidence
+chembl	ChEMBL	chembl-torchdrug-filtered	https://github.com/biobricks-ai/chembl-torchdrug-filtered	0.526	chembl	no exact source/metadata evidence
+spdx	SPDX License List	chemsec-sin-list	https://github.com/biobricks-ai/chemsec-sin-list	0.526	list	no exact source/metadata evidence
+foodon	FoodOn Food Ontology	fda-fcn-food-contact-notifications	https://github.com/biobricks-ai/fda-fcn-food-contact-notifications	0.525	food	no exact source/metadata evidence
+jcsd	Japan Chemical Substance Dictionary	echa-substance-information-echa-european	https://github.com/biobricks-ai/echa-substance-information-echa-european	0.525	substance	no exact source/metadata evidence
+lrg	Locus Reference Genomic	docs-csv-format-reference-drugbank	https://github.com/biobricks-ai/docs-csv-format-reference-drugbank	0.525	reference	no exact source/metadata evidence
+bigg.reaction	BiGG Reaction	reaction-smiles	https://github.com/biobricks-ai/reaction-smiles	0.524	reaction	no exact source/metadata evidence
+ccds	Consensus CDS	consensus-bioactivity-kg	https://github.com/biobricks-ai/consensus-bioactivity-kg	0.524	consensus	no exact source/metadata evidence
+massbank	MassBank	massbank-spectral-records	https://github.com/biobricks-ai/massbank-spectral-records	0.524	massbank	no exact source/metadata evidence
+napdi	Natural Product-Drug Interaction Research Data Repository	twosides-drug-drug-interactions-database	https://github.com/biobricks-ai/twosides-drug-drug-interactions-database	0.524	drug	no exact source/metadata evidence
+nbrc	NITE Biological Research Center Catalogue	biosim	https://github.com/biobricks-ai/biosim	0.523	biological	no exact source/metadata evidence
+dg.h34l	The HEAL platform	open-targets-platform	https://github.com/biobricks-ai/open-targets-platform	0.522	platform	no exact source/metadata evidence
+dg.7c5b	Environmental Data Commons	tdcommons-therapeutics-data-commons-tdc	https://github.com/biobricks-ai/tdcommons-therapeutics-data-commons-tdc	0.521	commons	no exact source/metadata evidence
+gdc	Genomic Data Commons Data Portal	emergentmind-therapeutic-data-commons	https://github.com/biobricks-ai/emergentmind-therapeutic-data-commons	0.521	commons	no exact source/metadata evidence
+icdc	Integrated Canine Data Commons	gdc	https://github.com/biobricks-ai/gdc	0.521	commons	no exact source/metadata evidence
+idot	Identifiers.org Terms	identifiers-org-registry-rdf	https://github.com/biobricks-ai/identifiers-org-registry-rdf	0.521	org	no exact source/metadata evidence
+pdb.ligand	Protein Data Bank Ligand	binding-moad-protein-ligand-final-2024	https://github.com/biobricks-ai/binding-moad-protein-ligand-final-2024	0.521	ligand	no exact source/metadata evidence
+smpdb	Small Molecule Pathway Database	nih-molecule-ocr-real-images-dataset	https://github.com/biobricks-ai/nih-molecule-ocr-real-images-dataset	0.521	molecule	no exact source/metadata evidence
+vmhreaction	VMH reaction	reaction-smiles-rdf	https://github.com/biobricks-ai/reaction-smiles-rdf	0.521	reaction	no exact source/metadata evidence
+chembl	ChEMBL	chembl-downloads-chembl-interface-doc	https://github.com/biobricks-ai/chembl-downloads-chembl-interface-doc	0.520	chembl	no exact source/metadata evidence
+dg.4dfc	NCI Data Commons Framework Services	gdc	https://github.com/biobricks-ai/gdc	0.519	commons,nci	no exact source/metadata evidence
+lincs.smallmolecule	LINCS Small Molecule	pubs-benchmarking-of-small-molecule	https://github.com/biobricks-ai/pubs-benchmarking-of-small-molecule	0.507	molecule,small	no exact source/metadata evidence
+bbkg	Blue Brain Project Knowledge Graph	okg.biobricks.ai	https://github.com/biobricks-ai/okg.biobricks.ai	0.500	graph,knowledge	no exact source/metadata evidence
+sider.effect	SIDER Side Effect	hf-skfp-sider-rdf	https://github.com/biobricks-ai/hf-skfp-sider-rdf	0.500	side,sider	no exact source/metadata evidence
+smpdb	Small Molecule Pathway Database	nih-benchmarking-of-small-molecule-feat	https://github.com/biobricks-ai/nih-benchmarking-of-small-molecule-feat	0.500	molecule,small	no exact source/metadata evidence
+napdi	Natural Product-Drug Interaction Research Data Repository	supercyp	https://github.com/biobricks-ai/supercyp	0.488	drug,interaction	no exact source/metadata evidence
+lincs.smallmolecule	LINCS Small Molecule	biorxiv-benchmarking-of-small-molecule	https://github.com/biobricks-ai/biorxiv-benchmarking-of-small-molecule	0.487	molecule,small	no exact source/metadata evidence
+lincs.smallmolecule	LINCS Small Molecule	nih-benchmarking-of-small-molecule-feat	https://github.com/biobricks-ai/nih-benchmarking-of-small-molecule-feat	0.481	molecule,small	no exact source/metadata evidence
+napdi	Natural Product-Drug Interaction Research Data Repository	molport-natural-product-and-np-like-co	https://github.com/biobricks-ai/molport-natural-product-and-np-like-co	0.475	natural,product	no exact source/metadata evidence
+smpdb	Small Molecule Pathway Database	pubs-benchmarking-of-small-molecule	https://github.com/biobricks-ai/pubs-benchmarking-of-small-molecule	0.472	molecule,small	no exact source/metadata evidence
+napdi	Natural Product-Drug Interaction Research Data Repository	cyp450	https://github.com/biobricks-ai/cyp450	0.471	drug,interaction	no exact source/metadata evidence
+ndc	National Drug Code	fda-ndc-rdf	https://github.com/biobricks-ai/fda-ndc-rdf	0.454	code,drug,ndc	no exact source/metadata evidence
+napdi	Natural Product-Drug Interaction Research Data Repository	openfda	https://github.com/biobricks-ai/openfda	0.449	drug,product	no exact source/metadata evidence
+pdb.ligand	Protein Data Bank Ligand	pdb	https://github.com/biobricks-ai/pdb	0.444	bank,pdb	no exact source/metadata evidence
+bbtp	Blue Brain Project Topological sampling Knowledge Graph	biobricks-okg	https://github.com/biobricks-ai/biobricks-okg	0.439	graph,knowledge	no exact source/metadata evidence
+ardb	Antibiotic Resistance Genes Database	antibiotic-resistance-rdf	https://github.com/biobricks-ai/antibiotic-resistance-rdf	0.438	antibiotic,resistance	no exact source/metadata evidence
+bbtp	Blue Brain Project Topological sampling Knowledge Graph	brickyard-mcp	https://github.com/biobricks-ai/brickyard-mcp	0.438	graph,knowledge	no exact source/metadata evidence
+bbkg	Blue Brain Project Knowledge Graph	oregano-rdf	https://github.com/biobricks-ai/oregano-rdf	0.436	graph,knowledge	no exact source/metadata evidence
+bbtp	Blue Brain Project Topological sampling Knowledge Graph	okg.biobricks.ai	https://github.com/biobricks-ai/okg.biobricks.ai	0.434	graph,knowledge	no exact source/metadata evidence
+smpdb	Small Molecule Pathway Database	biorxiv-benchmarking-of-small-molecule	https://github.com/biobricks-ai/biorxiv-benchmarking-of-small-molecule	0.427	molecule,small	no exact source/metadata evidence
+bbkg	Blue Brain Project Knowledge Graph	biobricks-rdf	https://github.com/biobricks-ai/biobricks-rdf	0.423	graph,knowledge	no exact source/metadata evidence
+lincs.smallmolecule	LINCS Small Molecule	SMRT	https://github.com/biobricks-ai/SMRT	0.415	molecule,small	no exact source/metadata evidence
+bbkg	Blue Brain Project Knowledge Graph	brickyard-mcp	https://github.com/biobricks-ai/brickyard-mcp	0.414	graph,knowledge	no exact source/metadata evidence
+pubchem.bioassay	PubChem-bioassay	pcba	https://github.com/biobricks-ai/pcba	0.410	bioassay,pubchem	no exact source/metadata evidence
+lgic	Ligand-Gated Ion Channel database	ion-channel-cardiotox-benchmark	https://github.com/biobricks-ai/ion-channel-cardiotox-benchmark	0.406	channel,ion	no exact source/metadata evidence
+sider.drug	SIDER Drug	hf-skfp-sider-rdf	https://github.com/biobricks-ai/hf-skfp-sider-rdf	0.396	drug,sider	no exact source/metadata evidence
+covid19	SARS-CoV-2	avida-sarscov2-rdf	https://github.com/biobricks-ai/avida-sarscov2-rdf	0.395	cov,sars	no exact source/metadata evidence
+cdpd	Canadian Drug Product Database	drugbank-products	https://github.com/biobricks-ai/drugbank-products	0.387	drug,product	no exact source/metadata evidence
+pdb	Protein Data Bank	pdb	https://github.com/biobricks-ai/pdb	0.375	bank,pdb	no exact source/metadata evidence
+odam	Open Data for Access and Mining	OpenStemDocs	https://github.com/biobricks-ai/OpenStemDocs	0.374	access,open	no exact source/metadata evidence
+bbtp	Blue Brain Project Topological sampling Knowledge Graph	biobricks-rdf	https://github.com/biobricks-ai/biobricks-rdf	0.368	graph,knowledge	no exact source/metadata evidence
+bbkg	Blue Brain Project Knowledge Graph	biobricks-kg-mcp	https://github.com/biobricks-ai/biobricks-kg-mcp	0.365	graph,knowledge	no exact source/metadata evidence
+bbkg	Blue Brain Project Knowledge Graph	oregano	https://github.com/biobricks-ai/oregano	0.361	graph,knowledge	no exact source/metadata evidence
+bbkg	Blue Brain Project Knowledge Graph	kg	https://github.com/biobricks-ai/kg	0.357	graph,knowledge	no exact source/metadata evidence
+odam	Open Data for Access and Mining	reactome	https://github.com/biobricks-ai/reactome	0.356	access,open	no exact source/metadata evidence
+cdpd	Canadian Drug Product Database	openfda	https://github.com/biobricks-ai/openfda	0.353	drug,product	no exact source/metadata evidence
+dg.nacd	https://accessclinicaldata.niaid.nih.gov/	epa-https-pasteur-epa-gov-uploads-10-23	https://github.com/biobricks-ai/epa-https-pasteur-epa-gov-uploads-10-23	0.353	gov,https	no exact source/metadata evidence
+aop.relationships	AOPWiki (Key Event Relationship)	AOP-experiment-guide	https://github.com/biobricks-ai/AOP-experiment-guide	0.351	aop,event,key,relationships	no exact source/metadata evidence
+hp	Human Phenotype Ontology	hpo	https://github.com/biobricks-ai/hpo	0.348	ontology,phenotype	no exact source/metadata evidence
+clo	Cell Line Ontology	jrc-high-content-imaging-analysis-of-heparg-cell-line	https://github.com/biobricks-ai/jrc-high-content-imaging-analysis-of-heparg-cell-line	0.347	cell,line	no exact source/metadata evidence
+bbtp	Blue Brain Project Topological sampling Knowledge Graph	oregano-rdf	https://github.com/biobricks-ai/oregano-rdf	0.344	graph,knowledge	no exact source/metadata evidence
+bbkg	Blue Brain Project Knowledge Graph	biobricks-wikidata	https://github.com/biobricks-ai/biobricks-wikidata	0.329	graph,knowledge	no exact source/metadata evidence
+seed.reaction	SEED Reactions	ebi-rhea-reactions	https://github.com/biobricks-ai/ebi-rhea-reactions	0.329	reaction,reactions	no exact source/metadata evidence
+bmrb	Biological Magnetic Resonance Data Bank	pdb	https://github.com/biobricks-ai/pdb	0.326	bank,biological	no exact source/metadata evidence
+pubchem.substance	PubChem-substance	fda-substance	https://github.com/biobricks-ai/fda-substance	0.323	pubchem,substance	no exact source/metadata evidence
+bbtp	Blue Brain Project Topological sampling Knowledge Graph	biobricks-kg-mcp	https://github.com/biobricks-ai/biobricks-kg-mcp	0.320	graph,knowledge	no exact source/metadata evidence
+ecyano.experiment	E-cyanobacterium Experimental Data	AOP-experiment-guide	https://github.com/biobricks-ai/AOP-experiment-guide	0.319	experiment,experimental	no exact source/metadata evidence
+pdb-ccd	Chemical Component Dictionary	pdb-ccd	https://github.com/biobricks-ai/pdb-ccd	0.318	ccd,pdb	no exact source/metadata evidence
+sedml.language	SED-ML model format	ames-qsar-rdf	https://github.com/biobricks-ai/ames-qsar-rdf	0.315	format,model	no exact source/metadata evidence
+napdi	Natural Product-Drug Interaction Research Data Repository	drugbank-products	https://github.com/biobricks-ai/drugbank-products	0.313	drug,product	no exact source/metadata evidence
+ndc	National Drug Code	fda-ndc	https://github.com/biobricks-ai/fda-ndc	0.302	drug,ndc	no exact source/metadata evidence

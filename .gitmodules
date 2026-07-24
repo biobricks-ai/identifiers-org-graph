@@ -1,99 +1,612 @@
-[submodule "graphs/aop"]
+[submodule "graphs__aop"]
 	path = graphs/aop
 	url = https://github.com/biobricks-ai/aop-wiki-kg.git
-[submodule "graphs/bindingdb"]
-	path = graphs/bindingdb
+[submodule "graphs__bgee.gene"]
+	path = graphs/bgee.gene
+	url = https://github.com/biobricks-ai/bgee-rdf.git
+[submodule "graphs__bindingdb__bindingdb"]
+	path = graphs/bindingdb/bindingdb
+	url = https://github.com/biobricks-ai/bindingdb.git
+[submodule "graphs__bindingdb__bindingdb-affinities"]
+	path = graphs/bindingdb/bindingdb-affinities
+	url = https://github.com/biobricks-ai/bindingdb-affinities.git
+[submodule "graphs__bindingdb__bindingdb-bdb-download"]
+	path = graphs/bindingdb/bindingdb-bdb-download
+	url = https://github.com/biobricks-ai/bindingdb-bdb-download.git
+[submodule "graphs__bindingdb__bindingdb-bindingdb-primarysearch-ki"]
+	path = graphs/bindingdb/bindingdb-bindingdb-primarysearch-ki
+	url = https://github.com/biobricks-ai/bindingdb-bindingdb-primarysearch-ki.git
+[submodule "graphs__bindingdb__bindingdb-fda-approved-drugs-in-bindingd"]
+	path = graphs/bindingdb/bindingdb-fda-approved-drugs-in-bindingd
+	url = https://github.com/biobricks-ai/bindingdb-fda-approved-drugs-in-bindingd.git
+[submodule "graphs__bindingdb__bindingdb-rdf"]
+	path = graphs/bindingdb/bindingdb-rdf
 	url = https://github.com/biobricks-ai/bindingdb-rdf.git
-[submodule "graphs/biogrid"]
+[submodule "graphs__bindingdb__bindingdb-smiles-for-cytochrome-p450-2c1"]
+	path = graphs/bindingdb/bindingdb-smiles-for-cytochrome-p450-2c1
+	url = https://github.com/biobricks-ai/bindingdb-smiles-for-cytochrome-p450-2c1.git
+[submodule "graphs__biogrid"]
 	path = graphs/biogrid
 	url = https://github.com/biobricks-ai/biogrid.git
-[submodule "graphs/biostudies"]
+[submodule "graphs__biostudies"]
 	path = graphs/biostudies
 	url = https://github.com/biobricks-ai/biostudies.git
-[submodule "graphs/brenda"]
+[submodule "graphs__bitterdb.cpd"]
+	path = graphs/bitterdb.cpd
+	url = https://github.com/biobricks-ai/bitterdb.git
+[submodule "graphs__bitterdb.rec"]
+	path = graphs/bitterdb.rec
+	url = https://github.com/biobricks-ai/bitterdb.git
+[submodule "graphs__bmrb"]
+	path = graphs/bmrb
+	url = https://github.com/biobricks-ai/bmrb-nmr-csv-tables.git
+[submodule "graphs__brenda"]
 	path = graphs/brenda
 	url = https://github.com/biobricks-ai/brenda.git
-[submodule "graphs/cellosaurus"]
+[submodule "graphs__cellosaurus"]
 	path = graphs/cellosaurus
 	url = https://github.com/biobricks-ai/cellosaurus.git
-[submodule "graphs/chebi"]
-	path = graphs/chebi
+[submodule "graphs__chebi__chebi"]
+	path = graphs/chebi/chebi
 	url = https://github.com/biobricks-ai/chebi.git
-[submodule "graphs/chembl"]
-	path = graphs/chembl
+[submodule "graphs__chebi__ebi-chebi"]
+	path = graphs/chebi/ebi-chebi
+	url = https://github.com/biobricks-ai/ebi-chebi.git
+[submodule "graphs__chembl__chembl-assays"]
+	path = graphs/chembl/chembl-assays
+	url = https://github.com/biobricks-ai/chembl-assays.git
+[submodule "graphs__chembl__chembl-drugind"]
+	path = graphs/chembl/chembl-drugind
+	url = https://github.com/biobricks-ai/chembl-drugind.git
+[submodule "graphs__chembl__chembl-mechanisms"]
+	path = graphs/chembl/chembl-mechanisms
+	url = https://github.com/biobricks-ai/chembl-mechanisms.git
+[submodule "graphs__chembl__chembl-metabolism"]
+	path = graphs/chembl/chembl-metabolism
+	url = https://github.com/biobricks-ai/chembl-metabolism.git
+[submodule "graphs__chembl__chembl-rdf"]
+	path = graphs/chembl/chembl-rdf
 	url = https://github.com/biobricks-ai/chembl-rdf.git
-[submodule "graphs/classyfire"]
+[submodule "graphs__chembl__chembl-smiles"]
+	path = graphs/chembl/chembl-smiles
+	url = https://github.com/biobricks-ai/chembl-smiles.git
+[submodule "graphs__chembl__chembl-target-panels"]
+	path = graphs/chembl/chembl-target-panels
+	url = https://github.com/biobricks-ai/chembl-target-panels.git
+[submodule "graphs__chembl__ebi-chembl"]
+	path = graphs/chembl/ebi-chembl
+	url = https://github.com/biobricks-ai/ebi-chembl.git
+[submodule "graphs__chembl__hf-skfp-chembl262-ki-rdf"]
+	path = graphs/chembl/hf-skfp-chembl262-ki-rdf
+	url = https://github.com/biobricks-ai/hf-skfp-chembl262-ki-rdf.git
+[submodule "graphs__chembl__hf-skfp-chembl264-ki-rdf"]
+	path = graphs/chembl/hf-skfp-chembl264-ki-rdf
+	url = https://github.com/biobricks-ai/hf-skfp-chembl264-ki-rdf.git
+[submodule "graphs__chembl__hf-skfp-chembl2835-ki-rdf"]
+	path = graphs/chembl/hf-skfp-chembl2835-ki-rdf
+	url = https://github.com/biobricks-ai/hf-skfp-chembl2835-ki-rdf.git
+[submodule "graphs__chembl__hf-skfp-chembl287-ki-rdf"]
+	path = graphs/chembl/hf-skfp-chembl287-ki-rdf
+	url = https://github.com/biobricks-ai/hf-skfp-chembl287-ki-rdf.git
+[submodule "graphs__chembl__hf-skfp-chembl2971-ki-rdf"]
+	path = graphs/chembl/hf-skfp-chembl2971-ki-rdf
+	url = https://github.com/biobricks-ai/hf-skfp-chembl2971-ki-rdf.git
+[submodule "graphs__chembl__hf-skfp-chembl3979-ec50-rdf"]
+	path = graphs/chembl/hf-skfp-chembl3979-ec50-rdf
+	url = https://github.com/biobricks-ai/hf-skfp-chembl3979-ec50-rdf.git
+[submodule "graphs__chembl__hf-skfp-chembl4005-ki-rdf"]
+	path = graphs/chembl/hf-skfp-chembl4005-ki-rdf
+	url = https://github.com/biobricks-ai/hf-skfp-chembl4005-ki-rdf.git
+[submodule "graphs__chembl__hf-skfp-chembl4203-ki-rdf"]
+	path = graphs/chembl/hf-skfp-chembl4203-ki-rdf
+	url = https://github.com/biobricks-ai/hf-skfp-chembl4203-ki-rdf.git
+[submodule "graphs__chembl__hf-skfp-chembl4616-ec50-rdf"]
+	path = graphs/chembl/hf-skfp-chembl4616-ec50-rdf
+	url = https://github.com/biobricks-ai/hf-skfp-chembl4616-ec50-rdf.git
+[submodule "graphs__chembl__hf-skfp-chembl4792-ki-rdf"]
+	path = graphs/chembl/hf-skfp-chembl4792-ki-rdf
+	url = https://github.com/biobricks-ai/hf-skfp-chembl4792-ki-rdf.git
+[submodule "graphs__chembl.compound__chembl-rdf"]
+	path = graphs/chembl.compound/chembl-rdf
+	url = https://github.com/biobricks-ai/chembl-rdf.git
+[submodule "graphs__chembl.compound__chemblrdf"]
+	path = graphs/chembl.compound/chemblrdf
+	url = https://github.com/biobricks-ai/chemblrdf.git
+[submodule "graphs__chembl.target"]
+	path = graphs/chembl.target
+	url = https://github.com/biobricks-ai/chembl-rdf.git
+[submodule "graphs__classyfire"]
 	path = graphs/classyfire
 	url = https://github.com/biobricks-ai/classyfire-kg.git
-[submodule "graphs/clinicaltrials"]
+[submodule "graphs__clinicaltrials"]
 	path = graphs/clinicaltrials
 	url = https://github.com/biobricks-ai/clinicaltrials.git
-[submodule "graphs/clinvar"]
+[submodule "graphs__clinvar"]
 	path = graphs/clinvar
 	url = https://github.com/biobricks-ai/clinvar.git
-[submodule "graphs/comptox"]
-	path = graphs/comptox
+[submodule "graphs__comptox__comptox"]
+	path = graphs/comptox/comptox
+	url = https://github.com/biobricks-ai/comptox.git
+[submodule "graphs__comptox__comptox-kg"]
+	path = graphs/comptox/comptox-kg
 	url = https://github.com/biobricks-ai/comptox-kg.git
-[submodule "graphs/conoserver"]
+[submodule "graphs__comptox__comptox-rdf"]
+	path = graphs/comptox/comptox-rdf
+	url = https://github.com/biobricks-ai/comptox-rdf.git
+[submodule "graphs__comptox__comptox-zebrafish-rdf"]
+	path = graphs/comptox/comptox-zebrafish-rdf
+	url = https://github.com/biobricks-ai/comptox-zebrafish-rdf.git
+[submodule "graphs__comptox__epa-comptox-chemicals-dashboard-resourc"]
+	path = graphs/comptox/epa-comptox-chemicals-dashboard-resourc
+	url = https://github.com/biobricks-ai/epa-comptox-chemicals-dashboard-resourc.git
+[submodule "graphs__comptox__epa-comptox-lists"]
+	path = graphs/comptox/epa-comptox-lists
+	url = https://github.com/biobricks-ai/epa-comptox-lists.git
+[submodule "graphs__conoserver"]
 	path = graphs/conoserver
 	url = https://github.com/biobricks-ai/conoserver.git
-[submodule "graphs/dbgap"]
+[submodule "graphs__ctd.chemical__ctd-chemical-disease-associations"]
+	path = graphs/ctd.chemical/ctd-chemical-disease-associations
+	url = https://github.com/biobricks-ai/ctd-chemical-disease-associations.git
+[submodule "graphs__ctd.chemical__ctd-chemical-gene-interactions"]
+	path = graphs/ctd.chemical/ctd-chemical-gene-interactions
+	url = https://github.com/biobricks-ai/ctd-chemical-gene-interactions.git
+[submodule "graphs__ctd.chemical__ctd-database"]
+	path = graphs/ctd.chemical/ctd-database
+	url = https://github.com/biobricks-ai/ctd-database.git
+[submodule "graphs__ctd.chemical__ctd-toxicogenomics"]
+	path = graphs/ctd.chemical/ctd-toxicogenomics
+	url = https://github.com/biobricks-ai/ctd-toxicogenomics.git
+[submodule "graphs__ctd.chemical__ctdbase"]
+	path = graphs/ctd.chemical/ctdbase
+	url = https://github.com/biobricks-ai/ctdbase.git
+[submodule "graphs__ctd.disease__ctd-chemical-disease-associations"]
+	path = graphs/ctd.disease/ctd-chemical-disease-associations
+	url = https://github.com/biobricks-ai/ctd-chemical-disease-associations.git
+[submodule "graphs__ctd.disease__ctd-chemical-gene-interactions"]
+	path = graphs/ctd.disease/ctd-chemical-gene-interactions
+	url = https://github.com/biobricks-ai/ctd-chemical-gene-interactions.git
+[submodule "graphs__ctd.disease__ctd-database"]
+	path = graphs/ctd.disease/ctd-database
+	url = https://github.com/biobricks-ai/ctd-database.git
+[submodule "graphs__ctd.disease__ctd-toxicogenomics"]
+	path = graphs/ctd.disease/ctd-toxicogenomics
+	url = https://github.com/biobricks-ai/ctd-toxicogenomics.git
+[submodule "graphs__ctd.disease__ctdbase"]
+	path = graphs/ctd.disease/ctdbase
+	url = https://github.com/biobricks-ai/ctdbase.git
+[submodule "graphs__ctd.gene__ctd-chemical-disease-associations"]
+	path = graphs/ctd.gene/ctd-chemical-disease-associations
+	url = https://github.com/biobricks-ai/ctd-chemical-disease-associations.git
+[submodule "graphs__ctd.gene__ctd-chemical-gene-interactions"]
+	path = graphs/ctd.gene/ctd-chemical-gene-interactions
+	url = https://github.com/biobricks-ai/ctd-chemical-gene-interactions.git
+[submodule "graphs__ctd.gene__ctd-database"]
+	path = graphs/ctd.gene/ctd-database
+	url = https://github.com/biobricks-ai/ctd-database.git
+[submodule "graphs__ctd.gene__ctd-toxicogenomics"]
+	path = graphs/ctd.gene/ctd-toxicogenomics
+	url = https://github.com/biobricks-ai/ctd-toxicogenomics.git
+[submodule "graphs__ctd.gene__ctdbase"]
+	path = graphs/ctd.gene/ctdbase
+	url = https://github.com/biobricks-ai/ctdbase.git
+[submodule "graphs__dbgap"]
 	path = graphs/dbgap
 	url = https://github.com/biobricks-ai/dbgap.git
-[submodule "graphs/drugcentral"]
-	path = graphs/drugcentral
+[submodule "graphs__disprot"]
+	path = graphs/disprot
+	url = https://github.com/biobricks-ai/disprot-idp.git
+[submodule "graphs__doid"]
+	path = graphs/doid
+	url = https://github.com/biobricks-ai/doid-rdf.git
+[submodule "graphs__drugbank__drugbank-open"]
+	path = graphs/drugbank/drugbank-open
+	url = https://github.com/biobricks-ai/drugbank-open.git
+[submodule "graphs__drugbank__drugbank-open-data"]
+	path = graphs/drugbank/drugbank-open-data
+	url = https://github.com/biobricks-ai/drugbank-open-data.git
+[submodule "graphs__drugbank__drugbank-products"]
+	path = graphs/drugbank/drugbank-products
+	url = https://github.com/biobricks-ai/drugbank-products.git
+[submodule "graphs__drugbank__drugbank-targets"]
+	path = graphs/drugbank/drugbank-targets
+	url = https://github.com/biobricks-ai/drugbank-targets.git
+[submodule "graphs__drugcentral__drugcentral"]
+	path = graphs/drugcentral/drugcentral
 	url = https://github.com/biobricks-ai/drugcentral.git
-[submodule "graphs/gdsc"]
+[submodule "graphs__drugcentral__drugcentral-drugs"]
+	path = graphs/drugcentral/drugcentral-drugs
+	url = https://github.com/biobricks-ai/drugcentral-drugs.git
+[submodule "graphs__eu89h__europa-jrc-qsar-model-database-jrc-da"]
+	path = graphs/eu89h/europa-jrc-qsar-model-database-jrc-da
+	url = https://github.com/biobricks-ai/europa-jrc-qsar-model-database-jrc-da.git
+[submodule "graphs__eu89h__jrc-a-systematic-review-of-physiologically-based-kinet"]
+	path = graphs/eu89h/jrc-a-systematic-review-of-physiologically-based-kinet
+	url = https://github.com/biobricks-ai/jrc-a-systematic-review-of-physiologically-based-kinet.git
+[submodule "graphs__eu89h__jrc-bimmoh-biomedical-models-hub"]
+	path = graphs/eu89h/jrc-bimmoh-biomedical-models-hub
+	url = https://github.com/biobricks-ai/jrc-bimmoh-biomedical-models-hub.git
+[submodule "graphs__eu89h__jrc-car-moa-database"]
+	path = graphs/eu89h/jrc-car-moa-database
+	url = https://github.com/biobricks-ai/jrc-car-moa-database.git
+[submodule "graphs__eu89h__jrc-car-moa-dossier-analysis-database"]
+	path = graphs/eu89h/jrc-car-moa-dossier-analysis-database
+	url = https://github.com/biobricks-ai/jrc-car-moa-dossier-analysis-database.git
+[submodule "graphs__eu89h__jrc-computational-models-for-the-safety-assessment-of"]
+	path = graphs/eu89h/jrc-computational-models-for-the-safety-assessment-of
+	url = https://github.com/biobricks-ai/jrc-computational-models-for-the-safety-assessment-of.git
+[submodule "graphs__eu89h__jrc-ecvam-genotox"]
+	path = graphs/eu89h/jrc-ecvam-genotox
+	url = https://github.com/biobricks-ai/jrc-ecvam-genotox.git
+[submodule "graphs__eu89h__jrc-ecvam-genotox-carcinogenicity"]
+	path = graphs/eu89h/jrc-ecvam-genotox-carcinogenicity
+	url = https://github.com/biobricks-ai/jrc-ecvam-genotox-carcinogenicity.git
+[submodule "graphs__eu89h__jrc-ecvam-reference-chemicals"]
+	path = graphs/eu89h/jrc-ecvam-reference-chemicals
+	url = https://github.com/biobricks-ai/jrc-ecvam-reference-chemicals.git
+[submodule "graphs__eu89h__jrc-ecvam-repeatdose"]
+	path = graphs/eu89h/jrc-ecvam-repeatdose
+	url = https://github.com/biobricks-ai/jrc-ecvam-repeatdose.git
+[submodule "graphs__eu89h__jrc-ecvam-repeated-dose-toxicity"]
+	path = graphs/eu89h/jrc-ecvam-repeated-dose-toxicity
+	url = https://github.com/biobricks-ai/jrc-ecvam-repeated-dose-toxicity.git
+[submodule "graphs__eu89h__jrc-eurl-ecvam-fish-in-vitro-intrinsic-clearance-datab"]
+	path = graphs/eu89h/jrc-eurl-ecvam-fish-in-vitro-intrinsic-clearance-datab
+	url = https://github.com/biobricks-ai/jrc-eurl-ecvam-fish-in-vitro-intrinsic-clearance-datab.git
+[submodule "graphs__eu89h__jrc-eurl-ecvam-in-vitro-hepatocyte-clearance-and-blood"]
+	path = graphs/eu89h/jrc-eurl-ecvam-in-vitro-hepatocyte-clearance-and-blood
+	url = https://github.com/biobricks-ai/jrc-eurl-ecvam-in-vitro-hepatocyte-clearance-and-blood.git
+[submodule "graphs__eu89h__jrc-eurl-ecvam-kinetic-parameters-dataset"]
+	path = graphs/eu89h/jrc-eurl-ecvam-kinetic-parameters-dataset
+	url = https://github.com/biobricks-ai/jrc-eurl-ecvam-kinetic-parameters-dataset.git
+[submodule "graphs__eu89h__jrc-eurl-ecvam-library-of-reference-chemicals"]
+	path = graphs/eu89h/jrc-eurl-ecvam-library-of-reference-chemicals
+	url = https://github.com/biobricks-ai/jrc-eurl-ecvam-library-of-reference-chemicals.git
+[submodule "graphs__eu89h__jrc-eurl-ecvam-rodent-in-vivo-biotransformation-databa"]
+	path = graphs/eu89h/jrc-eurl-ecvam-rodent-in-vivo-biotransformation-databa
+	url = https://github.com/biobricks-ai/jrc-eurl-ecvam-rodent-in-vivo-biotransformation-databa.git
+[submodule "graphs__eu89h__jrc-expofacts"]
+	path = graphs/eu89h/jrc-expofacts
+	url = https://github.com/biobricks-ai/jrc-expofacts.git
+[submodule "graphs__eu89h__jrc-expofacts-database"]
+	path = graphs/eu89h/jrc-expofacts-database
+	url = https://github.com/biobricks-ai/jrc-expofacts-database.git
+[submodule "graphs__eu89h__jrc-heavy-metals-in-topsoils"]
+	path = graphs/eu89h/jrc-heavy-metals-in-topsoils
+	url = https://github.com/biobricks-ai/jrc-heavy-metals-in-topsoils.git
+[submodule "graphs__eu89h__jrc-high-content-imaging-analysis-of-heparg-cell-line"]
+	path = graphs/eu89h/jrc-high-content-imaging-analysis-of-heparg-cell-line
+	url = https://github.com/biobricks-ai/jrc-high-content-imaging-analysis-of-heparg-cell-line.git
+[submodule "graphs__eu89h__jrc-hts-db-of-nanomaterials-on-hepargs"]
+	path = graphs/eu89h/jrc-hts-db-of-nanomaterials-on-hepargs
+	url = https://github.com/biobricks-ai/jrc-hts-db-of-nanomaterials-on-hepargs.git
+[submodule "graphs__eu89h__jrc-impact-of-chemical-exposures-on-human-infectious-d"]
+	path = graphs/eu89h/jrc-impact-of-chemical-exposures-on-human-infectious-d
+	url = https://github.com/biobricks-ai/jrc-impact-of-chemical-exposures-on-human-infectious-d.git
+[submodule "graphs__eu89h__jrc-jrc-qsar-model-database"]
+	path = graphs/eu89h/jrc-jrc-qsar-model-database
+	url = https://github.com/biobricks-ai/jrc-jrc-qsar-model-database.git
+[submodule "graphs__eu89h__jrc-maps-of-heavy-metals-in-the-soils-of-the-eu-lucas"]
+	path = graphs/eu89h/jrc-maps-of-heavy-metals-in-the-soils-of-the-eu-lucas
+	url = https://github.com/biobricks-ai/jrc-maps-of-heavy-metals-in-the-soils-of-the-eu-lucas.git
+[submodule "graphs__eu89h__jrc-mercury-content-in-the-european-union-topsoil"]
+	path = graphs/eu89h/jrc-mercury-content-in-the-european-union-topsoil
+	url = https://github.com/biobricks-ai/jrc-mercury-content-in-the-european-union-topsoil.git
+[submodule "graphs__eu89h__jrc-pesticides-residues-in-european-agricultural-soils"]
+	path = graphs/eu89h/jrc-pesticides-residues-in-european-agricultural-soils
+	url = https://github.com/biobricks-ai/jrc-pesticides-residues-in-european-agricultural-soils.git
+[submodule "graphs__eu89h__jrc-resources-for-organ-on-chip-validation-euroocs-rab"]
+	path = graphs/eu89h/jrc-resources-for-organ-on-chip-validation-euroocs-rab
+	url = https://github.com/biobricks-ai/jrc-resources-for-organ-on-chip-validation-euroocs-rab.git
+[submodule "graphs__eu89h__jrc-time-and-concentration-responses-of-heparg"]
+	path = graphs/eu89h/jrc-time-and-concentration-responses-of-heparg
+	url = https://github.com/biobricks-ai/jrc-time-and-concentration-responses-of-heparg.git
+[submodule "graphs__foodb.compound__foodb"]
+	path = graphs/foodb.compound/foodb
+	url = https://github.com/biobricks-ai/foodb.git
+[submodule "graphs__foodb.compound__foodb-compounds-collection-csv"]
+	path = graphs/foodb.compound/foodb-compounds-collection-csv
+	url = https://github.com/biobricks-ai/foodb-compounds-collection-csv.git
+[submodule "graphs__gdsc"]
 	path = graphs/gdsc
 	url = https://github.com/biobricks-ai/gdsc.git
-[submodule "graphs/go"]
+[submodule "graphs__go"]
 	path = graphs/go
 	url = https://github.com/biobricks-ai/geneontology.git
-[submodule "graphs/gtex"]
+[submodule "graphs__gtex"]
 	path = graphs/gtex
 	url = https://github.com/biobricks-ai/gtex.git
-[submodule "graphs/hgnc"]
+[submodule "graphs__hgnc"]
 	path = graphs/hgnc
 	url = https://github.com/biobricks-ai/hgnc.git
-[submodule "graphs/hmdb"]
+[submodule "graphs__hmdb"]
 	path = graphs/hmdb
 	url = https://github.com/biobricks-ai/hmdb.git
-[submodule "graphs/mesh"]
+[submodule "graphs__ice.chem__ice-ntp-toxicology-data"]
+	path = graphs/ice.chem/ice-ntp-toxicology-data
+	url = https://github.com/biobricks-ai/ice-ntp-toxicology-data.git
+[submodule "graphs__ice.chem__ice-skin-sensitization"]
+	path = graphs/ice.chem/ice-skin-sensitization
+	url = https://github.com/biobricks-ai/ice-skin-sensitization.git
+[submodule "graphs__ice.chem__ntp-ice"]
+	path = graphs/ice.chem/ntp-ice
+	url = https://github.com/biobricks-ai/ntp-ice.git
+[submodule "graphs__iedb"]
+	path = graphs/iedb
+	url = https://github.com/biobricks-ai/iedb-mhc-binding.git
+[submodule "graphs__kaggle__bace-smiles-kaggle-bench"]
+	path = graphs/kaggle/bace-smiles-kaggle-bench
+	url = https://github.com/biobricks-ai/bace-smiles-kaggle-bench.git
+[submodule "graphs__kaggle__kaggle-bigquery-ebi-chembl"]
+	path = graphs/kaggle/kaggle-bigquery-ebi-chembl
+	url = https://github.com/biobricks-ai/kaggle-bigquery-ebi-chembl.git
+[submodule "graphs__kaggle__kaggle-chikonzeroselemani-smile-data"]
+	path = graphs/kaggle/kaggle-chikonzeroselemani-smile-data
+	url = https://github.com/biobricks-ai/kaggle-chikonzeroselemani-smile-data.git
+[submodule "graphs__kaggle__kaggle-data-driven-insights-into-chem"]
+	path = graphs/kaggle/kaggle-data-driven-insights-into-chem
+	url = https://github.com/biobricks-ai/kaggle-data-driven-insights-into-chem.git
+[submodule "graphs__kaggle__kaggle-divyansh22-drug-discovery-data"]
+	path = graphs/kaggle/kaggle-divyansh22-drug-discovery-data
+	url = https://github.com/biobricks-ai/kaggle-divyansh22-drug-discovery-data.git
+[submodule "graphs__kaggle__kaggle-epicskills-tox21-dataset"]
+	path = graphs/kaggle/kaggle-epicskills-tox21-dataset
+	url = https://github.com/biobricks-ai/kaggle-epicskills-tox21-dataset.git
+[submodule "graphs__kaggle__kaggle-fanconic-smiles-toxicity"]
+	path = graphs/kaggle/kaggle-fanconic-smiles-toxicity
+	url = https://github.com/biobricks-ai/kaggle-fanconic-smiles-toxicity.git
+[submodule "graphs__kaggle__kaggle-seddiktrk-melting-point-smiles"]
+	path = graphs/kaggle/kaggle-seddiktrk-melting-point-smiles
+	url = https://github.com/biobricks-ai/kaggle-seddiktrk-melting-point-smiles.git
+[submodule "graphs__kaggle__kaggle-the-toxicity-prediction-challe"]
+	path = graphs/kaggle/kaggle-the-toxicity-prediction-challe
+	url = https://github.com/biobricks-ai/kaggle-the-toxicity-prediction-challe.git
+[submodule "graphs__kaggle__kaggle-toxicity-threshold-check-task"]
+	path = graphs/kaggle/kaggle-toxicity-threshold-check-task
+	url = https://github.com/biobricks-ai/kaggle-toxicity-threshold-check-task.git
+[submodule "graphs__kaggle__kaggle-vivek153-data-root"]
+	path = graphs/kaggle/kaggle-vivek153-data-root
+	url = https://github.com/biobricks-ai/kaggle-vivek153-data-root.git
+[submodule "graphs__kaggle__sider-smiles-kaggle-bench"]
+	path = graphs/kaggle/sider-smiles-kaggle-bench
+	url = https://github.com/biobricks-ai/sider-smiles-kaggle-bench.git
+[submodule "graphs__mesh"]
 	path = graphs/mesh
 	url = https://github.com/biobricks-ai/mesh-kg.git
-[submodule "graphs/nmrshiftdb2"]
+[submodule "graphs__mesh.2012"]
+	path = graphs/mesh.2012
+	url = https://github.com/biobricks-ai/mesh-kg.git
+[submodule "graphs__mesh.2013"]
+	path = graphs/mesh.2013
+	url = https://github.com/biobricks-ai/mesh-kg.git
+[submodule "graphs__mw.project"]
+	path = graphs/mw.project
+	url = https://github.com/biobricks-ai/metabolomics-workbench-data.git
+[submodule "graphs__mw.study"]
+	path = graphs/mw.study
+	url = https://github.com/biobricks-ai/metabolomics-workbench-data.git
+[submodule "graphs__nmrshiftdb2"]
 	path = graphs/nmrshiftdb2
 	url = https://github.com/biobricks-ai/nmrshiftdb2.git
-[submodule "graphs/orthodb"]
+[submodule "graphs__orthodb"]
 	path = graphs/orthodb
 	url = https://github.com/biobricks-ai/orthodb.git
-[submodule "graphs/pdb-ccd"]
+[submodule "graphs__paxdb.organism"]
+	path = graphs/paxdb.organism
+	url = https://github.com/biobricks-ai/paxdb-protein-abundance.git
+[submodule "graphs__paxdb.protein"]
+	path = graphs/paxdb.protein
+	url = https://github.com/biobricks-ai/paxdb-protein-abundance.git
+[submodule "graphs__pdb"]
+	path = graphs/pdb
+	url = https://github.com/biobricks-ai/human-protein-pdb.git
+[submodule "graphs__pdb-ccd"]
 	path = graphs/pdb-ccd
 	url = https://github.com/biobricks-ai/pdb-ccd.git
-[submodule "graphs/pmc"]
+[submodule "graphs__pdb.ligand"]
+	path = graphs/pdb.ligand
+	url = https://github.com/biobricks-ai/human-protein-pdb.git
+[submodule "graphs__pharmgkb.disease__pharmgkb"]
+	path = graphs/pharmgkb.disease/pharmgkb
+	url = https://github.com/biobricks-ai/pharmgkb.git
+[submodule "graphs__pharmgkb.disease__pharmgkb-pharmacogenomics-database-tsv"]
+	path = graphs/pharmgkb.disease/pharmgkb-pharmacogenomics-database-tsv
+	url = https://github.com/biobricks-ai/pharmgkb-pharmacogenomics-database-tsv.git
+[submodule "graphs__pharmgkb.drug__pharmgkb"]
+	path = graphs/pharmgkb.drug/pharmgkb
+	url = https://github.com/biobricks-ai/pharmgkb.git
+[submodule "graphs__pharmgkb.drug__pharmgkb-pharmacogenomics-database-tsv"]
+	path = graphs/pharmgkb.drug/pharmgkb-pharmacogenomics-database-tsv
+	url = https://github.com/biobricks-ai/pharmgkb-pharmacogenomics-database-tsv.git
+[submodule "graphs__pharmgkb.gene__pharmgkb"]
+	path = graphs/pharmgkb.gene/pharmgkb
+	url = https://github.com/biobricks-ai/pharmgkb.git
+[submodule "graphs__pharmgkb.gene__pharmgkb-pharmacogenomics-database-tsv"]
+	path = graphs/pharmgkb.gene/pharmgkb-pharmacogenomics-database-tsv
+	url = https://github.com/biobricks-ai/pharmgkb-pharmacogenomics-database-tsv.git
+[submodule "graphs__pharmgkb.pathways__pharmgkb"]
+	path = graphs/pharmgkb.pathways/pharmgkb
+	url = https://github.com/biobricks-ai/pharmgkb.git
+[submodule "graphs__pharmgkb.pathways__pharmgkb-pharmacogenomics-database-tsv"]
+	path = graphs/pharmgkb.pathways/pharmgkb-pharmacogenomics-database-tsv
+	url = https://github.com/biobricks-ai/pharmgkb-pharmacogenomics-database-tsv.git
+[submodule "graphs__phenolexplorer"]
+	path = graphs/phenolexplorer
+	url = https://github.com/biobricks-ai/phenol-explorer-db.git
+[submodule "graphs__pkdb"]
+	path = graphs/pkdb
+	url = https://github.com/biobricks-ai/pkdb-clinical-pharmacokinetics.git
+[submodule "graphs__pmc"]
 	path = graphs/pmc
 	url = https://github.com/biobricks-ai/pmc.git
-[submodule "graphs/pubmed"]
+[submodule "graphs__pubchem.bioassay__nih-downloads-v2-pubchem-nih"]
+	path = graphs/pubchem.bioassay/nih-downloads-v2-pubchem-nih
+	url = https://github.com/biobricks-ai/nih-downloads-v2-pubchem-nih.git
+[submodule "graphs__pubchem.bioassay__nih-pubchem-bioassays"]
+	path = graphs/pubchem.bioassay/nih-pubchem-bioassays
+	url = https://github.com/biobricks-ai/nih-pubchem-bioassays.git
+[submodule "graphs__pubchem.bioassay__pubchem"]
+	path = graphs/pubchem.bioassay/pubchem
+	url = https://github.com/biobricks-ai/pubchem.git
+[submodule "graphs__pubchem.bioassay__pubchem-annotations"]
+	path = graphs/pubchem.bioassay/pubchem-annotations
+	url = https://github.com/biobricks-ai/pubchem-annotations.git
+[submodule "graphs__pubchem.bioassay__pubchem-bioassay-summary"]
+	path = graphs/pubchem.bioassay/pubchem-bioassay-summary
+	url = https://github.com/biobricks-ai/pubchem-bioassay-summary.git
+[submodule "graphs__pubchem.bioassay__pubchem-bioassays-rdf"]
+	path = graphs/pubchem.bioassay/pubchem-bioassays-rdf
+	url = https://github.com/biobricks-ai/pubchem-bioassays-rdf.git
+[submodule "graphs__pubchem.bioassay__pubchemrdf-kg"]
+	path = graphs/pubchem.bioassay/pubchemrdf-kg
+	url = https://github.com/biobricks-ai/pubchemrdf-kg.git
+[submodule "graphs__pubchem.compound__nih-downloads-v2-pubchem-nih"]
+	path = graphs/pubchem.compound/nih-downloads-v2-pubchem-nih
+	url = https://github.com/biobricks-ai/nih-downloads-v2-pubchem-nih.git
+[submodule "graphs__pubchem.compound__nih-pubchem-bioassays"]
+	path = graphs/pubchem.compound/nih-pubchem-bioassays
+	url = https://github.com/biobricks-ai/nih-pubchem-bioassays.git
+[submodule "graphs__pubchem.compound__pubchem"]
+	path = graphs/pubchem.compound/pubchem
+	url = https://github.com/biobricks-ai/pubchem.git
+[submodule "graphs__pubchem.compound__pubchem-annotations"]
+	path = graphs/pubchem.compound/pubchem-annotations
+	url = https://github.com/biobricks-ai/pubchem-annotations.git
+[submodule "graphs__pubchem.compound__pubchem-bioassay-summary"]
+	path = graphs/pubchem.compound/pubchem-bioassay-summary
+	url = https://github.com/biobricks-ai/pubchem-bioassay-summary.git
+[submodule "graphs__pubchem.compound__pubchem-bioassays-rdf"]
+	path = graphs/pubchem.compound/pubchem-bioassays-rdf
+	url = https://github.com/biobricks-ai/pubchem-bioassays-rdf.git
+[submodule "graphs__pubchem.compound__pubchemrdf-kg"]
+	path = graphs/pubchem.compound/pubchemrdf-kg
+	url = https://github.com/biobricks-ai/pubchemrdf-kg.git
+[submodule "graphs__pubchem.substance__nih-downloads-v2-pubchem-nih"]
+	path = graphs/pubchem.substance/nih-downloads-v2-pubchem-nih
+	url = https://github.com/biobricks-ai/nih-downloads-v2-pubchem-nih.git
+[submodule "graphs__pubchem.substance__nih-pubchem-bioassays"]
+	path = graphs/pubchem.substance/nih-pubchem-bioassays
+	url = https://github.com/biobricks-ai/nih-pubchem-bioassays.git
+[submodule "graphs__pubchem.substance__pubchem"]
+	path = graphs/pubchem.substance/pubchem
+	url = https://github.com/biobricks-ai/pubchem.git
+[submodule "graphs__pubchem.substance__pubchem-annotations"]
+	path = graphs/pubchem.substance/pubchem-annotations
+	url = https://github.com/biobricks-ai/pubchem-annotations.git
+[submodule "graphs__pubchem.substance__pubchem-bioassay-summary"]
+	path = graphs/pubchem.substance/pubchem-bioassay-summary
+	url = https://github.com/biobricks-ai/pubchem-bioassay-summary.git
+[submodule "graphs__pubchem.substance__pubchem-bioassays-rdf"]
+	path = graphs/pubchem.substance/pubchem-bioassays-rdf
+	url = https://github.com/biobricks-ai/pubchem-bioassays-rdf.git
+[submodule "graphs__pubchem.substance__pubchemrdf-kg"]
+	path = graphs/pubchem.substance/pubchemrdf-kg
+	url = https://github.com/biobricks-ai/pubchemrdf-kg.git
+[submodule "graphs__pubmed"]
 	path = graphs/pubmed
 	url = https://github.com/biobricks-ai/pubmed.git
-[submodule "graphs/reactome"]
-	path = graphs/reactome
+[submodule "graphs__reactome__reactome"]
+	path = graphs/reactome/reactome
 	url = https://github.com/biobricks-ai/reactome.git
-[submodule "graphs/rhea"]
-	path = graphs/rhea
+[submodule "graphs__reactome__reactome-pathway-db"]
+	path = graphs/reactome/reactome-pathway-db
+	url = https://github.com/biobricks-ai/reactome-pathway-db.git
+[submodule "graphs__rhea__ebi-rhea-reactions"]
+	path = graphs/rhea/ebi-rhea-reactions
+	url = https://github.com/biobricks-ai/ebi-rhea-reactions.git
+[submodule "graphs__rhea__rhea-kg"]
+	path = graphs/rhea/rhea-kg
 	url = https://github.com/biobricks-ai/rhea-kg.git
-[submodule "graphs/t3db"]
-	path = graphs/t3db
-	url = https://github.com/biobricks-ai/t3db.git
-[submodule "graphs/uniprot"]
-	path = graphs/uniprot
-	url = https://github.com/biobricks-ai/uniprot-rdf.git
-[submodule "graphs/wikidata"]
-	path = graphs/wikidata
-	url = https://github.com/biobricks-ai/biobricks-wikidata.git
-[submodule "graphs/wikipathways"]
-	path = graphs/wikipathways
-	url = https://github.com/biobricks-ai/wikipathways.git
-[submodule "graphs/so"]
+[submodule "graphs__rhea__rhea-reactions"]
+	path = graphs/rhea/rhea-reactions
+	url = https://github.com/biobricks-ai/rhea-reactions.git
+[submodule "graphs__sider.drug__moleculenet-sider"]
+	path = graphs/sider.drug/moleculenet-sider
+	url = https://github.com/biobricks-ai/moleculenet-sider.git
+[submodule "graphs__sider.drug__sider"]
+	path = graphs/sider.drug/sider
+	url = https://github.com/biobricks-ai/sider.git
+[submodule "graphs__sider.drug__sider-drug-side-effects"]
+	path = graphs/sider.drug/sider-drug-side-effects
+	url = https://github.com/biobricks-ai/sider-drug-side-effects.git
+[submodule "graphs__sider.drug__sider-drug-side-effects-moleculenet"]
+	path = graphs/sider.drug/sider-drug-side-effects-moleculenet
+	url = https://github.com/biobricks-ai/sider-drug-side-effects-moleculenet.git
+[submodule "graphs__sider.effect__moleculenet-sider"]
+	path = graphs/sider.effect/moleculenet-sider
+	url = https://github.com/biobricks-ai/moleculenet-sider.git
+[submodule "graphs__sider.effect__sider"]
+	path = graphs/sider.effect/sider
+	url = https://github.com/biobricks-ai/sider.git
+[submodule "graphs__sider.effect__sider-drug-side-effects"]
+	path = graphs/sider.effect/sider-drug-side-effects
+	url = https://github.com/biobricks-ai/sider-drug-side-effects.git
+[submodule "graphs__sider.effect__sider-drug-side-effects-moleculenet"]
+	path = graphs/sider.effect/sider-drug-side-effects-moleculenet
+	url = https://github.com/biobricks-ai/sider-drug-side-effects-moleculenet.git
+[submodule "graphs__signor"]
+	path = graphs/signor
+	url = https://github.com/biobricks-ai/signor.git
+[submodule "graphs__smpdb"]
+	path = graphs/smpdb
+	url = https://github.com/biobricks-ai/smpdb-smpdb.git
+[submodule "graphs__so"]
 	path = graphs/so
 	url = https://github.com/biobricks-ai/so-rdf.git
+[submodule "graphs__stitch__stitch-chemical-links"]
+	path = graphs/stitch/stitch-chemical-links
+	url = https://github.com/biobricks-ai/stitch-chemical-links.git
+[submodule "graphs__stitch__stitch-chemical-protein-links"]
+	path = graphs/stitch/stitch-chemical-protein-links
+	url = https://github.com/biobricks-ai/stitch-chemical-protein-links.git
+[submodule "graphs__t3db"]
+	path = graphs/t3db
+	url = https://github.com/biobricks-ai/t3db.git
+[submodule "graphs__taxonomy"]
+	path = graphs/taxonomy
+	url = https://github.com/biobricks-ai/taxonomy-rdf.git
+[submodule "graphs__ttd.target"]
+	path = graphs/ttd.target
+	url = https://github.com/biobricks-ai/therapeutic-target-database.git
+[submodule "graphs__unii__fda-unii-rdf"]
+	path = graphs/unii/fda-unii-rdf
+	url = https://github.com/biobricks-ai/fda-unii-rdf.git
+[submodule "graphs__unii__unii-fda"]
+	path = graphs/unii/unii-fda
+	url = https://github.com/biobricks-ai/unii-fda.git
+[submodule "graphs__unii__unii-fda-rdf"]
+	path = graphs/unii/unii-fda-rdf
+	url = https://github.com/biobricks-ai/unii-fda-rdf.git
+[submodule "graphs__uniprot__uniprot"]
+	path = graphs/uniprot/uniprot
+	url = https://github.com/biobricks-ai/uniprot.git
+[submodule "graphs__uniprot__uniprot-kg"]
+	path = graphs/uniprot/uniprot-kg
+	url = https://github.com/biobricks-ai/uniprot-kg.git
+[submodule "graphs__uniprot__uniprot-rdf"]
+	path = graphs/uniprot/uniprot-rdf
+	url = https://github.com/biobricks-ai/uniprot-rdf.git
+[submodule "graphs__uniprot.chain__uniprot"]
+	path = graphs/uniprot.chain/uniprot
+	url = https://github.com/biobricks-ai/uniprot.git
+[submodule "graphs__uniprot.chain__uniprot-kg"]
+	path = graphs/uniprot.chain/uniprot-kg
+	url = https://github.com/biobricks-ai/uniprot-kg.git
+[submodule "graphs__uniprot.chain__uniprot-rdf"]
+	path = graphs/uniprot.chain/uniprot-rdf
+	url = https://github.com/biobricks-ai/uniprot-rdf.git
+[submodule "graphs__uniprot.isoform__uniprot"]
+	path = graphs/uniprot.isoform/uniprot
+	url = https://github.com/biobricks-ai/uniprot.git
+[submodule "graphs__uniprot.isoform__uniprot-kg"]
+	path = graphs/uniprot.isoform/uniprot-kg
+	url = https://github.com/biobricks-ai/uniprot-kg.git
+[submodule "graphs__uniprot.isoform__uniprot-rdf"]
+	path = graphs/uniprot.isoform/uniprot-rdf
+	url = https://github.com/biobricks-ai/uniprot-rdf.git
+[submodule "graphs__wikidata"]
+	path = graphs/wikidata
+	url = https://github.com/biobricks-ai/biobricks-wikidata.git
+[submodule "graphs__wikipathways"]
+	path = graphs/wikipathways
+	url = https://github.com/biobricks-ai/wikipathways.git

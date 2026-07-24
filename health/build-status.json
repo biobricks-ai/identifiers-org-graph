@@ -2,11 +2,21 @@
   "graph_integration": true,
   "license": "CC BY 4.0",
   "namespace_graphs": 861,
+  "mapped_namespaces": 77,
+  "repository_submodules": 204,
+  "primary_source_audit": {
+    "audited_repositories": 2254,
+    "curated_primary_mapping_rows": 187,
+    "curated_primary_namespaces": 64,
+    "curated_primary_repositories": 140,
+    "identifier_consumer_rows_excluded": 73,
+    "related_context_rows_rejected": 33
+  },
   "ontology_health": {
     "score": 98,
     "status": "passed"
   },
-  "schema_version": 1,
+  "schema_version": 2,
   "status": "validated-local-build",
-  "tests": "passed"
+  "tests": "7 passed"
 }
